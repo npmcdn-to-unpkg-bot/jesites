@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width , initial-scale=1"/>
+    <title>Mobile todos</title>
+
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.mobile-1.4.5.js"></script>
+    <script src="js/main.js"></script>
+</head>
+<body>
+
+    <!-- Home page -->
+    <div data-role="page" id="home">
+        <header data-role="header">
+            <h1>Mobile Todo</h1>
+        </header>
+
+        <main data-role="content" id="content">
+            <p><a href="#add" data-role="button">Add A Todo</a></p>
+            <p><a href="index.html" data-ajax="false" id="clear_btn" data-role="button" data-theme="b">Clear All Todos</a></p>
+            <ul id="todos" data-role="listview" data-filter="true" data-filter-placeholder="Search Todos..." data-inset="true">
+            </ul>
+        </main>
+
+        <footer data-role="footer" id="footer">
+            <h4>MobileTodo &copy; 2014</h4>
+        </footer>
+    </div>
+
+    <!-- Add page -->
+    <div data-role="page" id="add">
+        <header data-role="header">
+            <a href="index.html" id="cancel_btn" data-icon="delete">Cancel</a>
+            <h1>Add A Todo</h1>
+            <a href="index.html" id="save_btn" data-icon="check" data-theme="b" onclick="$('#add_form').submit();">Save</a>
+        </header>
+
+        <main data-role="content" id="content">
+            <form id="add_form">
+                <input type="text" id="todo_name" name="todo_name" placeholder="Add Todo Name"/>
+                <input type="date" id="todo_date" name="todo_date"/>
+            </form>
+        </main>
+
+        <footer data-role="footer" id="footer">
+            <h4>MobileTodo &copy; 2014</h4>
+        </footer>
+    </div>
+
+    <!-- EDit page -->
+    <div data-role="page" id="edit">
+        <header data-role="header">
+            <a href="index.html" id="cancel_btn" data-icon="delete">Cancel</a>
+            <h1>Edit Todo</h1>
+            <a href="index.html" id="save_btn" data-icon="check" data-theme="b" onclick="$('#edit_form').submit();">Save</a>
+        </header>
+
+        <main data-role="content" id="content">
+            <form id="edit_form">
+                <input type="text" id="todo_name_edit" name="todo_name_edit" />
+                <input type="date" id="todo_date_edit" name="todo_date_edit"/>
+                <a href="#" id="delete" data-role="button">Delete</a>
+            </form>
+        </main>
+
+        <footer data-role="footer" id="footer">
+            <h4>MobileTodo &copy; 2014</h4>
+        </footer>
+    </div>
+
+</body>
+</html>

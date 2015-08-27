@@ -1,0 +1,109 @@
+body,
+html {
+    margin:0;
+    padding:0;
+    color:#000;
+    background:#cacaca;
+}
+h1 {
+    margin:0;
+}
+
+h2 {
+    margin:0 0 1em;
+}
+* html #footer {
+    height:1px;
+}
+
+* {
+    font-family: "Lucida Grande", "Helvetica Nueue", Arial, sans-serif ;
+}
+#wrap {
+    width:1000px;
+    margin:0 auto;
+    padding:0;
+    background:#ddd;
+}
+
+header {
+    background:#ddd;
+    padding:5px 10px;
+    background:#ddd;
+    text-align: center;
+}
+#nav {
+    background:#ddd;
+    padding:15px 10px 15px 10px;
+    display: block;
+}
+
+#nav .previous {
+ float: left;
+}
+#nav .next {
+ float: right;
+}
+
+#nav  a { text-decoration: none;}
+
+main {
+    background:#ddd;
+    cursor: pointer;
+    display:inline-block;
+}
+footer {
+    clear:both;
+    padding:5px 10px;
+    background:#ddd;
+}
+footer p {
+    margin:0;
+    text-align: center;
+}
+
+#mainleft {
+    float:left;
+    width:50%;
+    overflow: hidden;
+}
+#mainright {
+    float:right;
+    width:50%;
+    overflow: hidden;
+}
+
+#mainleft img {
+    height: 100%;
+    width: 100%;
+    top:0;
+    left:0;
+}
+#mainright img{
+    height: 100%;
+    width: 100%;
+    top:0;
+    left:0;
+}
+
+
+.fill-right {
+    height: 333px;
+    overflow: hidden;
+    background-position: center;
+    //background-size: cover;
+    background-size: 500px 333px;
+    background-image:url('../img/resized/sudan_mental_illness_r.jpg');
+    background-repeat: no-repeat;
+}
+
+.fill_left {
+    height: 333px;
+    overflow: hidden;
+    background-size: 500px 333px;
+    background-size: cover;
+    background-position: center;
+    background-image:url('../img/resized/roller_coaster_r2.jpg');
+}
+
+

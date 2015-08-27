@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML5 Animated image gallery</title>
+    <link rel="stylesheet" href="css/styles.css" type="text/css"/>
+    <link rel="stylesheet" href="css/fancybox/jquery.fancybox.css"/>
+    <link rel="stylesheet" href="css/fancybox/jquery.fancybox-buttons.css"/>
+    <link rel="stylesheet" href="css/fancybox/jquery.fancybox-thumbs.css"/>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav id="navbar"></nav>
+        </div>
+    </header>
+
+    <section id="main">
+        <div class="container">
+            <ul id="gallery">
+                <li data-tags="Logo Design , Print Design">
+                    <a class="fancybox" rel="group" href="img/1.jpg">
+                        <img src="img/1.jpg" alt=""/>
+                    </a>
+                </li>
+                <li data-tags="Web Design , Logo Design"><img src="img/2.jpg" alt=""/></li>
+                <li data-tags="Print Design"><img src="img/3.jpg" alt=""/></li>
+                <li data-tags="Logo Design , Print Design , Web Design"><img src="img/4.jpg" alt=""/></li>
+                <li data-tags="Print Design "><img src="img/5.jpg" alt=""/></li>
+                <li data-tags="Logo Design , Print Design"><img src="img/6.jpg" alt=""/></li>
+                <li data-tags="Logo Design , Print Design"><img src="img/7.jpg" alt=""/></li>
+                <li data-tags="Logo Design , Print Design,Web Design "><img src="img/8.jpg" alt=""/></li>
+                <li data-tags="Logo Design , Print Design"><img src="img/9.jpg" alt=""/></li>
+                <li data-tags="Logo Design , Print Design,Web Design "><img src="img/10.jpg" alt=""/></li>
+                <li data-tags="Web Design , Print Design , Web Design"><img src="img/11.jpg" alt=""/></li>
+                <li data-tags="Logo Design , Print Design"><img src="img/12.jpg" alt=""/></li>
+                <li data-tags="Logo Design , Print Design"><img src="img/13.jpg" alt=""/></li>
+                <li data-tags="Logo Design , Print Design"><img src="img/14.jpg" alt=""/></li>
+                <li data-tags="Logo Design , Print Design"><img src="img/15.jpg" alt=""/></li>
+                <li data-tags="Logo Design"><img src="img/16.jpg" alt=""/></li>
+                <li data-tags="Logo Design , Print Design"><img src="img/17.jpg" alt=""/></li>
+                <li data-tags="Logo Design , Print Design"><img src="img/18.jpg" alt=""/></li>
+                <li data-tags="Logo Design , Print Design"><img src="img/19.jpg" alt=""/></li>
+                <li data-tags="Logo Design , Print Design"><img src="img/20.jpg" alt=""/></li>
+                <li data-tags="Logo Design , Print Design"><img src="img/21.jpg" alt=""/></li>
+                <li data-tags="Logo Design , Print Design"><img src="img/22.jpg" alt=""/></li>
+                <li data-tags="Logo Design , Print Design"><img src="img/23.jpg" alt=""/></li>
+            </ul>
+
+        </div>
+
+        <hr>
+
+        <footer>
+            <div class="container">
+                <p>HTML5 Photo Gallery &copy; 2014</p>
+            </div>
+        </footer>
+
+    </section>
+
+    <!-- include jquery-->
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.quicksand.js"></script>
+    <script src="js/fancybox/jquery.fancybox.js"></script>
+    <script src="js/fancybox/jquery.fancybox.pack.js"></script>
+    <script src="js/fancybox/jquery.fancybox-buttons.js"></script>
+    <script src="js/fancybox/jquery.fancybox-media.js"></script>
+    <script src="js/fancybox/jquery.fancybox-thumbs.js"></script>
+    <script src="js/script.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $('.fancybox').fancybox();
+        });
+
+    </script>
+
+</body>
+</html>

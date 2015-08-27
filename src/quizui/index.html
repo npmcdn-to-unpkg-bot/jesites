@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>HTML5 Quiz</title>
+    <meta name="viewport" content="width=device-width , initial-scale=1"/>
+
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="pull-left">HTML5 Quiz</div>
+            <div class="pull-right">www.jesidea.com</div>
+        </header>
+        
+        <main>
+            <form class="questionForm" id="q1" data-question="1">
+                <h3>1. Which tag should be used to represent the "header" of the document?</h3>
+
+                <ul>
+                    <li><input type="radio" name="q1" value="a"/>&lt;head&gt;</li>
+                    <li><input type="radio" name="q1" value="b"/>&lt;header&gt;</li>
+                    <li><input type="radio" name="q1" value="c"/>&lt;heading&gt;</li>
+                    <li><input type="radio" name="q1" value="d"/>&lt;main&gt;</li>
+                </ul>
+
+                <button id="submit">Submit</button>
+            </form>
+            <form class="questionForm" id="q2" data-question="2">
+                <h3>2. DE que color tienen el pussy las pelirrojas?</h3>
+
+                <ul>
+                    <li><input type="radio" name="q2" value="a"/>rubio</li>
+                    <li><input type="radio" name="q2" value="b"/>de bote morenote</li>
+                    <li><input type="radio" name="q2" value="c"/>rojo</li>
+                    <li><input type="radio" name="q2" value="d"/>naranja</li>
+                </ul>
+
+                <button id="submit">Submit</button>
+            </form>
+            <form class="questionForm" id="q3" data-question="3">
+                <h3>3. Quién ganará las elecciones generales en 2015?</h3>
+
+                <ul>
+                    <li><input type="radio" name="q3" value="a"/>El Madrid</li>
+                    <li><input type="radio" name="q3" value="b"/>Rafa Nadal</li>
+                    <li><input type="radio" name="q3" value="c"/>La Infanta</li>
+                    <li><input type="radio" name="q3" value="d"/>Perico el de los palotes</li>
+                </ul>
+
+                <button id="submit">Submit</button>
+            </form>
+
+            <div id="result"></div>
+            <br/>
+        </main>
+
+        <footer>
+            <div class="pull-left">Total: 3 questions</div>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="js/quiz.js"></script>
+</body>
+</html>

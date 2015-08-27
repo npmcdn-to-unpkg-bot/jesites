@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/tooltip/js/jquery.tooltipster.min.js"></script>
+
+    <script>
+        function goLeft() {
+            console.log("goLeft");
+        }
+        function goRight() {
+            console.log("goRight");
+        }
+
+    </script>
+
+</head>
+<body>
+
+    <div id="wrap">
+        <header>
+            <h1>Global observer</h1>
+            <h5>just observe and feel</h5>
+        </header>
+        <main>
+            <!--div id="mainleft" class="fill_left" onclick="goLeft()"-->
+            <div id="mainleft" onclick="goLeft()" class="tooltip" title="Roller coaster">
+                <img alt="Roller coaster"src="img/resized/roller_coaster_r2.jpg" >
+            </div>
+
+            <!--div id="mainright" class="fill-right" onclick="goRight()"-->
+            <div id="mainright" onclick="goRight()"  class="tooltip" title="Sudan Mental Illness">
+                <img alt="Sudan mental illness" src="img/resized/sudan_mental_illness_r.jpg">
+            </div>
+        </main>
+        <div id="nav">
+            <div class="previous"><a href="#">&lt;&lt;</a></div>
+            <div class="next"><a href="#">&gt;&gt;</a></div>
+            </ul>
+        </div>
+        <footer>
+            <p>&copy;PAK</p>
+        </footer>
+    </div>
+
+</body>
+</html>
