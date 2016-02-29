@@ -18,7 +18,7 @@ function buildItemLinks(linkArray) {
 
     for (var i = 0, len = linkArray.length; i < len; i++) {
         result += '<li >' +
-        '<a href="'+linkArray[i]+'">'+linkArray[i]+'</a>'+
+        '<a href="'+linkArray[i]+'" target="_blank">'+linkArray[i]+'</a>'+
         '</li>\n';
     }
 
@@ -39,7 +39,7 @@ function buildHtmlItem(srcItem) {
         siteDataJSON = JSON.parse(siteDataJSON);
 
         result = '<ul class="details">';
-        result += '<li><a href="src/'+srcItem+'">Live demo</a></li>';
+        result += '<li><a href="src/'+srcItem+' target="_blank"">Live demo</a></li>';
         result += '<li>Title: '+siteDataJSON.title+'</li>';
         result += '<li>Description: '+siteDataJSON.description+'</li>';
         result += '<li>Links: '+buildItemLinks(siteDataJSON.links)+'</li>';
@@ -63,9 +63,11 @@ function buildHtmlList(list) {
     var result = "<ul class='accordion' data-accordion>\n";
 
     for (var i = 0, len = list.length; i < len; i++) {
-        result += '<li class="accordion-navigation">' +
-                        '<a href="#panel'+i+'">'+list[i]+'</a>'+
-                        '<div id="panel'+i+'" class="content">'+ buildHtmlItem(list[i]) + '</div>' +
+        result += '<li class="accordion-item" data-accordion-item>' +
+//                        '<a href="#panel'+i+'" class="accordion-title">'+list[i]+'</a>'+
+//                        '<div id="panel'+i+'" class="accordion-content" data-tab-content>'+ buildHtmlItem(list[i]) + '</div>' +
+                        '<a href="#" class="accordion-title">'+list[i]+'</a>'+
+                        '<div class="accordion-content" data-tab-content>'+ buildHtmlItem(list[i]) + '</div>' +
                     '</li>\n';
     }
 
