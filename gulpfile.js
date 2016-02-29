@@ -29,17 +29,12 @@ function buildItemLinks(linkArray) {
 
 }
 
-function buildHtmlItem(srcItem) {
-    var siteDataJSON = srcItem;
+function buildHtmlItem(srcItem,siteDataJSON) {
     var result = "TODO#"+srcItem;
 
     try {
-
-        siteDataJSON = fs.readFileSync("./src/"+srcItem+'/site-data.json' , "utf8");
-        siteDataJSON = JSON.parse(siteDataJSON);
-
         result = '<ul class="details">';
-        result += '<li><a href="src/'+srcItem+' target="_blank"">Live demo</a></li>';
+        result += '<li><a href="src/'+srcItem+'" target="_blank">Live demo</a></li>';
         result += '<li>Title: '+siteDataJSON.title+'</li>';
         result += '<li>Description: '+siteDataJSON.description+'</li>';
         result += '<li>Links: '+buildItemLinks(siteDataJSON.links)+'</li>';
@@ -59,16 +54,42 @@ function buildHtmlItem(srcItem) {
 }
 
 
+function buildHtmlTagList(tagList) {
+    var result = '';
+
+    for (var i = 0, len = tagList.length; i < len; i++) {
+        result += '<span class="label">'+tagList[i]+'</span>\n ';
+    }
+
+    return result;
+}    
+
 function buildHtmlList(list) {
+    
     var result = "<ul class='accordion' data-accordion>\n";
+    var siteDataJSON = '';
 
     for (var i = 0, len = list.length; i < len; i++) {
-        result += '<li class="accordion-item" data-accordion-item>' +
-//                        '<a href="#panel'+i+'" class="accordion-title">'+list[i]+'</a>'+
-//                        '<div id="panel'+i+'" class="accordion-content" data-tab-content>'+ buildHtmlItem(list[i]) + '</div>' +
-                        '<a href="#" class="accordion-title">'+list[i]+'</a>'+
-                        '<div class="accordion-content" data-tab-content>'+ buildHtmlItem(list[i]) + '</div>' +
-                    '</li>\n';
+        
+        try {
+            siteDataJSON = fs.readFileSync("./src/"+list[i]+'/site-data.json' , "utf8");
+
+            siteDataJSON = JSON.parse(siteDataJSON);
+
+            console.log("JES " + typeof(siteDataJSON.tags));
+            var tags =siteDataJSON.tags+"";
+            //var tags ="HTML5, JS";
+            var tagsArray = (tags)? tags.split(','): [];
+
+            result += '<li class="accordion-item" data-accordion-item>' +
+                            '<a href="#" class="accordion-title"><h4 class="subheader">'+list[i]+'</h4>'+buildHtmlTagList(tagsArray)+' </a>'+
+                            '<div class="accordion-content" data-tab-content>'+ buildHtmlItem(list[i],siteDataJSON) + '</div>' +
+                        '</li>\n';
+        } catch (e) {
+          // Here you get the error when the file was not found,
+          // but you also get any other error
+        }
+            
     }
 
     result += "</ul>\n";
@@ -139,6 +160,7 @@ gulp.task('deploy:site', function () {
 
             var globs = ['index.html',
                         '**/*.*',
+                        '!node_modules/**/*.*',
                         '!src/**/*.*',
                         '!**/*.zip'];
 
