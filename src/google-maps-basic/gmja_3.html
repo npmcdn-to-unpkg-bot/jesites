@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.2.0/styles/default.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+    </head>
+    <body>
+        
+        <section>
+            <h2>Google Maps JavaScript API: Displaying KML files in your Maps application</h2>
+            <p><a href="https://developers.google.com/maps/tutorials/">Fuente</a></p>
+            <p><small>[<strong>*Limitaciones</strong>
+            Gratis hasta exceder 25 000 cargas de mapas por día durante 90 días consecutivos
+USD 0,50 / 1000 cargas de mapas adicionales por encima de 25 000 por día después de alcanzar la carga 
+                de mapa 25 000 / límite de uso de 90 días, hasta 1 000 000 diariamente. 
+                <a href="https://developers.google.com/maps/pricing-and-plans/">Más info</a>]</small></p>            
+            
+            <h3>Obtener una clave API de Google</h3>
+            <p>Lo primer: obtener un clave de API de Google en la consola para desarrolladores: <a href="https://console.developers.google.com/?pli=1">Consola de developers</a></p>
+
+            <!--*****************************************************************************************************************************-->
+            <hr/>
+            <article>
+                <h3><a name="gmja4" href="https://developers.google.com/maps/tutorials/kml/">Displaying KML files in your Maps application</a></h3>
+                <p>Usa datos geográgicos en formato  <a href="https://developers.google.com/kml/documentation/kml_tut">KML</a></p>
+                <p>Página para generar KML data: <a href="https://www.google.es/maps/d/?app=mp&hl=es">Google My Maps</a></p>
+                <div class="code-block"><pre><code>
+function initMaps() {
+              //Map4 KML
+    var src = 'http://jesidea.com/pruebas/embalses.kml';
+
+    var latlng = new google.maps.LatLng(40.41140480914068, -3.69140625);
+    var mapDiv4 = document.getElementById('map_canvas_4');
+    var myOptions4 ={
+            center: latlng,
+            zoom: 10,
+            mapTypeId: google.maps.MapTypeId.TERRAIN
+            };
+    var map4 = new google.maps.Map(mapDiv4, myOptions4);
+    loadKmlLayer(src, map4);
+
+}
+
+/**
+* Adds a KMLLayer based on the URL passed. Clicking on a marker
+* results in the balloon content being loaded into the right-hand div.
+* @param {string} src A URL for a KML file.
+*/
+function loadKmlLayer(src, map) {
+    var kmlLayer = new google.maps.KmlLayer(src, {
+        suppressInfoWindows: false,
+        preserveViewport: false,
+        map: map
+    });
+    google.maps.event.addListener(kmlLayer, 'click', function(event) {
+        var content = event.featureData.infoWindowHtml;
+        var testimonial = document.getElementById('capture');
+        testimonial.innerHTML = content;
+    });
+}
+                </code></pre>
+                </div>
+                <div id="map_canvas_4"></div>    
+                <div id="capture"></div>                    
+                
+            </article>
+            
+            
+        </section>
+        
+        
+<script>
+          function initMaps() {
+              
+              //Map4 KML
+//              var src = 'https://developers.google.com/maps/tutorials/kml/westcampus.kml';
+              var src = 'http://jesidea.com/pruebas/embalses.kml';
+          
+              var latlng = new google.maps.LatLng(40.41140480914068, -3.69140625);
+              var mapDiv4 = document.getElementById('map_canvas_4');
+                var myOptions4 ={
+                        center: latlng,
+                        zoom: 10,
+                        mapTypeId: google.maps.MapTypeId.TERRAIN
+                        };
+//              var myOptions4 = {
+//                center: new google.maps.LatLng(-19.257753, 146.823688),
+//                zoom: 17,
+//                mapTypeId: google.maps.MapTypeId.TERRAIN
+//              };
+                var map4 = new google.maps.Map(mapDiv4, myOptions4);
+                loadKmlLayer(src, map4);
+              
+          }
+
+            /**
+             * Adds a KMLLayer based on the URL passed. Clicking on a marker
+             * results in the balloon content being loaded into the right-hand div.
+             * @param {string} src A URL for a KML file.
+             */
+            function loadKmlLayer(src, map) {
+              var kmlLayer = new google.maps.KmlLayer(src, {
+                suppressInfoWindows: false,
+                preserveViewport: false,
+                map: map
+              });
+              google.maps.event.addListener(kmlLayer, 'click', function(event) {
+                var content = event.featureData.infoWindowHtml;
+                var testimonial = document.getElementById('capture');
+                testimonial.innerHTML = content;
+              });
+            }
+        </script>        
+        
+        <script src="https://maps.googleapis.com/maps/api/js?callback=initMaps&key=AIzaSyCvK5VBQk4wRZ0CNircRSBZZsFjLL3J0Lo&signed_in=true" async defer></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.2.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+
+    </body>
+</html>

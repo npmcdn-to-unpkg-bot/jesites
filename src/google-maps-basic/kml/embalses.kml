@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>Embalses</name>
+        <Style id="embalses">
+          <IconStyle>
+            <Icon>
+              <href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png
+              </href>
+            </Icon>
+          </IconStyle>
+        </Style>        
+		<Placemark>
+			<name>Embalse del Pardo</name>
+			<description><![CDATA[Embalse del Pardo]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<Point>
+				<coordinates>-3.7903690000000005,40.5487004,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Embalse de Manzanares del Real</name>
+			<description><![CDATA[Embalse de Manzanares del Real]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<Point>
+				<coordinates>-3.830924,40.7211118,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Embalse de Navacerrada</name>
+			<description><![CDATA[Embalse de Navacerrada]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<Point>
+				<coordinates>-4.0080357,40.7181194,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Embalse de Pinilla</name>
+			<description><![CDATA[Embalse de Pinilla]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<Point>
+				<coordinates>-3.7995529000000006,40.9386743,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Embalse de Riosequillo</name>
+			<description><![CDATA[Embalse de Riosequillo]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<Point>
+				<coordinates>-3.6628246000000004,40.9769173,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Embalse de El Atazar</name>
+			<description><![CDATA[Embalse de El Atazar]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<Point>
+				<coordinates>-3.515625,40.9083234,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Embalse de Valmayor</name>
+			<description><![CDATA[Embalse de Valmayor]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<Point>
+				<coordinates>-4.0546417,40.5462871,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Style id='icon-503-DB4436-normal'>
+			<IconStyle>
+				<color>ff3644DB</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+		</Style>
+		<Style id='icon-503-DB4436-highlight'>
+			<IconStyle>
+				<color>ff3644DB</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+		</Style>
+		<StyleMap id='icon-503-DB4436'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-503-DB4436-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-503-DB4436-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+	</Document>
+</kml>

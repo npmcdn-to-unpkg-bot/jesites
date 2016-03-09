@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.2.0/styles/default.min.css">
+
+        <link rel="stylesheet" href="css/main.css">
+
+        <style>
+
+        </style>
+    </head>
+    <body>
+        
+        <section>
+            <h2>Google Maps JavaScript API</h2>
+            <p><a href="https://developers.google.com/maps/tutorials/">Fuente</a></p>
+            <p><small>[<strong>*Limitaciones</strong>
+            Gratis hasta exceder 25 000 cargas de mapas por día durante 90 días consecutivos
+USD 0,50 / 1000 cargas de mapas adicionales por encima de 25 000 por día después de alcanzar la carga 
+                de mapa 25 000 / límite de uso de 90 días, hasta 1 000 000 diariamente. 
+                <a href="https://developers.google.com/maps/pricing-and-plans/">Más info</a>]</small></p>            
+            
+            <h3>Obtener una clave API de Google</h3>
+            <p>Lo primer: obtener un clave de API de Google en la consola para desarrolladores: <a href="https://console.developers.google.com/?pli=1">Consola de developers</a></p>
+
+            <!--*****************************************************************************************************************************-->
+            <hr/>
+            <article>
+                <h3><a name="gmja1" href="https://support.google.com/maps/answer/3544418?hl=es">Añadiendo un mapa de Google a tu website</a></h3>
+                
+                <div id="map_canvas"></div>
+                
+                <div class="code-block">
+                    <pre><code class="javascript">
+    function initMap() {
+        var mapDiv = document.getElementById('map');
+        var map = new google.maps.Map(mapDiv, {
+          center: {lat: 40.4314932, lng: -3.8106219},
+          zoom: 17
+        });
+    }
+                </code></pre>
+                </div>
+
+                <div class="code-block">
+                    <pre><code class="html">
+    &lt;script src="https://maps.googleapis.com/maps/api/js?callback=initMap" async defer&gt;&lt;/script&gt;
+                    </code></pre>
+                </div>
+                 
+            </article>
+        </section>
+        
+        
+        <script>
+          function initMaps() {
+              //Map1
+                var mapDiv = document.getElementById('map_canvas');
+                var latlng = new google.maps.LatLng(40.44059460782266, -3.7860989570617676);
+
+                var myOptions ={
+                    center: latlng,
+                    zoom: 17
+                };
+                var map = new google.maps.Map(mapDiv, myOptions);
+          }
+
+        </script>        
+        
+        
+        <script src="https://maps.googleapis.com/maps/api/js?callback=initMaps&key=AIzaSyCvK5VBQk4wRZ0CNircRSBZZsFjLL3J0Lo&signed_in=true" async defer></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.2.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+
+    </body>
+</html>

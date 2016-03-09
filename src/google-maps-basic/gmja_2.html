@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.2.0/styles/default.min.css">
+
+        <link rel="stylesheet" href="css/main.css">
+
+    </head>
+    <body>
+        
+        <section>
+            <h2>Google Maps JavaScript API: Importando tus datos</h2>
+            <p><a href="https://developers.google.com/maps/tutorials/">Fuente</a></p>
+            <p><small>[<strong>*Limitaciones</strong>
+            Gratis hasta exceder 25 000 cargas de mapas por día durante 90 días consecutivos
+USD 0,50 / 1000 cargas de mapas adicionales por encima de 25 000 por día después de alcanzar la carga 
+                de mapa 25 000 / límite de uso de 90 días, hasta 1 000 000 diariamente. 
+                <a href="https://developers.google.com/maps/pricing-and-plans/">Más info</a>]</small></p>            
+            
+            <h3>Obtener una clave API de Google</h3>
+            <p>Lo primer: obtener un clave de API de Google en la consola para desarrolladores: <a href="https://console.developers.google.com/?pli=1">Consola de developers</a></p>
+            
+            <!--*****************************************************************************************************************************-->
+            <hr/>
+            <article>
+                <h3><a name="gmja2" href="https://developers.google.com/maps/tutorials/data/importing_data">Importando tus datos</a></h3>
+                <div id="map_canvas_2"></div>
+                <p>Usa datos en formato <a href="http://geojson.org/geojson-spec.html">GeoJSON</a></p>
+                <p>Página para generar GeoJSON data: http://geojson.io/#map=14/40.4762/-3.7157</p>
+                <div class="code-block"><pre><code>
+var mapDiv2 = document.getElementById('map_canvas_2');
+var latlng2 = new google.maps.LatLng(40.414933739888944,-3.683338165283203);
+var myOptions2 ={
+        center: latlng2,
+        zoom: 10
+        };
+var map2 = new google.maps.Map(mapDiv2, myOptions2);
+// NOTE: This uses cross-domain XHR, and may not work on older browsers.
+map2.data.loadGeoJson('parques.geo.json');
+                </code></pre>
+                </div>
+                
+                <p>Le podemos añadir un custom style a los datos:</p>
+                <div id="map_canvas_3"></div>
+
+                <div class="code-block"><pre><code>
+var mapDiv3 = document.getElementById('map_canvas_3');
+var myOptions3 ={
+        center: latlng,
+        zoom: 17
+        };
+var map3 = new google.maps.Map(mapDiv3, myOptions3);
+// NOTE: This uses cross-domain XHR, and may not work on older browsers.
+map3.data.loadGeoJson('paradigma.polygon.geo.json');
+
+map3.data.setStyle({
+  fillColor: '#E6152D',
+  strokeWeight: 1
+});
+                </code></pre>  
+                </div>
+
+            </article>
+        
+            
+        </section>
+
+        
+        <script>
+          function initMaps() {
+              var latlng = new google.maps.LatLng(40.44059460782266, -3.7860989570617676);
+                var mapDiv2 = document.getElementById('map_canvas_2');
+                var latlng2 = new google.maps.LatLng(40.414933739888944,-3.683338165283203);
+                var myOptions2 ={
+                        center: latlng2,
+                        zoom: 10
+                        };
+                var map2 = new google.maps.Map(mapDiv2, myOptions2);
+                // NOTE: This uses cross-domain XHR, and may not work on older browsers.
+                map2.data.loadGeoJson('json/parques.geo.json');
+              
+              //Map3 adding styling
+              // Set the stroke width, and fill color for each polygon
+              var mapDiv3 = document.getElementById('map_canvas_3');
+                var myOptions3 ={
+                        center: latlng,
+                        zoom: 17
+                        };
+              var map3 = new google.maps.Map(mapDiv3, myOptions3);
+                // NOTE: This uses cross-domain XHR, and may not work on older browsers.
+                map3.data.loadGeoJson('json/paradigma.polygon.geo.json');
+              
+                map3.data.setStyle({
+                  fillColor: '#E6152D',
+                  strokeWeight: 1
+                });
+              
+          }
+        </script>
+        
+        
+        <script src="https://maps.googleapis.com/maps/api/js?callback=initMaps&key=AIzaSyCvK5VBQk4wRZ0CNircRSBZZsFjLL3J0Lo&signed_in=true" async defer></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.2.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+
+    </body>
+</html>

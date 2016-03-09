@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.2.0/styles/default.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+    </head>
+    <body>
+        
+        <section>
+            <h2>Google Maps JavaScript API: Visualizing data</h2>
+            <p><a href="https://developers.google.com/maps/tutorials/">Fuente</a></p>
+            <p><small>[<strong>*Limitaciones</strong>
+            Gratis hasta exceder 25 000 cargas de mapas por día durante 90 días consecutivos
+USD 0,50 / 1000 cargas de mapas adicionales por encima de 25 000 por día después de alcanzar la carga 
+                de mapa 25 000 / límite de uso de 90 días, hasta 1 000 000 diariamente. 
+                <a href="https://developers.google.com/maps/pricing-and-plans/">Más info</a>]</small></p>            
+            
+            <h3>Obtener una clave API de Google</h3>
+            <p>Lo primer: obtener un clave de API de Google en la consola para desarrolladores: <a href="https://console.developers.google.com/?pli=1">Consola de developers</a></p>
+
+            <!--*****************************************************************************************************************************-->
+            <hr/>
+            <article>
+                <h3><a name="gmja5" href="https://developers.google.com/maps/tutorials/visualizing/earthquakes"> Visualizing data</a></h3>
+                <h5>Markers básicos</h5>
+                <div id="map_canvas_5"></div>    
+                <div class="code-block"><pre><code>
+               
+function initMaps() {
+
+    var mapOptions = {
+      zoom: 2,
+      center: {lat: 40.41140480914068, lng: -3.69140625},
+      mapTypeId: google.maps.MapTypeId.TERRAIN
+    };
+
+    map = new google.maps.Map(document.getElementById('map_canvas_5'),mapOptions);
+
+    // Create a &lt;script&gt; tag and set the USGS URL as the source.
+    var script = document.createElement('script');
+    script.src = 'http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_week.geojsonp';
+    document.getElementsByTagName('head')[0].appendChild(script);
+}
+
+function eqfeed_callback(results) {
+  map.data.addGeoJson(results);
+}                
+               
+                </code></pre>
+                </div>
+                
+                <h5>Circulos</h5>
+                <div id="map_canvas_6"></div>    
+                
+                <h5>Heatmap</h5>
+                <div id="map_canvas_7"></div>    
+                
+                <div class="code-block"><pre><code>
+<script src="https://maps.googleapis.com/maps/api/js?callback=initMaps&key=AIzaSyCvK5VBQk4wRZ0CNircRSBZZsFjLL3J0Lo&signed_in=true&libraries=geometry,visualization" async defer></script>                
+                </code></pre></div>                
+                
+                <div class="code-block"><pre><code>
+function initMaps() {
+
+    var mapOptions = {
+      zoom: 2,
+      center: {lat: 40.41140480914068, lng: -3.69140625},
+      mapTypeId: google.maps.MapTypeId.TERRAIN
+    };
+
+    map = new google.maps.Map(document.getElementById('map_canvas_5'),mapOptions);
+
+    map6 = new google.maps.Map(document.getElementById('map_canvas_6'),mapOptions);
+    map6.data.setStyle(function(feature) {
+        var magnitude = feature.getProperty('mag');
+        return {
+          icon: getCircle(magnitude)
+        };
+    });
+
+    map7 = new google.maps.Map(document.getElementById('map_canvas_7'),mapOptions);
+
+    // Create a &lt;script&gt; tag and set the USGS URL as the source.
+    var script = document.createElement('script');
+    script.src = 'http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_week.geojsonp';
+    document.getElementsByTagName('head')[0].appendChild(script);
+
+}
+
+function eqfeed_callback(results) {
+      map.data.addGeoJson(results);
+      map6.data.addGeoJson(results);
+
+    //Build heatmap
+    var heatmapData = [];
+    for (var i = 0; i &lt; results.features.length; i++) {
+      var coords = results.features[i].geometry.coordinates;
+      var latLng = new google.maps.LatLng(coords[1], coords[0]);
+      var magnitude = results.features[i].properties.mag;
+      var weightedLoc = {
+        location: latLng,
+        weight: Math.pow(2, magnitude)
+      };
+      heatmapData.push(weightedLoc);
+    }
+    var heatmap = new google.maps.visualization.HeatmapLayer({
+      data: heatmapData,
+      dissipating: false,
+      map: map7
+    });
+
+}
+
+function getCircle(magnitude) {
+  var circle = {
+    path: google.maps.SymbolPath.CIRCLE,
+    fillColor: 'red',
+    fillOpacity: .2,
+    scale: Math.pow(2, magnitude) / 2,
+    strokeColor: 'white',
+    strokeWeight: .5
+  };
+  return circle;
+}      
+               
+                </code></pre>
+                </div>
+                
+            </article>
+            
+            
+        </section>
+        
+        <script>
+            function initMaps() {
+
+                var mapOptions = {
+                  zoom: 2,
+                  center: {lat: 40.41140480914068, lng: -3.69140625},
+                  mapTypeId: google.maps.MapTypeId.TERRAIN
+                };
+
+                map = new google.maps.Map(document.getElementById('map_canvas_5'),mapOptions);
+                
+                map6 = new google.maps.Map(document.getElementById('map_canvas_6'),mapOptions);
+                map6.data.setStyle(function(feature) {
+                    var magnitude = feature.getProperty('mag');
+                    return {
+                      icon: getCircle(magnitude)
+                    };
+                });
+                
+                map7 = new google.maps.Map(document.getElementById('map_canvas_7'),mapOptions);
+                
+                // Create a <script> tag and set the USGS URL as the source.
+                var script = document.createElement('script');
+                script.src = 'http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_week.geojsonp';
+                document.getElementsByTagName('head')[0].appendChild(script);
+                
+            }
+
+            function eqfeed_callback(results) {
+                  map.data.addGeoJson(results);
+                  map6.data.addGeoJson(results);
+                
+                //Build heatmap
+                var heatmapData = [];
+                for (var i = 0; i < results.features.length; i++) {
+                  var coords = results.features[i].geometry.coordinates;
+                  var latLng = new google.maps.LatLng(coords[1], coords[0]);
+                  var magnitude = results.features[i].properties.mag;
+                  var weightedLoc = {
+                    location: latLng,
+                    weight: Math.pow(2, magnitude)
+                  };
+                  heatmapData.push(weightedLoc);
+                }
+                var heatmap = new google.maps.visualization.HeatmapLayer({
+                  data: heatmapData,
+                  dissipating: false,
+                  map: map7
+                });
+                
+            }
+
+            function getCircle(magnitude) {
+              var circle = {
+                path: google.maps.SymbolPath.CIRCLE,
+                fillColor: 'red',
+                fillOpacity: .2,
+                scale: Math.pow(2, magnitude) / 2,
+                strokeColor: 'white',
+                strokeWeight: .5
+              };
+              return circle;
+            }
+
+        </script>        
+        
+        <script src="https://maps.googleapis.com/maps/api/js?callback=initMaps&key=AIzaSyCvK5VBQk4wRZ0CNircRSBZZsFjLL3J0Lo&signed_in=true&libraries=geometry,visualization" async defer></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.2.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+
+    </body>
+</html>

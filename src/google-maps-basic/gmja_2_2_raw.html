@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.2.0/styles/default.min.css">
+
+        <link rel="stylesheet" href="css/main.css">
+
+    </head>
+    <body>
+        <h3>Superficie que ocupa el complejo de oficinas de Paradigma</h3>
+    
+        <div id="map_canvas_3"></div>
+
+        
+        <script>
+          function initMaps() {
+              var latlng = new google.maps.LatLng(40.44059460782266, -3.7860989570617676);
+              
+
+              var mapDiv3 = document.getElementById('map_canvas_3');
+                var myOptions3 ={
+                        center: latlng,
+                        zoom: 17
+                        };
+              var map3 = new google.maps.Map(mapDiv3, myOptions3);
+
+                map3.data.loadGeoJson('json/paradigma.polygon.geo.json');
+              
+                map3.data.setStyle({
+                  fillColor: '#E6152D',
+                  strokeWeight: 1
+                });
+              
+          }
+        </script>
+        
+        
+        <script src="https://maps.googleapis.com/maps/api/js?callback=initMaps&key=AIzaSyCvK5VBQk4wRZ0CNircRSBZZsFjLL3J0Lo&signed_in=true" async defer></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.2.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+
+    </body>
+</html>

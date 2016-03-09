@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.2.0/styles/default.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+    </head>
+    <body>
+                <h3>Embalses de la comunidad de Madrid</h3>
+      
+                <div id="map_canvas_4"></div>    
+                <div id="capture"></div>                    
+                
+            
+        
+        
+<script>
+          function initMaps() {
+ 
+              var src = 'http://jesidea.com/pruebas/embalses.kml';
+          
+              var latlng = new google.maps.LatLng(40.41140480914068, -3.69140625);
+              var mapDiv4 = document.getElementById('map_canvas_4');
+                var myOptions4 ={
+                        center: latlng,
+                        zoom: 10,
+                        mapTypeId: google.maps.MapTypeId.TERRAIN
+                        };
+
+                var map4 = new google.maps.Map(mapDiv4, myOptions4);
+                loadKmlLayer(src, map4);
+              
+          }
+
+            /**
+             * Adds a KMLLayer based on the URL passed. Clicking on a marker
+             * results in the balloon content being loaded into the right-hand div.
+             * @param {string} src A URL for a KML file.
+             */
+            function loadKmlLayer(src, map) {
+              var kmlLayer = new google.maps.KmlLayer(src, {
+                suppressInfoWindows: false,
+                preserveViewport: false,
+                map: map
+              });
+              google.maps.event.addListener(kmlLayer, 'click', function(event) {
+                var content = event.featureData.infoWindowHtml;
+                var testimonial = document.getElementById('capture');
+                testimonial.innerHTML = content;
+              });
+            }
+        </script>        
+        
+        <script src="https://maps.googleapis.com/maps/api/js?callback=initMaps&key=AIzaSyCvK5VBQk4wRZ0CNircRSBZZsFjLL3J0Lo&signed_in=true" async defer></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.2.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+
+    </body>
+</html>

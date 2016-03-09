@@ -1,0 +1,19 @@
+#map, 
+#map_canvas, 
+#map_canvas_2,
+#map_canvas_3,
+#map_canvas_4  {
+    width: 500px;
+    height: 400px;
+    background-color: #CCC;
+}
+
+#map_canvas_5,#map_canvas_6, #map_canvas_7   {
+    width: 800px;
+    height: 400px;
+    background-color: #CCC;
+}
+
+.code-block {
+    width:50%;
+}

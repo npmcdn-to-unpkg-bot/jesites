@@ -1,0 +1,2730 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns="http://earth.google.com/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+	<Document>
+		<name>VirtualGlobetrotting: Deserts</name>
+		<open>1</open>
+
+            <NetworkLink>
+                <name>VirtualGlobetrotting Live View</name>
+                <flyToView>0</flyToView>
+                <Link>
+                    <href>http://virtualglobetrotting.com/category/natural/deserts/export-0.kml</href>
+                    <viewFormat>BBOX=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]</viewFormat>
+                    <viewRefreshMode>onStop</viewRefreshMode>
+                </Link>
+            </NetworkLink><Placemark id="187">
+                    <atom:author>
+                        <atom:name>nic (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/burning-man-2006/" />
+                    <name><![CDATA[Burning Man 2006]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/burning-man-2006/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/1/8/187-v4/burning-man.jpg' alt='Burning Man 2006' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/nic/' title='nic: Info'>nic</a>. <br />
+                <a data-mid='187' class='map-link ' href='http://virtualglobetrotting.com/map/burning-man-2006/' title='Burning Man 2006'>Read more...</a> <br />
+                Burning Man is a week-long annual event that began in San Francisco's Baker Beach in 1986 and migrated to the Black Rock Desert<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Burning Man is a week-long annual event that began in San Francisco's Baker Beach in 1986 and migrated to the Black Rock Desert<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-119.23461900,40.74691800</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/1/8/187-v4-micro/burning-man.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="13742">
+                    <atom:author>
+                        <atom:name>kjfitz (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/men-at-a-well-in-the-desert/" />
+                    <name><![CDATA[Men at a well in the desert]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/men-at-a-well-in-the-desert/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/1/3/13742-v1/men-at-a-well-in-the-desert.jpg' alt='Men at a well in the desert' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/kjfitz/' title='kjfitz: Info'>kjfitz</a>. <br />
+                <a data-mid='13742' class='map-link ' href='http://virtualglobetrotting.com/map/men-at-a-well-in-the-desert/' title='Men at a well in the desert'>Read more...</a> <br />
+                One is looking up at the camera.<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[One is looking up at the camera.<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>19.42972800,15.29830100</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/1/3/13742-v1-micro/men-at-a-well-in-the-desert.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="2265">
+                    <atom:author>
+                        <atom:name>dwfarmer (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/nile-river-delta/" />
+                    <name><![CDATA[Nile River Delta]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/nile-river-delta/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/2/2/2265-v2/nile-river-delta.jpg' alt='Nile River Delta' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/dwfarmer/' title='dwfarmer: Info'>dwfarmer</a>. <br />
+                <a data-mid='2265' class='map-link ' href='http://virtualglobetrotting.com/map/nile-river-delta/' title='Nile River Delta'>Read more...</a> <br />
+                <br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>31.51977500,30.90454100</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/2/2/2265-v2-micro/nile-river-delta.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="127">
+                    <atom:author>
+                        <atom:name>nic (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/bombing-target-in-nevada/" />
+                    <name><![CDATA[Bombing Target in Nevada]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/bombing-target-in-nevada/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/1/2/127-v2/bombing-target-in-nevada.jpg' alt='Bombing Target in Nevada' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/nic/' title='nic: Info'>nic</a>. <br />
+                <a data-mid='127' class='map-link ' href='http://virtualglobetrotting.com/map/bombing-target-in-nevada/' title='Bombing Target in Nevada'>Read more...</a> <br />
+                <br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-116.22831300,37.48758300</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/1/2/127-v2-micro/bombing-target-in-nevada.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="26177">
+                    <atom:author>
+                        <atom:name>mikeb9991 (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/interesting-groove-in-algerian-desert/" />
+                    <name><![CDATA[Interesting Groove in Algerian Desert]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/interesting-groove-in-algerian-desert/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/2/6/26177-v2/interesting-groove-in-algerian-desert.jpg' alt='Interesting Groove in Algerian Desert' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/mikeb9991/' title='mikeb9991: Info'>mikeb9991</a>. <br />
+                <a data-mid='26177' class='map-link ' href='http://virtualglobetrotting.com/map/interesting-groove-in-algerian-desert/' title='Interesting Groove in Algerian Desert'>Read more...</a> <br />
+                <br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>7.97513000,31.01829500</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/2/6/26177-v2-micro/interesting-groove-in-algerian-desert.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="6476">
+                    <atom:author>
+                        <atom:name>kjfitz (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/seal-desert-training-base/" />
+                    <name><![CDATA[SEAL desert training base]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/seal-desert-training-base/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/6/4/6476-v1/seal-desert-training-base.jpg' alt='SEAL desert training base' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/kjfitz/' title='kjfitz: Info'>kjfitz</a>. <br />
+                <a data-mid='6476' class='map-link ' href='http://virtualglobetrotting.com/map/seal-desert-training-base/' title='SEAL desert training base'>Read more...</a> <br />
+                Camp Billy Machen is a new Navy SEAL desert warfare training facility, located on the edge of the Chocolate Mountains, next to Slab City, itself a former military base.<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Camp Billy Machen is a new Navy SEAL desert warfare training facility, located on the edge of the Chocolate Mountains, next to Slab City, itself a former military base.<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-115.49166100,33.29136400</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/6/4/6476-v1-micro/seal-desert-training-base.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="3841">
+                    <atom:author>
+                        <atom:name>TexasAndroid (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/sahara-desert/" />
+                    <name><![CDATA[Sahara Desert]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/sahara-desert/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/3/8/3841-v1/sahara-desert.jpg' alt='Sahara Desert' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/TexasAndroid/' title='TexasAndroid: Info'>TexasAndroid</a>. <br />
+                <a data-mid='3841' class='map-link ' href='http://virtualglobetrotting.com/map/sahara-desert/' title='Sahara Desert'>Read more...</a> <br />
+                I know I'm showing multiple countries here, but I have to list just one. :)<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[I know I'm showing multiple countries here, but I have to list just one. :)<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>16.08398400,21.26953100</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/3/8/3841-v1-micro/sahara-desert.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="11053">
+                    <atom:author>
+                        <atom:name>dda (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/driest-place-in-the-world/" />
+                    <name><![CDATA[Driest place in the World]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/driest-place-in-the-world/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/1/1/11053-v2/driest-place-in-the-world.jpg' alt='Driest place in the World' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/dda/' title='dda: Info'>dda</a>. <br />
+                <a data-mid='11053' class='map-link ' href='http://virtualglobetrotting.com/map/driest-place-in-the-world/' title='Driest place in the World'>Read more...</a> <br />
+                Atacama Desert, Chile. Average rainfall each year = 0.01 cms<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Atacama Desert, Chile. Average rainfall each year = 0.01 cms<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-68.31745100,-23.49284700</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/1/1/11053-v2-micro/driest-place-in-the-world.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="2375">
+                    <atom:author>
+                        <atom:name>dwfarmer (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/tatooine-in-star-wars-iv/" />
+                    <name><![CDATA[Tatooine in Star Wars IV]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/tatooine-in-star-wars-iv/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/2/3/2375-v1/tatooine-in-star-wars-iv.jpg' alt='Tatooine in Star Wars IV' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/dwfarmer/' title='dwfarmer: Info'>dwfarmer</a>. <br />
+                <a data-mid='2375' class='map-link ' href='http://virtualglobetrotting.com/map/tatooine-in-star-wars-iv/' title='Tatooine in Star Wars IV'>Read more...</a> <br />
+                <br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-114.45805500,32.22461700</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/2/3/2375-v1-micro/tatooine-in-star-wars-iv.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="23964">
+                    <atom:author>
+                        <atom:name>Pdunn (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/f-8-carcass-in-desert/" />
+                    <name><![CDATA[F-8 Carcass in desert]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/f-8-carcass-in-desert/'>
+                        <img border='0' src='http://c2.vgtstatic.com/thumbll/2/3/23964-v1/f-8-carcass-in-desert.jpg' alt='F-8 Carcass in desert' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/Pdunn/' title='Pdunn: Info'>Pdunn</a>. <br />
+                <a data-mid='23964' class='map-link ' href='http://virtualglobetrotting.com/map/f-8-carcass-in-desert/' title='F-8 Carcass in desert'>Read more...</a> <br />
+                <br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-117.77700300,34.83079400</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c2.vgtstatic.com/thumbll/2/3/23964-v1-micro/f-8-carcass-in-desert.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="9582">
+                    <atom:author>
+                        <atom:name>alva (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/salar-de-uyuni/" />
+                    <name><![CDATA[Salar de Uyuni]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/salar-de-uyuni/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/9/5/9582-v1/salar-de-uyuni.jpg' alt='Salar de Uyuni' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/alva/' title='alva: Info'>alva</a>. <br />
+                <a data-mid='9582' class='map-link ' href='http://virtualglobetrotting.com/map/salar-de-uyuni/' title='Salar de Uyuni'>Read more...</a> <br />
+                Salar de Uyuni, Bolivia<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Salar de Uyuni, Bolivia<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-67.68127400,-20.23127500</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/9/5/9582-v1-micro/salar-de-uyuni.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="116">
+                    <atom:author>
+                        <atom:name>nic (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/death-valley/" />
+                    <name><![CDATA[Death Valley]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/death-valley/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/1/1/116-v1/death-valley.jpg' alt='Death Valley' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/nic/' title='nic: Info'>nic</a>. <br />
+                <a data-mid='116' class='map-link ' href='http://virtualglobetrotting.com/map/death-valley/' title='Death Valley'>Read more...</a> <br />
+                <br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-116.26728100,36.41727400</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/1/1/116-v1-micro/death-valley.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="6583">
+                    <atom:author>
+                        <atom:name>kjfitz (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/ten-commandments-archaeological-site/" />
+                    <name><![CDATA[Ten Commandments Archaeological Site]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/ten-commandments-archaeological-site/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/6/5/6583-v1/ten-commandments-archaeological-site.jpg' alt='Ten Commandments Archaeological Site' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/kjfitz/' title='kjfitz: Info'>kjfitz</a>. <br />
+                <a data-mid='6583' class='map-link ' href='http://virtualglobetrotting.com/map/ten-commandments-archaeological-site/' title='Ten Commandments Archaeological Site'>Read more...</a> <br />
+                Under the sand in the Nipomo dune field is the Egyptian set from Cecil B. DeMille's epic movie "The Ten Commandments," dynamited and buried there by the crew after shooting ended in 1923. 1,600 workers were employed to build the plaster and wood set for the month-long shoot, a set which included an avenue of 21 sphinxes, four 35-foot tall Pharaoh statues, and 110-foot tall gates. Strong winds across the coastal dunes are gradually exposing the remains.<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Under the sand in the Nipomo dune field is the Egyptian set from Cecil B. DeMille's epic movie "The Ten Commandments," dynamited and buried there by the crew after shooting ended in 1923. 1,600 workers were employed to build the plaster and wood set for the month-long shoot, a set which included an avenue of 21 sphinxes, four 35-foot tall Pharaoh statues, and 110-foot tall gates. Strong winds across the coastal dunes are gradually exposing the remains.<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-120.63746800,34.95753800</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/6/5/6583-v1-micro/ten-commandments-archaeological-site.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="3898">
+                    <atom:author>
+                        <atom:name>doranchak (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/more-desert-farming-in-libya/" />
+                    <name><![CDATA[More desert farming in Libya]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/more-desert-farming-in-libya/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/3/8/3898-v1/more-desert-farming-in-libya.jpg' alt='More desert farming in Libya' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/doranchak/' title='doranchak: Info'>doranchak</a>. <br />
+                <a data-mid='3898' class='map-link ' href='http://virtualglobetrotting.com/map/more-desert-farming-in-libya/' title='More desert farming in Libya'>Read more...</a> <br />
+                Thanks to the comments poster on the other Libyan desert farming map for the following links:<br />
+<br />
+http://www.crdp-strasbourg.fr/imageEcole/deserts/hr/image13.jpg<br />
+<br />
+http://web.macam.ac.il/~arnon/Int-ME/me-sat/Kufra%20Oasis%20Libya.jpg<br />
+<br />
+http://www.fas.usda.gov/pecad2/highlights/2004/05/libya/kufrapivots.htm<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Thanks to the comments poster on the other Libyan desert farming map for the following links:<br />
+<br />
+http://www.crdp-strasbourg.fr/imageEcole/deserts/hr/image13.jpg<br />
+<br />
+http://web.macam.ac.il/~arnon/Int-ME/me-sat/Kufra%20Oasis%20Libya.jpg<br />
+<br />
+http://www.fas.usda.gov/pecad2/highlights/2004/05/libya/kufrapivots.htm<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>23.26801300,24.12769300</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/3/8/3898-v1-micro/more-desert-farming-in-libya.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="3288">
+                    <atom:author>
+                        <atom:name>hkfczrqj (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/rub-al-khali-southern-fringe/" />
+                    <name><![CDATA[Rub Al Khali (southern fringe)]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/rub-al-khali-southern-fringe/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/3/2/3288-v1/rub-al-khali-southern-fringe.jpg' alt='Rub Al Khali (southern fringe)' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/hkfczrqj/' title='hkfczrqj: Info'>hkfczrqj</a>. <br />
+                <a data-mid='3288' class='map-link ' href='http://virtualglobetrotting.com/map/rub-al-khali-southern-fringe/' title='Rub Al Khali (southern fringe)'>Read more...</a> <br />
+                <br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>54.62608300,22.26242100</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/3/2/3288-v1-micro/rub-al-khali-southern-fringe.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="12534">
+                    <atom:author>
+                        <atom:name>AKpilotEMT (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/umm-al-samim/" />
+                    <name><![CDATA[Umm al Samim]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/umm-al-samim/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/1/2/12534-v1/umm-al-samim.jpg' alt='Umm al Samim' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/AKpilotEMT/' title='AKpilotEMT: Info'>AKpilotEMT</a>. <br />
+                <a data-mid='12534' class='map-link ' href='http://virtualglobetrotting.com/map/umm-al-samim/' title='Umm al Samim'>Read more...</a> <br />
+                An area of quicksand on the eastern edge of the Rub al-Khali.  Also called the Umm as Samim.<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[An area of quicksand on the eastern edge of the Rub al-Khali.  Also called the Umm as Samim.<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>56.06872600,21.55528400</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/1/2/12534-v1-micro/umm-al-samim.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="16321">
+                    <atom:author>
+                        <atom:name>kjfitz (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/dc-3-in-the-sahara-desert/" />
+                    <name><![CDATA[DC-3 in the Sahara Desert]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/dc-3-in-the-sahara-desert/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/1/6/16321-v1/dc-3-in-the-sahara-desert.jpg' alt='DC-3 in the Sahara Desert' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/kjfitz/' title='kjfitz: Info'>kjfitz</a>. <br />
+                <a data-mid='16321' class='map-link ' href='http://virtualglobetrotting.com/map/dc-3-in-the-sahara-desert/' title='DC-3 in the Sahara Desert'>Read more...</a> <br />
+                <br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>17.93095900,29.46608300</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/1/6/16321-v1-micro/dc-3-in-the-sahara-desert.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="9019">
+                    <atom:author>
+                        <atom:name>pdunn (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/a-line-of-bomb-craters-in-desert-near-al-taqadudum/" />
+                    <name><![CDATA[A line of bomb craters in desert near Al Taqadudum]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/a-line-of-bomb-craters-in-desert-near-al-taqadudum/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/9/0/9019-v1/a-line-of-bomb-craters-in-desert-near-al-taqadudum.jpg' alt='A line of bomb craters in desert near Al Taqadudum' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/pdunn/' title='pdunn: Info'>pdunn</a>. <br />
+                <a data-mid='9019' class='map-link ' href='http://virtualglobetrotting.com/map/a-line-of-bomb-craters-in-desert-near-al-taqadudum/' title='A line of bomb craters in desert near Al Taqadudum'>Read more...</a> <br />
+                <br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>43.63750200,33.34666200</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/9/0/9019-v1-micro/a-line-of-bomb-craters-in-desert-near-al-taqadudum.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="7700">
+                    <atom:author>
+                        <atom:name>noooby (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/dots-in-the-desert-1/" />
+                    <name><![CDATA[Dots in the Desert]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/dots-in-the-desert-1/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/7/7/7700-v1/dots-in-the-desert-1.jpg' alt='Dots in the Desert' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/noooby/' title='noooby: Info'>noooby</a>. <br />
+                <a data-mid='7700' class='map-link ' href='http://virtualglobetrotting.com/map/dots-in-the-desert-1/' title='Dots in the Desert'>Read more...</a> <br />
+                <br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>2.34849900,27.21876200</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/7/7/7700-v1-micro/dots-in-the-desert-1.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="23987">
+                    <atom:author>
+                        <atom:name>jbottero (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/strange-markings-in-the-desert/" />
+                    <name><![CDATA[Strange Markings in the Desert]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/strange-markings-in-the-desert/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/2/3/23987-v1/strange-markings-in-the-desert.jpg' alt='Strange Markings in the Desert' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/jbottero/' title='jbottero: Info'>jbottero</a>. <br />
+                <a data-mid='23987' class='map-link ' href='http://virtualglobetrotting.com/map/strange-markings-in-the-desert/' title='Strange Markings in the Desert'>Read more...</a> <br />
+                Strange markings at Edwards AFB...<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Strange markings at Edwards AFB...<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-117.74236700,34.86868000</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/2/3/23987-v1-micro/strange-markings-in-the-desert.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="6559">
+                    <atom:author>
+                        <atom:name>focusfree (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/bisti-badlands/" />
+                    <name><![CDATA[Bisti Badlands]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/bisti-badlands/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/6/5/6559-v1/bisti-badlands.jpg' alt='Bisti Badlands' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/focusfree/' title='focusfree: Info'>focusfree</a>. <br />
+                <a data-mid='6559' class='map-link ' href='http://virtualglobetrotting.com/map/bisti-badlands/' title='Bisti Badlands'>Read more...</a> <br />
+                Not like any where else. See the pictures on the URL, or google "Bisti Badlands".<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Not like any where else. See the pictures on the URL, or google "Bisti Badlands".<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-108.41935200,36.34390800</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/6/5/6559-v1-micro/bisti-badlands.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="23938">
+                    <atom:author>
+                        <atom:name>Pdunn (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/space-shuttle-in-desert/" />
+                    <name><![CDATA[Space Shuttle in desert]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/space-shuttle-in-desert/'>
+                        <img border='0' src='http://c2.vgtstatic.com/thumbll/2/3/23938-v1/space-shuttle-in-desert.jpg' alt='Space Shuttle in desert' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/Pdunn/' title='Pdunn: Info'>Pdunn</a>. <br />
+                <a data-mid='23938' class='map-link ' href='http://virtualglobetrotting.com/map/space-shuttle-in-desert/' title='Space Shuttle in desert'>Read more...</a> <br />
+                This is in a neighborhood just west of Lockheed's Skunkworks<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[This is in a neighborhood just west of Lockheed's Skunkworks<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-118.16033300,34.63011300</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c2.vgtstatic.com/thumbll/2/3/23938-v1-micro/space-shuttle-in-desert.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="27701">
+                    <atom:author>
+                        <atom:name>pvdmark (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/sanddune-in-namib-desert/" />
+                    <name><![CDATA[Sanddune in Namib Desert]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/sanddune-in-namib-desert/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/2/7/27701-v1/sanddune-in-namib-desert.jpg' alt='Sanddune in Namib Desert' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/pvdmark/' title='pvdmark: Info'>pvdmark</a>. <br />
+                <a data-mid='27701' class='map-link ' href='http://virtualglobetrotting.com/map/sanddune-in-namib-desert/' title='Sanddune in Namib Desert'>Read more...</a> <br />
+                Sanddune along dry riverbed in Naukluft Game Park, part of the Namib Desert. When zooming out in GM, you see pictures where the water flows. When zooming in, the hi-res pictures show a dry riverbed.<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Sanddune along dry riverbed in Naukluft Game Park, part of the Namib Desert. When zooming out in GM, you see pictures where the water flows. When zooming in, the hi-res pictures show a dry riverbed.<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>15.43815100,-24.70356200</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/2/7/27701-v1-micro/sanddune-in-namib-desert.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="13739">
+                    <atom:author>
+                        <atom:name>Hinkkanen (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/conveyor-belt-in-the-desert/" />
+                    <name><![CDATA[Conveyor belt in the desert]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/conveyor-belt-in-the-desert/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/1/3/13739-v1/conveyor-belt-in-the-desert.jpg' alt='Conveyor belt in the desert' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/Hinkkanen/' title='Hinkkanen: Info'>Hinkkanen</a>. <br />
+                <a data-mid='13739' class='map-link ' href='http://virtualglobetrotting.com/map/conveyor-belt-in-the-desert/' title='Conveyor belt in the desert'>Read more...</a> <br />
+                Automated conveyor belt to carry phosphate from mines in Bou Craa to the coast.<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Automated conveyor belt to carry phosphate from mines in Bou Craa to the coast.<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-13.33964500,26.96238400</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/1/3/13739-v1-micro/conveyor-belt-in-the-desert.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="27143">
+                    <atom:author>
+                        <atom:name>Pdunn (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/large-concentric-circles-in-the-desert/" />
+                    <name><![CDATA[Large Concentric Circles in the desert]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/large-concentric-circles-in-the-desert/'>
+                        <img border='0' src='http://c2.vgtstatic.com/thumbll/2/7/27143-v1/large-concentric-circles-in-the-desert.jpg' alt='Large Concentric Circles in the desert' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/Pdunn/' title='Pdunn: Info'>Pdunn</a>. <br />
+                <a data-mid='27143' class='map-link ' href='http://virtualglobetrotting.com/map/large-concentric-circles-in-the-desert/' title='Large Concentric Circles in the desert'>Read more...</a> <br />
+                <br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-116.33295700,34.22941300</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c2.vgtstatic.com/thumbll/2/7/27143-v1-micro/large-concentric-circles-in-the-desert.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="130">
+                    <atom:author>
+                        <atom:name>nic (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/white-sands-missile-test-range/" />
+                    <name><![CDATA[White Sands Missile Test Range]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/white-sands-missile-test-range/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/1/3/130-v1/white-sands-missile-test-range.jpg' alt='White Sands Missile Test Range' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/nic/' title='nic: Info'>nic</a>. <br />
+                <a data-mid='130' class='map-link ' href='http://virtualglobetrotting.com/map/white-sands-missile-test-range/' title='White Sands Missile Test Range'>Read more...</a> <br />
+                Test place of first atomic bomb<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Test place of first atomic bomb<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-106.36825600,33.22334300</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/1/3/130-v1-micro/white-sands-missile-test-range.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="9781">
+                    <atom:author>
+                        <atom:name>yikesahootie (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/cathedral-of-the-desert/" />
+                    <name><![CDATA[Cathedral of the Desert]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/cathedral-of-the-desert/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/9/7/9781-v1/cathedral-of-the-desert.jpg' alt='Cathedral of the Desert' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/yikesahootie/' title='yikesahootie: Info'>yikesahootie</a>. <br />
+                <a data-mid='9781' class='map-link ' href='http://virtualglobetrotting.com/map/cathedral-of-the-desert/' title='Cathedral of the Desert'>Read more...</a> <br />
+                The "Cathedral of the Desert" was part of a canyon that became flooded after the Glen Canyon Dam was constructed. Due to years of drought, the waters have receded and the feature is once again revealed.<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[The "Cathedral of the Desert" was part of a canyon that became flooded after the Glen Canyon Dam was constructed. Due to years of drought, the waters have receded and the feature is once again revealed.<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-110.92105900,37.28402400</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/9/7/9781-v1-micro/cathedral-of-the-desert.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="24822">
+                    <atom:author>
+                        <atom:name>kjfitz (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/land-rover-in-the-desert/" />
+                    <name><![CDATA[Land Rover in the desert]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/land-rover-in-the-desert/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/2/4/24822-v1/land-rover-in-the-desert.jpg' alt='Land Rover in the desert' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/kjfitz/' title='kjfitz: Info'>kjfitz</a>. <br />
+                <a data-mid='24822' class='map-link ' href='http://virtualglobetrotting.com/map/land-rover-in-the-desert/' title='Land Rover in the desert'>Read more...</a> <br />
+                <br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-12.29112600,27.94042700</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/2/4/24822-v1-micro/land-rover-in-the-desert.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="7699">
+                    <atom:author>
+                        <atom:name>noooby (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/dots-in-the-desert/" />
+                    <name><![CDATA[Dots in the Desert]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/dots-in-the-desert/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/7/6/7699-v1/dots-in-the-desert.jpg' alt='Dots in the Desert' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/noooby/' title='noooby: Info'>noooby</a>. <br />
+                <a data-mid='7699' class='map-link ' href='http://virtualglobetrotting.com/map/dots-in-the-desert/' title='Dots in the Desert'>Read more...</a> <br />
+                <br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>2.81112700,27.33975000</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/7/6/7699-v1-micro/dots-in-the-desert.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="15348">
+                    <atom:author>
+                        <atom:name>romulusnr (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/aouelloul-crater/" />
+                    <name><![CDATA[Aouelloul Crater]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/aouelloul-crater/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/1/5/15348-v1/aouelloul-crater.jpg' alt='Aouelloul Crater' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/romulusnr/' title='romulusnr: Info'>romulusnr</a>. <br />
+                <a data-mid='15348' class='map-link ' href='http://virtualglobetrotting.com/map/aouelloul-crater/' title='Aouelloul Crater'>Read more...</a> <br />
+                <br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-12.67581900,20.24126100</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/1/5/15348-v1-micro/aouelloul-crater.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="7810">
+                    <atom:author>
+                        <atom:name>takac (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/irrigation-circle-in-the-desert/" />
+                    <name><![CDATA[Irrigation Circle in the desert]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/irrigation-circle-in-the-desert/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/7/8/7810-v1/irrigation-circle-in-the-desert.jpg' alt='Irrigation Circle in the desert' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/takac/' title='takac: Info'>takac</a>. <br />
+                <a data-mid='7810' class='map-link ' href='http://virtualglobetrotting.com/map/irrigation-circle-in-the-desert/' title='Irrigation Circle in the desert'>Read more...</a> <br />
+                <br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>47.82870100,29.92683000</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/7/8/7810-v1-micro/irrigation-circle-in-the-desert.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="24192">
+                    <atom:author>
+                        <atom:name>kjfitz (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/unusual-chinese-test-facility-in-the-desert/" />
+                    <name><![CDATA[Unusual Chinese test facility in the desert]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/unusual-chinese-test-facility-in-the-desert/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/2/4/24192-v1/unusual-chinese-test-facility-in-the-desert.jpg' alt='Unusual Chinese test facility in the desert' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/kjfitz/' title='kjfitz: Info'>kjfitz</a>. <br />
+                <a data-mid='24192' class='map-link ' href='http://virtualglobetrotting.com/map/unusual-chinese-test-facility-in-the-desert/' title='Unusual Chinese test facility in the desert'>Read more...</a> <br />
+                Perhaps for some form of EMP testing.  There looks to be a very large power substation just to the NE with connections to this site.<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Perhaps for some form of EMP testing.  There looks to be a very large power substation just to the NE with connections to this site.<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>88.63042100,39.15712000</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/2/4/24192-v1-micro/unusual-chinese-test-facility-in-the-desert.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="13467">
+                    <atom:author>
+                        <atom:name>AKpilotEMT (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/remote-entrance-to-an-unknown-underground-world/" />
+                    <name><![CDATA[Remote Entrance to an Unknown Underground World?]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/remote-entrance-to-an-unknown-underground-world/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/1/3/13467-v3/remote-entrance-to-an-unknown-underground-world.jpg' alt='Remote Entrance to an Unknown Underground World?' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/AKpilotEMT/' title='AKpilotEMT: Info'>AKpilotEMT</a>. <br />
+                <a data-mid='13467' class='map-link ' href='http://virtualglobetrotting.com/map/remote-entrance-to-an-unknown-underground-world/' title='Remote Entrance to an Unknown Underground World?'>Read more...</a> <br />
+                In the Namib Desert in southwest Angola, this, whatever it is, is so many miles from nowhere you could be one of the very first human beings in the history of the world to see it should you venture out there to investigate exactly what the heck it is.  (If you do go, please report back here, okay?!)<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[In the Namib Desert in southwest Angola, this, whatever it is, is so many miles from nowhere you could be one of the very first human beings in the history of the world to see it should you venture out there to investigate exactly what the heck it is.  (If you do go, please report back here, okay?!)<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>11.96823100,-16.96748700</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/1/3/13467-v3-micro/remote-entrance-to-an-unknown-underground-world.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="44318">
+                    <atom:author>
+                        <atom:name>kjfitz (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/desert-of-maine/" />
+                    <name><![CDATA[Desert of Maine]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/desert-of-maine/'>
+                        <img border='0' src='http://c2.vgtstatic.com/thumbll/4/4/44318-v1/desert-of-maine.jpg' alt='Desert of Maine' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/kjfitz/' title='kjfitz: Info'>kjfitz</a>. <br />
+                <a data-mid='44318' class='map-link ' href='http://virtualglobetrotting.com/map/desert-of-maine/' title='Desert of Maine'>Read more...</a> <br />
+                Geologists have established that a glacier that slid through the area 11,000 years ago-at the end of the last Ice Age or Pleistocene Period - left behind the sand and mineral deposits that today comprise the Desert of Maine.<br />
+Scientists and writers the world over have attested to the Desert's authenticity. The natural phenomenon has been accorded recognition by such notables as Walter Winchell in his New York Daily News column and in Ripley's Believe It or Not. Also featured in Deserts of America, a Universal documentary.<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Geologists have established that a glacier that slid through the area 11,000 years ago-at the end of the last Ice Age or Pleistocene Period - left behind the sand and mineral deposits that today comprise the Desert of Maine.<br />
+Scientists and writers the world over have attested to the Desert's authenticity. The natural phenomenon has been accorded recognition by such notables as Walter Winchell in his New York Daily News column and in Ripley's Believe It or Not. Also featured in Deserts of America, a Universal documentary.<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-70.15627900,43.85920400</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c2.vgtstatic.com/thumbll/4/4/44318-v1-micro/desert-of-maine.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="2207">
+                    <atom:author>
+                        <atom:name>wil9000 (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/painted-desert-petrified-forest-np/" />
+                    <name><![CDATA[Painted Desert/Petrified Forest NP]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/painted-desert-petrified-forest-np/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/2/2/2207-v1/painted-desert-petrified-forest-np.jpg' alt='Painted Desert/Petrified Forest NP' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/wil9000/' title='wil9000: Info'>wil9000</a>. <br />
+                <a data-mid='2207' class='map-link ' href='http://virtualglobetrotting.com/map/painted-desert-petrified-forest-np/' title='Painted Desert/Petrified Forest NP'>Read more...</a> <br />
+                Painted Desert in North Section of Petrified Forest National Park<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Painted Desert in North Section of Petrified Forest National Park<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-109.78583000,35.08389500</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/2/2/2207-v1-micro/painted-desert-petrified-forest-np.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="16326">
+                    <atom:author>
+                        <atom:name>kjfitz (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/airstrip-in-the-desert/" />
+                    <name><![CDATA[Airstrip in the desert]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/airstrip-in-the-desert/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/1/6/16326-v1/airstrip-in-the-desert.jpg' alt='Airstrip in the desert' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/kjfitz/' title='kjfitz: Info'>kjfitz</a>. <br />
+                <a data-mid='16326' class='map-link ' href='http://virtualglobetrotting.com/map/airstrip-in-the-desert/' title='Airstrip in the desert'>Read more...</a> <br />
+                Dunes are encroaching...<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Dunes are encroaching...<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>7.88994300,31.15573400</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/1/6/16326-v1-micro/airstrip-in-the-desert.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="21145">
+                    <atom:author>
+                        <atom:name>mikeb9991 (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/wierd-shape-in-mojave-desert/" />
+                    <name><![CDATA[Wierd shape in Mojave Desert]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/wierd-shape-in-mojave-desert/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/2/1/21145-v1/wierd-shape-in-mojave-desert.jpg' alt='Wierd shape in Mojave Desert' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/mikeb9991/' title='mikeb9991: Info'>mikeb9991</a>. <br />
+                <a data-mid='21145' class='map-link ' href='http://virtualglobetrotting.com/map/wierd-shape-in-mojave-desert/' title='Wierd shape in Mojave Desert'>Read more...</a> <br />
+                Any clue what this is?<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Any clue what this is?<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-115.38614300,35.53292500</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/2/1/21145-v1-micro/wierd-shape-in-mojave-desert.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="16324">
+                    <atom:author>
+                        <atom:name>kjfitz (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/tractor-fighting-a-losing-battle-against-the-saharas-dunes/" />
+                    <name><![CDATA[Tractor fighting a losing battle against the Sahara's dunes]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/tractor-fighting-a-losing-battle-against-the-saharas-dunes/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/1/6/16324-v1/tractor-fighting-a-losing-battle-against-the-saharas-dunes.jpg' alt='Tractor fighting a losing battle against the Sahara&#039;s dunes' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/kjfitz/' title='kjfitz: Info'>kjfitz</a>. <br />
+                <a data-mid='16324' class='map-link ' href='http://virtualglobetrotting.com/map/tractor-fighting-a-losing-battle-against-the-saharas-dunes/' title='Tractor fighting a losing battle against the Sahara&#039;s dunes'>Read more...</a> <br />
+                <br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>7.96788300,31.22739000</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/1/6/16324-v1-micro/tractor-fighting-a-losing-battle-against-the-saharas-dunes.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="48835">
+                    <atom:author>
+                        <atom:name>jbottero (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/microwave-relay-station/" />
+                    <name><![CDATA[Microwave Relay Station]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/microwave-relay-station/'>
+                        <img border='0' src='http://c2.vgtstatic.com/thumbll/4/8/48835-v1/microwave-relay-station.jpg' alt='Microwave Relay Station' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/jbottero/' title='jbottero: Info'>jbottero</a>. <br />
+                <a data-mid='48835' class='map-link ' href='http://virtualglobetrotting.com/map/microwave-relay-station/' title='Microwave Relay Station'>Read more...</a> <br />
+                Out in the middle of nowhere, near Edwards AFB. Must be fun to drive out and service this facility.<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Out in the middle of nowhere, near Edwards AFB. Must be fun to drive out and service this facility.<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-117.79947600,34.76017300</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c2.vgtstatic.com/thumbll/4/8/48835-v1-micro/microwave-relay-station.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="13786">
+                    <atom:author>
+                        <atom:name>kjfitz (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/herd-of-goats-waiting-for-water-from-a-well-in-the-desert/" />
+                    <name><![CDATA[Herd of goats waiting for water from a well in the desert]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/herd-of-goats-waiting-for-water-from-a-well-in-the-desert/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/1/3/13786-v1/herd-of-goats-waiting-for-water-from-a-well-in-the-desert.jpg' alt='Herd of goats waiting for water from a well in the desert' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/kjfitz/' title='kjfitz: Info'>kjfitz</a>. <br />
+                <a data-mid='13786' class='map-link ' href='http://virtualglobetrotting.com/map/herd-of-goats-waiting-for-water-from-a-well-in-the-desert/' title='Herd of goats waiting for water from a well in the desert'>Read more...</a> <br />
+                Man pulling water out of the well just to the NW.  A herd of camels further to the NW.<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Man pulling water out of the well just to the NW.  A herd of camels further to the NW.<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>12.78721400,14.82491500</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/1/3/13786-v1-micro/herd-of-goats-waiting-for-water-from-a-well-in-the-desert.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="15349">
+                    <atom:author>
+                        <atom:name>romulusnr (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/possible-crater-in-western-sahara/" />
+                    <name><![CDATA[Possible crater in Western Sahara]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/possible-crater-in-western-sahara/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/1/5/15349-v1/possible-crater-in-western-sahara.jpg' alt='Possible crater in Western Sahara' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/romulusnr/' title='romulusnr: Info'>romulusnr</a>. <br />
+                <a data-mid='15349' class='map-link ' href='http://virtualglobetrotting.com/map/possible-crater-in-western-sahara/' title='Possible crater in Western Sahara'>Read more...</a> <br />
+                Looking a lot like the recently-discovered Kebira Crater, which due to size and age was only identifiable with satellite imagery, this crater, if it is a crater, is 10 km wide. This would make it around the 6th largest crater in the Sahara.<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Looking a lot like the recently-discovered Kebira Crater, which due to size and age was only identifiable with satellite imagery, this crater, if it is a crater, is 10 km wide. This would make it around the 6th largest crater in the Sahara.<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-14.29252600,22.58802000</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/1/5/15349-v1-micro/possible-crater-in-western-sahara.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="25265">
+                    <atom:author>
+                        <atom:name>Pdunn (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/u-2-being-assembled-in-the-desert/" />
+                    <name><![CDATA[U-2 Being Assembled in the Desert]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/u-2-being-assembled-in-the-desert/'>
+                        <img border='0' src='http://c2.vgtstatic.com/thumbll/2/5/25265-v1/u-2-being-assembled-in-the-desert.jpg' alt='U-2 Being Assembled in the Desert' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/Pdunn/' title='Pdunn: Info'>Pdunn</a>. <br />
+                <a data-mid='25265' class='map-link ' href='http://virtualglobetrotting.com/map/u-2-being-assembled-in-the-desert/' title='U-2 Being Assembled in the Desert'>Read more...</a> <br />
+                <br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-118.08773800,34.64064400</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c2.vgtstatic.com/thumbll/2/5/25265-v1-micro/u-2-being-assembled-in-the-desert.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="10627">
+                    <atom:author>
+                        <atom:name>pdunn (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/desert-paths-leading-from-syria-into-iraq/" />
+                    <name><![CDATA[Desert Paths Leading From Syria Into Iraq]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/desert-paths-leading-from-syria-into-iraq/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/1/0/10627-v1/desert-paths-leading-from-syria-into-iraq.jpg' alt='Desert Paths Leading From Syria Into Iraq' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/pdunn/' title='pdunn: Info'>pdunn</a>. <br />
+                <a data-mid='10627' class='map-link ' href='http://virtualglobetrotting.com/map/desert-paths-leading-from-syria-into-iraq/' title='Desert Paths Leading From Syria Into Iraq'>Read more...</a> <br />
+                <br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>41.21388000,34.76092700</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/1/0/10627-v1-micro/desert-paths-leading-from-syria-into-iraq.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="3477">
+                    <atom:author>
+                        <atom:name>kjfitz (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/jebel-arkenu/" />
+                    <name><![CDATA[Jebel Arkenu]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/jebel-arkenu/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/3/4/3477-v1/jebel-arkenu.jpg' alt='Jebel Arkenu' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/kjfitz/' title='kjfitz: Info'>kjfitz</a>. <br />
+                <a data-mid='3477' class='map-link ' href='http://virtualglobetrotting.com/map/jebel-arkenu/' title='Jebel Arkenu'>Read more...</a> <br />
+                Maybe volcanic?  Is the blue a sign of natural copper compounds?  Beautiful!<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Maybe volcanic?  Is the blue a sign of natural copper compounds?  Beautiful!<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>24.71443200,22.27375000</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/3/4/3477-v1-micro/jebel-arkenu.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="1297">
+                    <atom:author>
+                        <atom:name>dwfarmer (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/arizona-desert/" />
+                    <name><![CDATA[Arizona Desert]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/arizona-desert/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/1/2/1297-v1/arizona-desert.jpg' alt='Arizona Desert' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/dwfarmer/' title='dwfarmer: Info'>dwfarmer</a>. <br />
+                <a data-mid='1297' class='map-link ' href='http://virtualglobetrotting.com/map/arizona-desert/' title='Arizona Desert'>Read more...</a> <br />
+                <br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-111.56396300,33.55205300</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/1/2/1297-v1-micro/arizona-desert.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="6588">
+                    <atom:author>
+                        <atom:name>kjfitz (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/circle-in-the-desert/" />
+                    <name><![CDATA[Circle in the desert]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/circle-in-the-desert/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/6/5/6588-v1/circle-in-the-desert.jpg' alt='Circle in the desert' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/kjfitz/' title='kjfitz: Info'>kjfitz</a>. <br />
+                <a data-mid='6588' class='map-link ' href='http://virtualglobetrotting.com/map/circle-in-the-desert/' title='Circle in the desert'>Read more...</a> <br />
+                Doesn't look like a target and it isn't in a military area.  No idea what it is.<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Doesn't look like a target and it isn't in a military area.  No idea what it is.<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-116.34162100,35.80370900</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/6/5/6588-v1-micro/circle-in-the-desert.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="31699">
+                    <atom:author>
+                        <atom:name>DonMartini (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/darfur-refugee-camp-mille/" />
+                    <name><![CDATA[Darfur refugee camp Mille]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/darfur-refugee-camp-mille/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/3/1/31699-v1/darfur-refugee-camp-mille.jpg' alt='Darfur refugee camp Mille' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/DonMartini/' title='DonMartini: Info'>DonMartini</a>. <br />
+                <a data-mid='31699' class='map-link ' href='http://virtualglobetrotting.com/map/darfur-refugee-camp-mille/' title='Darfur refugee camp Mille'>Read more...</a> <br />
+                Mile is one of a string of 12 camps in eastern Chad founded between January 2004 and May 2005 by the United Nations High Commissioner on Refugees to handle Sudanese civilians fleeing the murderous Janjaweed.<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Mile is one of a string of 12 camps in eastern Chad founded between January 2004 and May 2005 by the United Nations High Commissioner on Refugees to handle Sudanese civilians fleeing the murderous Janjaweed.<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>21.92625400,14.59355600</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/3/1/31699-v1-micro/darfur-refugee-camp-mille.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="11023">
+                    <atom:author>
+                        <atom:name>dda (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/strange-trace-in-the-desert/" />
+                    <name><![CDATA[Strange trace in the desert]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/strange-trace-in-the-desert/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/1/1/11023-v1/strange-trace-in-the-desert.jpg' alt='Strange trace in the desert' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/dda/' title='dda: Info'>dda</a>. <br />
+                <a data-mid='11023' class='map-link ' href='http://virtualglobetrotting.com/map/strange-trace-in-the-desert/' title='Strange trace in the desert'>Read more...</a> <br />
+                Smoke, soot, explosion, oil ? I suppose that the shape is due to the wind direction and the dunes.<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Smoke, soot, explosion, oil ? I suppose that the shape is due to the wind direction and the dunes.<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>21.40669900,29.24013400</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/1/1/11023-v1-micro/strange-trace-in-the-desert.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="7698">
+                    <atom:author>
+                        <atom:name>noooby (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/bloodshot-eye/" />
+                    <name><![CDATA[Bloodshot Eye]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/bloodshot-eye/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/7/6/7698-v1/bloodshot-eye.jpg' alt='Bloodshot Eye' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/noooby/' title='noooby: Info'>noooby</a>. <br />
+                <a data-mid='7698' class='map-link ' href='http://virtualglobetrotting.com/map/bloodshot-eye/' title='Bloodshot Eye'>Read more...</a> <br />
+                <br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>2.04036700,26.33403800</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/7/6/7698-v1-micro/bloodshot-eye.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="16323">
+                    <atom:author>
+                        <atom:name>kjfitz (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/mars/" />
+                    <name><![CDATA[Mars]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/mars/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/1/6/16323-v1/mars.jpg' alt='Mars' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/kjfitz/' title='kjfitz: Info'>kjfitz</a>. <br />
+                <a data-mid='16323' class='map-link ' href='http://virtualglobetrotting.com/map/mars/' title='Mars'>Read more...</a> <br />
+                <br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>7.94446700,31.21876600</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/1/6/16323-v1-micro/mars.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="13470">
+                    <atom:author>
+                        <atom:name>AKpilotEMT (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/northern-end-of-the-namib-desert/" />
+                    <name><![CDATA[Northern end of the Namib Desert]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/northern-end-of-the-namib-desert/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/1/3/13470-v1/northern-end-of-the-namib-desert.jpg' alt='Northern end of the Namib Desert' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/AKpilotEMT/' title='AKpilotEMT: Info'>AKpilotEMT</a>. <br />
+                <a data-mid='13470' class='map-link ' href='http://virtualglobetrotting.com/map/northern-end-of-the-namib-desert/' title='Northern end of the Namib Desert'>Read more...</a> <br />
+                The Namib Desert stretches for over 1,000 miles north to south, mostly in neighboring Namibia.  This is the northern end located in southwest Angola.  The Namib is thought to be the oldest desert in the world and it contains the world's tallest sand dunes.<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[The Namib Desert stretches for over 1,000 miles north to south, mostly in neighboring Namibia.  This is the northern end located in southwest Angola.  The Namib is thought to be the oldest desert in the world and it contains the world's tallest sand dunes.<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>12.01629600,-16.11443100</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/1/3/13470-v1-micro/northern-end-of-the-namib-desert.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="7804">
+                    <atom:author>
+                        <atom:name>noooby (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/desert-farms/" />
+                    <name><![CDATA[Desert Farms]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/desert-farms/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/7/8/7804-v1/desert-farms.jpg' alt='Desert Farms' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/noooby/' title='noooby: Info'>noooby</a>. <br />
+                <a data-mid='7804' class='map-link ' href='http://virtualglobetrotting.com/map/desert-farms/' title='Desert Farms'>Read more...</a> <br />
+                <br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>52.89676700,23.71558200</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/7/8/7804-v1-micro/desert-farms.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="43491">
+                    <atom:author>
+                        <atom:name>KRL (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/solar-collection-panels/" />
+                    <name><![CDATA[Solar Collection Panels]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/solar-collection-panels/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/4/3/43491-v1/solar-collection-panels.jpg' alt='Solar Collection Panels' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/KRL/' title='KRL: Info'>KRL</a>. <br />
+                <a data-mid='43491' class='map-link ' href='http://virtualglobetrotting.com/map/solar-collection-panels/' title='Solar Collection Panels'>Read more...</a> <br />
+                PV panel array. Tucson Electric.<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[PV panel array. Tucson Electric.<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-109.26690800,34.29756300</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/4/3/43491-v1-micro/solar-collection-panels.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="13530">
+                    <atom:author>
+                        <atom:name>LanternBearer (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/high-desert-sinkholes/" />
+                    <name><![CDATA[High Desert Sinkholes]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/high-desert-sinkholes/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/1/3/13530-v1/high-desert-sinkholes.jpg' alt='High Desert Sinkholes' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/LanternBearer/' title='LanternBearer: Info'>LanternBearer</a>. <br />
+                <a data-mid='13530' class='map-link ' href='http://virtualglobetrotting.com/map/high-desert-sinkholes/' title='High Desert Sinkholes'>Read more...</a> <br />
+                Sinkholes or weathered off cavern remnants on high desert plateau.<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Sinkholes or weathered off cavern remnants on high desert plateau.<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-110.58031100,34.79956800</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/1/3/13530-v1-micro/high-desert-sinkholes.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="150776">
+                    <atom:author>
+                        <atom:name>Kemosabe (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/ufo-or-submarine-in-the-desert/" />
+                    <name><![CDATA[UFO or submarine in the desert???]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/ufo-or-submarine-in-the-desert/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/1/5/150776-v1/ufo-or-submarine-in-the-desert.jpg' alt='UFO or submarine in the desert???' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/Kemosabe/' title='Kemosabe: Info'>Kemosabe</a>. <br />
+                <a data-mid='150776' class='map-link ' href='http://virtualglobetrotting.com/map/ufo-or-submarine-in-the-desert/' title='UFO or submarine in the desert???'>Read more...</a> <br />
+                UFO or submarine in the desert???<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[UFO or submarine in the desert???<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>43.65064211,33.34550847</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/1/5/150776-v1-micro/ufo-or-submarine-in-the-desert.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="16325">
+                    <atom:author>
+                        <atom:name>kjfitz (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/tractor-vs-the-sahara-desert/" />
+                    <name><![CDATA[Tractor vs. the Sahara Desert]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/tractor-vs-the-sahara-desert/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/1/6/16325-v1/tractor-vs-the-sahara-desert.jpg' alt='Tractor vs. the Sahara Desert' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/kjfitz/' title='kjfitz: Info'>kjfitz</a>. <br />
+                <a data-mid='16325' class='map-link ' href='http://virtualglobetrotting.com/map/tractor-vs-the-sahara-desert/' title='Tractor vs. the Sahara Desert'>Read more...</a> <br />
+                Guess who's gonna win?<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Guess who's gonna win?<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>7.98573000,31.23107800</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/1/6/16325-v1-micro/tractor-vs-the-sahara-desert.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="14295">
+                    <atom:author>
+                        <atom:name>edv (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/seismic-lines-in-libyan-desert/" />
+                    <name><![CDATA[Seismic Lines in Libyan Desert]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/seismic-lines-in-libyan-desert/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/1/4/14295-v1/seismic-lines-in-libyan-desert.jpg' alt='Seismic Lines in Libyan Desert' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/edv/' title='edv: Info'>edv</a>. <br />
+                <a data-mid='14295' class='map-link ' href='http://virtualglobetrotting.com/map/seismic-lines-in-libyan-desert/' title='Seismic Lines in Libyan Desert'>Read more...</a> <br />
+                These marks are where seismic lines were shot. The surface is dark due to the abundant black rocks everywhere (see pics).<br />
+The rocks have been bulldozed out of the way so that the seismic vibrator trucks could better couple their pads to the earth's surface.<br />
+Since the underlying surface is orange sand, the imprint of the seismic lines is still visible.<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[These marks are where seismic lines were shot. The surface is dark due to the abundant black rocks everywhere (see pics).<br />
+The rocks have been bulldozed out of the way so that the seismic vibrator trucks could better couple their pads to the earth's surface.<br />
+Since the underlying surface is orange sand, the imprint of the seismic lines is still visible.<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>11.91922200,26.08908600</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/1/4/14295-v1-micro/seismic-lines-in-libyan-desert.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="21144">
+                    <atom:author>
+                        <atom:name>mikeb9991 (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/primm-valley-golf-club-in-middle-of-desert/" />
+                    <name><![CDATA[Primm Valley Golf Club in middle of desert]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/primm-valley-golf-club-in-middle-of-desert/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/2/1/21144-v1/primm-valley-golf-club-in-middle-of-desert.jpg' alt='Primm Valley Golf Club in middle of desert' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/mikeb9991/' title='mikeb9991: Info'>mikeb9991</a>. <br />
+                <a data-mid='21144' class='map-link ' href='http://virtualglobetrotting.com/map/primm-valley-golf-club-in-middle-of-desert/' title='Primm Valley Golf Club in middle of desert'>Read more...</a> <br />
+                <br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-115.42236300,35.55331800</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/2/1/21144-v1-micro/primm-valley-golf-club-in-middle-of-desert.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="32235">
+                    <atom:author>
+                        <atom:name>boothy443 (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/valley-of-fire/" />
+                    <name><![CDATA[Valley of Fire]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/valley-of-fire/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/3/2/32235-v1/valley-of-fire.jpg' alt='Valley of Fire' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/boothy443/' title='boothy443: Info'>boothy443</a>. <br />
+                <a data-mid='32235' class='map-link ' href='http://virtualglobetrotting.com/map/valley-of-fire/' title='Valley of Fire'>Read more...</a> <br />
+                The valley derives its name from the red sandstone formations and the stark beauty of the Mojave Desert. Ancient trees and early man are represented throughout the park by areas of petrified wood and 3,000 year-old Native American petroglyphs.<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[The valley derives its name from the red sandstone formations and the stark beauty of the Mojave Desert. Ancient trees and early man are represented throughout the park by areas of petrified wood and 3,000 year-old Native American petroglyphs.<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-114.50273000,36.43354100</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/3/2/32235-v1-micro/valley-of-fire.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="12538">
+                    <atom:author>
+                        <atom:name>AKpilotEMT (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/ramlat-al-wahaybah/" />
+                    <name><![CDATA[Ramlat al Wahaybah]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/ramlat-al-wahaybah/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/1/2/12538-v1/ramlat-al-wahaybah.jpg' alt='Ramlat al Wahaybah' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/AKpilotEMT/' title='AKpilotEMT: Info'>AKpilotEMT</a>. <br />
+                <a data-mid='12538' class='map-link ' href='http://virtualglobetrotting.com/map/ramlat-al-wahaybah/' title='Ramlat al Wahaybah'>Read more...</a> <br />
+                Wahiba Sands<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Wahiba Sands<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>58.84826700,22.16197100</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/1/2/12538-v1-micro/ramlat-al-wahaybah.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="5251">
+                    <atom:author>
+                        <atom:name>kjfitz (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/street-layout-in-the-desert/" />
+                    <name><![CDATA[Street layout in the desert]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/street-layout-in-the-desert/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/5/2/5251-v1/street-layout-in-the-desert.jpg' alt='Street layout in the desert' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/kjfitz/' title='kjfitz: Info'>kjfitz</a>. <br />
+                <a data-mid='5251' class='map-link ' href='http://virtualglobetrotting.com/map/street-layout-in-the-desert/' title='Street layout in the desert'>Read more...</a> <br />
+                Switching over to maps mode shows these all listed as streets.<br />
+<br />
+Are these subdivisions that have never been developed?  If so they are in very obscure locations and probably don't have utilities.<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Switching over to maps mode shows these all listed as streets.<br />
+<br />
+Are these subdivisions that have never been developed?  If so they are in very obscure locations and probably don't have utilities.<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-117.00233500,35.19255600</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/5/2/5251-v1-micro/street-layout-in-the-desert.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="7702">
+                    <atom:author>
+                        <atom:name>noooby (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/fractals-and-grid/" />
+                    <name><![CDATA[Fractals and Grid]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/fractals-and-grid/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/7/7/7702-v1/fractals-and-grid.jpg' alt='Fractals and Grid' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/noooby/' title='noooby: Info'>noooby</a>. <br />
+                <a data-mid='7702' class='map-link ' href='http://virtualglobetrotting.com/map/fractals-and-grid/' title='Fractals and Grid'>Read more...</a> <br />
+                <br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>1.37329100,29.01834800</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/7/7/7702-v1-micro/fractals-and-grid.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="76938">
+                    <atom:author>
+                        <atom:name>kkeps (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/carcross-desert/" />
+                    <name><![CDATA[Carcross Desert]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/carcross-desert/'>
+                        <img border='0' src='http://c2.vgtstatic.com/thumbll/7/6/76938-v1/carcross-desert.jpg' alt='Carcross Desert' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/kkeps/' title='kkeps: Info'>kkeps</a>. <br />
+                <a data-mid='76938' class='map-link ' href='http://virtualglobetrotting.com/map/carcross-desert/' title='Carcross Desert'>Read more...</a> <br />
+                <br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-134.69770400,60.18775100</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c2.vgtstatic.com/thumbll/7/6/76938-v1-micro/carcross-desert.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="6555">
+                    <atom:author>
+                        <atom:name>focusfree (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/white-sands-national-monument/" />
+                    <name><![CDATA[White Sands National Monument]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/white-sands-national-monument/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/6/5/6555-v1/white-sands-national-monument.jpg' alt='White Sands National Monument' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/focusfree/' title='focusfree: Info'>focusfree</a>. <br />
+                <a data-mid='6555' class='map-link ' href='http://virtualglobetrotting.com/map/white-sands-national-monument/' title='White Sands National Monument'>Read more...</a> <br />
+                Lots and lots and lots of white sand.<br />
+Not the missle range but adjacent to it.<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Lots and lots and lots of white sand.<br />
+Not the missle range but adjacent to it.<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-106.26706100,32.81663700</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/6/5/6555-v1-micro/white-sands-national-monument.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="12038">
+                    <atom:author>
+                        <atom:name>kjfitz (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/sand-dollar-in-the-desert/" />
+                    <name><![CDATA[Sand dollar in the desert]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/sand-dollar-in-the-desert/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/1/2/12038-v1/sand-dollar-in-the-desert.jpg' alt='Sand dollar in the desert' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/kjfitz/' title='kjfitz: Info'>kjfitz</a>. <br />
+                <a data-mid='12038' class='map-link ' href='http://virtualglobetrotting.com/map/sand-dollar-in-the-desert/' title='Sand dollar in the desert'>Read more...</a> <br />
+                <br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>17.04855000,21.42334900</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/1/2/12038-v1-micro/sand-dollar-in-the-desert.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="23955">
+                    <atom:author>
+                        <atom:name>Pdunn (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/atvs-in-the-desert/" />
+                    <name><![CDATA[ATVs in the desert]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/atvs-in-the-desert/'>
+                        <img border='0' src='http://c2.vgtstatic.com/thumbll/2/3/23955-v1/atvs-in-the-desert.jpg' alt='ATVs in the desert' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/Pdunn/' title='Pdunn: Info'>Pdunn</a>. <br />
+                <a data-mid='23955' class='map-link ' href='http://virtualglobetrotting.com/map/atvs-in-the-desert/' title='ATVs in the desert'>Read more...</a> <br />
+                <br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-117.54818800,34.62420100</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c2.vgtstatic.com/thumbll/2/3/23955-v1-micro/atvs-in-the-desert.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="2058">
+                    <atom:author>
+                        <atom:name>dwfarmer (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/valley-of-the-sun/" />
+                    <name><![CDATA[Valley of the Sun]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/valley-of-the-sun/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/2/0/2058-v1/valley-of-the-sun.jpg' alt='Valley of the Sun' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/dwfarmer/' title='dwfarmer: Info'>dwfarmer</a>. <br />
+                <a data-mid='2058' class='map-link ' href='http://virtualglobetrotting.com/map/valley-of-the-sun/' title='Valley of the Sun'>Read more...</a> <br />
+                <br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-111.99462900,33.49456800</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/2/0/2058-v1-micro/valley-of-the-sun.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="115765">
+                    <atom:author>
+                        <atom:name>jbottero (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/black-rock-playa/" />
+                    <name><![CDATA[Black Rock Playa]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/black-rock-playa/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/1/1/115765-v1/black-rock-playa.jpg' alt='Black Rock Playa' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/jbottero/' title='jbottero: Info'>jbottero</a>. <br />
+                <a data-mid='115765' class='map-link ' href='http://virtualglobetrotting.com/map/black-rock-playa/' title='Black Rock Playa'>Read more...</a> <br />
+                Vehicle tracks in the Black Rock Playa, near where Burning Man is held.<br />
+<br />
+Burning Man:<br />
+<br />
+<a rel="nofollow" href="http://virtualglobetrotting.com/map/burning-man/">http://virtualglobetrotting.com/map/burning-man/</a><br />
+<br />
+What is a "playa"?<br />
+<br />
+<a rel="nofollow" href="http://en.wikipedia.org/wiki/Dry_lake">http://en.wikipedia.org/wiki/Dry_lake</a><br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Vehicle tracks in the Black Rock Playa, near where Burning Man is held.<br />
+<br />
+Burning Man:<br />
+<br />
+<a rel="nofollow" href="http://virtualglobetrotting.com/map/burning-man/">http://virtualglobetrotting.com/map/burning-man/</a><br />
+<br />
+What is a "playa"?<br />
+<br />
+<a rel="nofollow" href="http://en.wikipedia.org/wiki/Dry_lake">http://en.wikipedia.org/wiki/Dry_lake</a><br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-119.13183700,40.83813200</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/1/1/115765-v1-micro/black-rock-playa.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="7600">
+                    <atom:author>
+                        <atom:name>kjfitz (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/line-of-forts-in-chinese-desert/" />
+                    <name><![CDATA[Line of forts in Chinese desert]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/line-of-forts-in-chinese-desert/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/7/6/7600-v1/line-of-forts-in-chinese-desert.jpg' alt='Line of forts in Chinese desert' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/kjfitz/' title='kjfitz: Info'>kjfitz</a>. <br />
+                <a data-mid='7600' class='map-link ' href='http://virtualglobetrotting.com/map/line-of-forts-in-chinese-desert/' title='Line of forts in Chinese desert'>Read more...</a> <br />
+                "They were built around 1960's to 1970's, by Grand General Lin Biao, the chief of Chinese Millitary back then. The main purpose is to defend a possible Russian invasion. There are totally nine of them, each of which has adequate firearm and sufficient water supply. These constructions were abandoned in late 1970's and now some of them are developed into resorts."<br />
+[<a rel="nofollow" href="http://bbs.keyhole.com/ubb/showthreaded.php/Cat/0/Number/79793/page/vc/vc/1">changeup</a>]<br />
+<br />
+These half mile long moats each surround a 1000 foot long mound in the center.  There are moats <a rel="nofollow" href="http://maps.google.com/maps?ll=41.888094,100.560093&spn=0.029562,0.040443&t=k&hl=en">12 miles north</a> and one that seems to be overgrown <a rel="nofollow" href="http://maps.google.com/maps?ll=41.543533,100.399933&spn=0.029721,0.040443&t=k&hl=en">12 miles south</a>.<br />
+<br />
+A large spaceport is to the south where China launched it's first manned space mission.  The area to the west looks like China's version of Edwards AFB.<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA["They were built around 1960's to 1970's, by Grand General Lin Biao, the chief of Chinese Millitary back then. The main purpose is to defend a possible Russian invasion. There are totally nine of them, each of which has adequate firearm and sufficient water supply. These constructions were abandoned in late 1970's and now some of them are developed into resorts."<br />
+[<a rel="nofollow" href="http://bbs.keyhole.com/ubb/showthreaded.php/Cat/0/Number/79793/page/vc/vc/1">changeup</a>]<br />
+<br />
+These half mile long moats each surround a 1000 foot long mound in the center.  There are moats <a rel="nofollow" href="http://maps.google.com/maps?ll=41.888094,100.560093&spn=0.029562,0.040443&t=k&hl=en">12 miles north</a> and one that seems to be overgrown <a rel="nofollow" href="http://maps.google.com/maps?ll=41.543533,100.399933&spn=0.029721,0.040443&t=k&hl=en">12 miles south</a>.<br />
+<br />
+A large spaceport is to the south where China launched it's first manned space mission.  The area to the west looks like China's version of Edwards AFB.<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>100.45623800,41.72213100</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/7/6/7600-v1-micro/line-of-forts-in-chinese-desert.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="7394">
+                    <atom:author>
+                        <atom:name>bonjbrown (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/more-desert-golf/" />
+                    <name><![CDATA[More desert golf]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/more-desert-golf/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/7/3/7394-v1/more-desert-golf.jpg' alt='More desert golf' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/bonjbrown/' title='bonjbrown: Info'>bonjbrown</a>. <br />
+                <a data-mid='7394' class='map-link ' href='http://virtualglobetrotting.com/map/more-desert-golf/' title='More desert golf'>Read more...</a> <br />
+                <br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-102.06728000,32.04155000</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/7/3/7394-v1-micro/more-desert-golf.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="7701">
+                    <atom:author>
+                        <atom:name>noooby (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/nerve-network/" />
+                    <name><![CDATA[Nerve Network]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/nerve-network/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/7/7/7701-v1/nerve-network.jpg' alt='Nerve Network' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/noooby/' title='noooby: Info'>noooby</a>. <br />
+                <a data-mid='7701' class='map-link ' href='http://virtualglobetrotting.com/map/nerve-network/' title='Nerve Network'>Read more...</a> <br />
+                <br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>1.99161500,28.24965500</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/7/7/7701-v1-micro/nerve-network.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="2927">
+                    <atom:author>
+                        <atom:name>TexasAndroid (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/oil-well-fire/" />
+                    <name><![CDATA[Oil Well Fire]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/oil-well-fire/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/2/9/2927-v1/oil-well-fire.jpg' alt='Oil Well Fire' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/TexasAndroid/' title='TexasAndroid: Info'>TexasAndroid</a>. <br />
+                <a data-mid='2927' class='map-link ' href='http://virtualglobetrotting.com/map/oil-well-fire/' title='Oil Well Fire'>Read more...</a> <br />
+                <br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>22.44730000,27.67799400</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/2/9/2927-v1-micro/oil-well-fire.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="146487">
+                    <atom:author>
+                        <atom:name>Mike1989 (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/dantes-view/" />
+                    <name><![CDATA[Dante's View]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/dantes-view/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/1/4/146487-v1/dantes-view.jpg' alt='Dante&#039;s View' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/Mike1989/' title='Mike1989: Info'>Mike1989</a>. <br />
+                <a data-mid='146487' class='map-link ' href='http://virtualglobetrotting.com/map/dantes-view/' title='Dante&#039;s View'>Read more...</a> <br />
+                Dante's View is a viewpoint terrace at 1,669 m (5,475 feet) height, on the north side of Coffin Peak, along the crest of the Black Mountains, overlooking Death Valley. Dante's View is about 25 km (15 miles) south of Furnace Creek in Death Valley National Park.<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Dante's View is a viewpoint terrace at 1,669 m (5,475 feet) height, on the north side of Coffin Peak, along the crest of the Black Mountains, overlooking Death Valley. Dante's View is about 25 km (15 miles) south of Furnace Creek in Death Valley National Park.<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-116.72648900,36.22103700</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/1/4/146487-v1-micro/dantes-view.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="53499">
+                    <atom:author>
+                        <atom:name>adrbr (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/kebili-oasis/" />
+                    <name><![CDATA[Kebili Oasis]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/kebili-oasis/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/5/3/53499-v1/kebili-oasis.jpg' alt='Kebili Oasis' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/adrbr/' title='adrbr: Info'>adrbr</a>. <br />
+                <a data-mid='53499' class='map-link ' href='http://virtualglobetrotting.com/map/kebili-oasis/' title='Kebili Oasis'>Read more...</a> <br />
+                <br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>8.96647500,33.69103100</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/5/3/53499-v1-micro/kebili-oasis.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="7704">
+                    <atom:author>
+                        <atom:name>noooby (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/tendrils/" />
+                    <name><![CDATA[Tendrils]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/tendrils/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/7/7/7704-v1/tendrils.jpg' alt='Tendrils' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/noooby/' title='noooby: Info'>noooby</a>. <br />
+                <a data-mid='7704' class='map-link ' href='http://virtualglobetrotting.com/map/tendrils/' title='Tendrils'>Read more...</a> <br />
+                <br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>1.99264500,29.46740000</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/7/7/7704-v1-micro/tendrils.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="115015">
+                    <atom:author>
+                        <atom:name>kkeps (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/deadvlei/" />
+                    <name><![CDATA[Deadvlei]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/deadvlei/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/1/1/115015-v1/deadvlei.jpg' alt='Deadvlei' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/kkeps/' title='kkeps: Info'>kkeps</a>. <br />
+                <a data-mid='115015' class='map-link ' href='http://virtualglobetrotting.com/map/deadvlei/' title='Deadvlei'>Read more...</a> <br />
+                Deadvlei is a white clay pan located near the more famous salt pan of Sossusvlei, inside the Namib-Naukluft Park in Namibia. Also written DeadVlei or Dead Vlei, its name means "dead marsh" (from English dead, and Afrikaans vlei, a lake or marsh in a valley between the dunes).<br />
+<br />
+Dead Vlei is surrounded by the highest sand dunes in the world, the highest reaching 300-400 meters (350m on average, named "Big Daddy" or "Crazy Dune"), which rest on a sandstone terrace. The clay pan was formed after rainfall, when the Tsauchab river flooded, creating temporary shallow pools where the abundance of water allowed camel thorn trees to grow. When the climate changed, drought hit the area, and sand dunes encroached on the pan, which blocked the river from the area.<br />
+<br />
+The trees died, as there no longer was enough water to survive. There are some species of plants remaining, such as salsola and clumps of !nara, adapted to surviving off the morning mist and very rare rainfall. The remaining skeletons of the trees, which are believed to be about 900 years old, are now black because the intense sun has scorched them. Though not petrified, the wood does not decompose because it is so dry.<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Deadvlei is a white clay pan located near the more famous salt pan of Sossusvlei, inside the Namib-Naukluft Park in Namibia. Also written DeadVlei or Dead Vlei, its name means "dead marsh" (from English dead, and Afrikaans vlei, a lake or marsh in a valley between the dunes).<br />
+<br />
+Dead Vlei is surrounded by the highest sand dunes in the world, the highest reaching 300-400 meters (350m on average, named "Big Daddy" or "Crazy Dune"), which rest on a sandstone terrace. The clay pan was formed after rainfall, when the Tsauchab river flooded, creating temporary shallow pools where the abundance of water allowed camel thorn trees to grow. When the climate changed, drought hit the area, and sand dunes encroached on the pan, which blocked the river from the area.<br />
+<br />
+The trees died, as there no longer was enough water to survive. There are some species of plants remaining, such as salsola and clumps of !nara, adapted to surviving off the morning mist and very rare rainfall. The remaining skeletons of the trees, which are believed to be about 900 years old, are now black because the intense sun has scorched them. Though not petrified, the wood does not decompose because it is so dry.<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>15.29539300,-24.75918600</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/1/1/115015-v1-micro/deadvlei.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="7229">
+                    <atom:author>
+                        <atom:name>bonjbrown (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/neurons-no-playas/" />
+                    <name><![CDATA[Neurons? No, playas.]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/neurons-no-playas/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/7/2/7229-v1/neurons-no-playas.jpg' alt='Neurons? No, playas.' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/bonjbrown/' title='bonjbrown: Info'>bonjbrown</a>. <br />
+                <a data-mid='7229' class='map-link ' href='http://virtualglobetrotting.com/map/neurons-no-playas/' title='Neurons? No, playas.'>Read more...</a> <br />
+                These playas in West Texas look a bit like brain cells.<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[These playas in West Texas look a bit like brain cells.<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-102.14366900,32.13346600</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/7/2/7229-v1-micro/neurons-no-playas.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="152624">
+                    <atom:author>
+                        <atom:name>Fab (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/yueyaquan-crescent-lake/" />
+                    <name><![CDATA[Yueyaquan (Crescent Lake)]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/yueyaquan-crescent-lake/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/1/5/152624-v1/yueyaquan-crescent-lake.jpg' alt='Yueyaquan (Crescent Lake)' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/Fab/' title='Fab: Info'>Fab</a>. <br />
+                <a data-mid='152624' class='map-link ' href='http://virtualglobetrotting.com/map/yueyaquan-crescent-lake/' title='Yueyaquan (Crescent Lake)'>Read more...</a> <br />
+                <br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>94.66977400,40.08663300</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/1/5/152624-v1-micro/yueyaquan-crescent-lake.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="74124">
+                    <atom:author>
+                        <atom:name>adrbr (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/ischigualasto-talampaya-natural-parks/" />
+                    <name><![CDATA[Ischigualasto / Talampaya Natural Parks]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/ischigualasto-talampaya-natural-parks/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/7/4/74124-v1/ischigualasto-talampaya-natural-parks.jpg' alt='Ischigualasto / Talampaya Natural Parks' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/adrbr/' title='adrbr: Info'>adrbr</a>. <br />
+                <a data-mid='74124' class='map-link ' href='http://virtualglobetrotting.com/map/ischigualasto-talampaya-natural-parks/' title='Ischigualasto / Talampaya Natural Parks'>Read more...</a> <br />
+                <br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-67.97164200,-30.02047000</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/7/4/74124-v1-micro/ischigualasto-talampaya-natural-parks.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="185692">
+                    <atom:author>
+                        <atom:name>ossewa (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/dune-7/" />
+                    <name><![CDATA[Dune 7]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/dune-7/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/1/8/185692-v1/dune-7.jpg' alt='Dune 7' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/ossewa/' title='ossewa: Info'>ossewa</a>. <br />
+                <a data-mid='185692' class='map-link ' href='http://virtualglobetrotting.com/map/dune-7/' title='Dune 7'>Read more...</a> <br />
+                Dune 7 is situated along the central coast of Namibia, 10km outside the town of Walvis Bay, and is the highest sand dune in the coastal dune belt.<br />
+<br />
+The local municipality has planted palm trees and erected toilets and a braai area (barbeque sites) and fresh water is available. It is the only man-made oasis in the dune belt.<br />
+<br />
+The dune is approximately 130m high and activities include sandboarding, quad biking and climbing to the top of the dune.<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Dune 7 is situated along the central coast of Namibia, 10km outside the town of Walvis Bay, and is the highest sand dune in the coastal dune belt.<br />
+<br />
+The local municipality has planted palm trees and erected toilets and a braai area (barbeque sites) and fresh water is available. It is the only man-made oasis in the dune belt.<br />
+<br />
+The dune is approximately 130m high and activities include sandboarding, quad biking and climbing to the top of the dune.<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>14.59641000,-22.97032200</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/1/8/185692-v1-micro/dune-7.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="124080">
+                    <atom:author>
+                        <atom:name>jbottero (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/fun-in-the-sand/" />
+                    <name><![CDATA[Fun In The Sand]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/fun-in-the-sand/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/1/2/124080-v1/fun-in-the-sand.jpg' alt='Fun In The Sand' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/jbottero/' title='jbottero: Info'>jbottero</a>. <br />
+                <a data-mid='124080' class='map-link ' href='http://virtualglobetrotting.com/map/fun-in-the-sand/' title='Fun In The Sand'>Read more...</a> <br />
+                The El Mirage Off-Highway Vehicle (OHV) Area is located in the Mojave Desert on the western edge of San Bernardino County near the Los Angeles County Line. This Off-Highway vehicle area attracts a variety of Activities.<br />
+<br />
+Most visitors ride motorcycles,  ATVs, or tour in four-wheel drive vehicles. There is a road network in place so visitors may camp in most sections of El Mirage. This area is also used extensively for competitive racing events and commercial filming by permit.<br />
+<br />
+El Mirage's unique flat lakebed is a destination for many visitors. There is ultra-light and other aircraft activity that would not usually be found in other riding areas.<br />
+<br />
+There are several opportunities for hiking, rock scrambling, rock hounding, and wildlife watching. El Mirage has desert tortoises, a state and federally-listed threatened species.<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[The El Mirage Off-Highway Vehicle (OHV) Area is located in the Mojave Desert on the western edge of San Bernardino County near the Los Angeles County Line. This Off-Highway vehicle area attracts a variety of Activities.<br />
+<br />
+Most visitors ride motorcycles,  ATVs, or tour in four-wheel drive vehicles. There is a road network in place so visitors may camp in most sections of El Mirage. This area is also used extensively for competitive racing events and commercial filming by permit.<br />
+<br />
+El Mirage's unique flat lakebed is a destination for many visitors. There is ultra-light and other aircraft activity that would not usually be found in other riding areas.<br />
+<br />
+There are several opportunities for hiking, rock scrambling, rock hounding, and wildlife watching. El Mirage has desert tortoises, a state and federally-listed threatened species.<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-117.54402300,34.65242200</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/1/2/124080-v1-micro/fun-in-the-sand.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="191111">
+                    <atom:author>
+                        <atom:name>tallturtle82 (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/the-scorpions-pass/" />
+                    <name><![CDATA[The Scorpion's Pass]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/the-scorpions-pass/'>
+                        <img border='0' src='http://c2.vgtstatic.com/thumbll/1/9/191111-v1/the-scorpions-pass.jpg' alt='The Scorpion&#039;s Pass' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/tallturtle82/' title='tallturtle82: Info'>tallturtle82</a>. <br />
+                <a data-mid='191111' class='map-link ' href='http://virtualglobetrotting.com/map/the-scorpions-pass/' title='The Scorpion&#039;s Pass'>Read more...</a> <br />
+                The Scorpion's Pass is a steep and twisted section of Route 227 in the eastern Negev desert. The Romans built the road in the 1st century.<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[The Scorpion's Pass is a steep and twisted section of Route 227 in the eastern Negev desert. The Romans built the road in the 1st century.<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>35.13193383,30.90719481</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c2.vgtstatic.com/thumbll/1/9/191111-v1-micro/the-scorpions-pass.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="122600">
+                    <atom:author>
+                        <atom:name>kkeps (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/mapim-silent-zone/" />
+                    <name><![CDATA[Mapimí Silent Zone]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/mapim-silent-zone/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/1/2/122600-v1/mapim-silent-zone.jpg' alt='Mapim&iacute; Silent Zone' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/kkeps/' title='kkeps: Info'>kkeps</a>. <br />
+                <a data-mid='122600' class='map-link ' href='http://virtualglobetrotting.com/map/mapim-silent-zone/' title='Mapim&iacute; Silent Zone'>Read more...</a> <br />
+                The Mapimí Silent Zone (Spanish: La Zona del Silencio) is the popular name for a desert patch near the Bolsón de Mapimí in Mexico overlapping the Mapimí Biosphere Reserve that is the subject of an urban myth that claims it is an area where radio signals cannot be received.<br />
+<br />
+On July 11, 1970, an Athena missile launched from White Sands Missile Range lost control and fell in the region. The rocket was carrying two small containers of cobalt 57, a radioactive element. Immediately, a team of specialists arrived to find the fallen rocket. The aerial search lasted three weeks. Finally, when the rocket was found, a road was built to transport the wreckage, along with a small amount of contaminated top soil. As a result of the US Air Force recovery operations there, a number of myths and stories relating to the area arose, including "strange magnetic anomalies that prevent radio transmission", mutations of flora and fauna, and extraterrestrial visitations.<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[The Mapimí Silent Zone (Spanish: La Zona del Silencio) is the popular name for a desert patch near the Bolsón de Mapimí in Mexico overlapping the Mapimí Biosphere Reserve that is the subject of an urban myth that claims it is an area where radio signals cannot be received.<br />
+<br />
+On July 11, 1970, an Athena missile launched from White Sands Missile Range lost control and fell in the region. The rocket was carrying two small containers of cobalt 57, a radioactive element. Immediately, a team of specialists arrived to find the fallen rocket. The aerial search lasted three weeks. Finally, when the rocket was found, a road was built to transport the wreckage, along with a small amount of contaminated top soil. As a result of the US Air Force recovery operations there, a number of myths and stories relating to the area arose, including "strange magnetic anomalies that prevent radio transmission", mutations of flora and fauna, and extraterrestrial visitations.<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-103.74555600,26.69138900</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/1/2/122600-v1-micro/mapim-silent-zone.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="186901">
+                    <atom:author>
+                        <atom:name>daggerwell (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/wadi-al-hitan-whale-valley-1/" />
+                    <name><![CDATA[Wadi Al-Hitan ("Whale Valley")]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/wadi-al-hitan-whale-valley-1/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/1/8/186901-v1/wadi-al-hitan-whale-valley-1.jpg' alt='Wadi Al-Hitan (&quot;Whale Valley&quot;)' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/daggerwell/' title='daggerwell: Info'>daggerwell</a>. <br />
+                <a data-mid='186901' class='map-link ' href='http://virtualglobetrotting.com/map/wadi-al-hitan-whale-valley-1/' title='Wadi Al-Hitan (&quot;Whale Valley&quot;)'>Read more...</a> <br />
+                Wadi Al-Hitan (Arabic: وادي الحيتان&lrm;, &quot;Whale Valley&quot;) is a paleontological site in the Al Fayyum Governorate of Egypt, some 150 km southwest of Cairo. It was designated a UNESCO World Heritage Site in July 2005 for its hundreds of fossils of some of the earliest forms of whale, the archaeoceti (a now extinct sub-order of whales).<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Wadi Al-Hitan (Arabic: وادي الحيتان&lrm;, &quot;Whale Valley&quot;) is a paleontological site in the Al Fayyum Governorate of Egypt, some 150 km southwest of Cairo. It was designated a UNESCO World Heritage Site in July 2005 for its hundreds of fossils of some of the earliest forms of whale, the archaeoceti (a now extinct sub-order of whales).<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>30.04015100,29.27193100</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/1/8/186901-v1-micro/wadi-al-hitan-whale-valley-1.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="188946">
+                    <atom:author>
+                        <atom:name>tallturtle82 (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/words-cannot-express/" />
+                    <name><![CDATA[Words cannot express...]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/words-cannot-express/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/1/8/188946-v1/words-cannot-express.jpg' alt='Words cannot express...' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/tallturtle82/' title='tallturtle82: Info'>tallturtle82</a>. <br />
+                <a data-mid='188946' class='map-link ' href='http://virtualglobetrotting.com/map/words-cannot-express/' title='Words cannot express...'>Read more...</a> <br />
+                The night sky as seen in the Egyptian desert. Wow.<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[The night sky as seen in the Egyptian desert. Wow.<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>28.24413400,26.95193900</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/1/8/188946-v1-micro/words-cannot-express.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="188778">
+                    <atom:author>
+                        <atom:name>tallturtle82 (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/wadi-run-the-valley-of-the-moon/" />
+                    <name><![CDATA[Wadi Run - The Valley of the Moon]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/wadi-run-the-valley-of-the-moon/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/1/8/188778-v1/wadi-run-the-valley-of-the-moon.jpg' alt='Wadi Run - The Valley of the Moon' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/tallturtle82/' title='tallturtle82: Info'>tallturtle82</a>. <br />
+                <a data-mid='188778' class='map-link ' href='http://virtualglobetrotting.com/map/wadi-run-the-valley-of-the-moon/' title='Wadi Run - The Valley of the Moon'>Read more...</a> <br />
+                Wadi Run is the largest valley in Jordan and is 60 km or 37 miles east of Aqaba. The Valley has been inhabited since prehistoric times as evidenced by the rock paintings and temples. Wadi Rum is also associated with British officer T.E. Lawrence or Lawrence of Arabia. During the Arab Revolt of 1917-1918, Lawrence passed through several times. One of the rock formations is named after Lawrence's book, &quot;The Seven Pillars of Wisdom&quot;.<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Wadi Run is the largest valley in Jordan and is 60 km or 37 miles east of Aqaba. The Valley has been inhabited since prehistoric times as evidenced by the rock paintings and temples. Wadi Rum is also associated with British officer T.E. Lawrence or Lawrence of Arabia. During the Arab Revolt of 1917-1918, Lawrence passed through several times. One of the rock formations is named after Lawrence's book, &quot;The Seven Pillars of Wisdom&quot;.<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>35.41684900,29.55270600</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/1/8/188778-v1-micro/wadi-run-the-valley-of-the-moon.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="200707">
+                    <atom:author>
+                        <atom:name>tallturtle82 (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/white-sands-dunes/" />
+                    <name><![CDATA[White Sands dunes]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/white-sands-dunes/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/2/0/200707-v1/white-sands-dunes.jpg' alt='White Sands dunes' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/tallturtle82/' title='tallturtle82: Info'>tallturtle82</a>. <br />
+                <a data-mid='200707' class='map-link ' href='http://virtualglobetrotting.com/map/white-sands-dunes/' title='White Sands dunes'>Read more...</a> <br />
+                The white sand dunes are composed of gypsum crystals. The White Sands National Monument is the largest gypsum field in the world.<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[The white sand dunes are composed of gypsum crystals. The White Sands National Monument is the largest gypsum field in the world.<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-106.26183550,32.93231160</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/2/0/200707-v1-micro/white-sands-dunes.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="200905">
+                    <atom:author>
+                        <atom:name>kkeps (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/soggy-dry-lake/" />
+                    <name><![CDATA[Soggy Dry Lake]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/soggy-dry-lake/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/2/0/200905-v1/soggy-dry-lake.jpg' alt='Soggy Dry Lake' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/kkeps/' title='kkeps: Info'>kkeps</a>. <br />
+                <a data-mid='200905' class='map-link ' href='http://virtualglobetrotting.com/map/soggy-dry-lake/' title='Soggy Dry Lake'>Read more...</a> <br />
+                Where Frank dies in the Season 2 finale of &quot;True Detective&quot;<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Where Frank dies in the Season 2 finale of &quot;True Detective&quot;<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-116.69023930,34.45347630</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/2/0/200905-v1-micro/soggy-dry-lake.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="188997">
+                    <atom:author>
+                        <atom:name>tallturtle82 (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/erg-chebbi-moroccan-desert/" />
+                    <name><![CDATA[Erg Chebbi - Moroccan desert]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/erg-chebbi-moroccan-desert/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/1/8/188997-v1/moroccan-desert.jpg' alt='Erg Chebbi - Moroccan desert' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/tallturtle82/' title='tallturtle82: Info'>tallturtle82</a>. <br />
+                <a data-mid='188997' class='map-link ' href='http://virtualglobetrotting.com/map/erg-chebbi-moroccan-desert/' title='Erg Chebbi - Moroccan desert'>Read more...</a> <br />
+                Beautiful coloring. If you look to the right you can see the sun poking through the clouds making for another great photo oppurtunity.<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Beautiful coloring. If you look to the right you can see the sun poking through the clouds making for another great photo oppurtunity.<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-3.96068600,31.09727900</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/1/8/188997-v1-micro/moroccan-desert.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="188938">
+                    <atom:author>
+                        <atom:name>tallturtle82 (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/namibian-sunset/" />
+                    <name><![CDATA[Namibian sunset]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/namibian-sunset/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/1/8/188938-v1/namibian-sunset.jpg' alt='Namibian sunset' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/tallturtle82/' title='tallturtle82: Info'>tallturtle82</a>. <br />
+                <a data-mid='188938' class='map-link ' href='http://virtualglobetrotting.com/map/namibian-sunset/' title='Namibian sunset'>Read more...</a> <br />
+                <br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>14.42182000,-20.50515900</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/1/8/188938-v1-micro/namibian-sunset.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="194863">
+                    <atom:author>
+                        <atom:name>tallturtle82 (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/duwisib-castle-namib-desert/" />
+                    <name><![CDATA[Duwisib Castle - Namib Desert]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/duwisib-castle-namib-desert/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/1/9/194863-v1/duwisib-castle-namib-desert.jpg' alt='Duwisib Castle - Namib Desert' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/tallturtle82/' title='tallturtle82: Info'>tallturtle82</a>. <br />
+                <a data-mid='194863' class='map-link ' href='http://virtualglobetrotting.com/map/duwisib-castle-namib-desert/' title='Duwisib Castle - Namib Desert'>Read more...</a> <br />
+                The Duwisib Castle was built by Captain Hans Heinrich von Wolf and his wife, Jayta Humphreys in 1908. The materials were imported from Germany and stonemasons hired from Italy, Sweden and Ireland. The couple left the castle in 1914 while travelling in Europe and never returned as WWI broke out and the Captain died in battle.<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[The Duwisib Castle was built by Captain Hans Heinrich von Wolf and his wife, Jayta Humphreys in 1908. The materials were imported from Germany and stonemasons hired from Italy, Sweden and Ireland. The couple left the castle in 1914 while travelling in Europe and never returned as WWI broke out and the Captain died in battle.<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>16.54132600,-25.25740700</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/1/9/194863-v1-micro/duwisib-castle-namib-desert.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="189000">
+                    <atom:author>
+                        <atom:name>tallturtle82 (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/sahara-sun/" />
+                    <name><![CDATA[Sahara sun]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/sahara-sun/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/1/8/189000-v1/sahara-sun.jpg' alt='Sahara sun' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/tallturtle82/' title='tallturtle82: Info'>tallturtle82</a>. <br />
+                <a data-mid='189000' class='map-link ' href='http://virtualglobetrotting.com/map/sahara-sun/' title='Sahara sun'>Read more...</a> <br />
+                Looking out over the Sahara desert near the Algerian border.<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[Looking out over the Sahara desert near the Algerian border.<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-5.73078900,29.80249400</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/1/8/189000-v1-micro/sahara-sun.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="188998">
+                    <atom:author>
+                        <atom:name>tallturtle82 (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/sun-opening-erg-chebbi/" />
+                    <name><![CDATA[Sun opening - Erg Chebbi]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/sun-opening-erg-chebbi/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/1/8/188998-v1/sun-opening-erg-chebbi.jpg' alt='Sun opening - Erg Chebbi' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/tallturtle82/' title='tallturtle82: Info'>tallturtle82</a>. <br />
+                <a data-mid='188998' class='map-link ' href='http://virtualglobetrotting.com/map/sun-opening-erg-chebbi/' title='Sun opening - Erg Chebbi'>Read more...</a> <br />
+                The Erg Chebbi is one of two large seas of dunes in Morocco.<br /><br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[The Erg Chebbi is one of two large seas of dunes in Morocco.<br />]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>-3.96068600,31.09727900</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/1/8/188998-v1-micro/sun-opening-erg-chebbi.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark><Placemark id="199377">
+                    <atom:author>
+                        <atom:name>kkeps (VirtualGlobetrotting)</atom:name>
+                    </atom:author>
+                    <atom:link href="http://virtualglobetrotting.com/map/kubuqi-desert/" />
+                    <name><![CDATA[Kubuqi Desert]]></name>
+                    <description><![CDATA[ <div>
+                    <a href='http://virtualglobetrotting.com/map/kubuqi-desert/'>
+                        <img border='0' src='http://c1.vgtstatic.com/thumb/1/9/199377-v1/kubuqi-desert.jpg' alt='Kubuqi Desert' class='map-thumb' height='150' width='150'/>
+                    </a>
+                </div>
+                By: <a class='user-link' href='http://virtualglobetrotting.com/user/kkeps/' title='kkeps: Info'>kkeps</a>. <br />
+                <a data-mid='199377' class='map-link ' href='http://virtualglobetrotting.com/map/kubuqi-desert/' title='Kubuqi Desert'>Read more...</a> <br />
+                <br />
+                <br />]]></description>
+                    <Snippet maxLines="3"><![CDATA[]]></Snippet>
+                    <open>1</open>
+                    <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+                    <Point>
+                        <coordinates>108.50303600,40.60926100</coordinates>
+                    </Point>
+                    <Style>
+                        <IconStyle>
+                            <Icon>
+                                <href>http://c1.vgtstatic.com/thumb/1/9/199377-v1-micro/kubuqi-desert.jpg</href>
+                            </Icon>
+                        </IconStyle>
+                    </Style>
+                </Placemark>	</Document>
+</kml>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.2.0/styles/default.min.css">
+
+        <link rel="stylesheet" href="css/main.css">
+
+    </head>
+    <body>
+
+        <h3>Ruta para ir de la estación de Renfe a las oficinas de Paradigma a pie</h3>
+        
+        <div id="map_canvas"></div>
+        
+        <script>
+          function initMaps() {
+              var latlng = new google.maps.LatLng(40.445101807711424, -3.7862706184387203);
+              
+
+              var mapDiv3 = document.getElementById('map_canvas');
+                var myOptions3 ={
+                        center: latlng,
+                        zoom: 15
+                        };
+              var map3 = new google.maps.Map(mapDiv3, myOptions3);
+
+                map3.data.loadGeoJson('json/paradigma.renfe.route.geo.json');
+              
+                map3.data.setStyle({
+                  fillColor: '#E6152D',
+                  strokeColor: '#E6152D',
+                  strokeWeight: 2
+                });
+              
+          }
+        </script>
+        
+        
+        <script src="https://maps.googleapis.com/maps/api/js?callback=initMaps&key=AIzaSyCvK5VBQk4wRZ0CNircRSBZZsFjLL3J0Lo&signed_in=true" async defer></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.2.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+
+    </body>
+</html>

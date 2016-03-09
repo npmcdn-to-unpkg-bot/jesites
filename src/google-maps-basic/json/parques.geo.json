@@ -1,0 +1,148 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Monte del Pardo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.7902832031250004,
+          40.54198241319326
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Casa de Campo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.7552642822265625,
+          40.42421263753269
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Parque del Retiro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.683338165283203,
+          40.414933739888944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Parque de Enrique Tierno Galván"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.683338165283203,
+          40.390096592591206
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Parque Juan Carlos I"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.6043739318847656,
+          40.462360281827976
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Parque Felipe VI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.6344146728515625,
+          40.490826256468054
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Parque Quinta de los Molinos"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.62823486328125,
+          40.44420365793184
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Parque de Rodriguez Sahagun"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.7072849273681636,
+          40.47065322200484
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dehesa de la Villa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.7210178375244136,
+          40.458311387898355
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Parque Norte"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.6941528320312496,
+          40.48057728454737
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Parque de la Ventilla"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.6954832077026367,
+          40.47378729495824
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.2.0/styles/default.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+    </head>
+    <body>
+       <h3>Terremotos por densidad e intensidad (heatmap)</h3>
+                <div id="map_canvas_7"></div>    
+                
+                
+        
+        <script>
+            function initMaps() {
+
+                var mapOptions = {
+                  zoom: 2,
+                  center: {lat: 40.41140480914068, lng: -3.69140625},
+                  mapTypeId: google.maps.MapTypeId.TERRAIN
+                };
+
+                                
+                map7 = new google.maps.Map(document.getElementById('map_canvas_7'),mapOptions);
+                
+                // Create a <script> tag and set the USGS URL as the source.
+                var script = document.createElement('script');
+                script.src = 'http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_week.geojsonp';
+                document.getElementsByTagName('head')[0].appendChild(script);
+                
+            }
+
+            function eqfeed_callback(results) {
+                                  
+                //Build heatmap
+                var heatmapData = [];
+                for (var i = 0; i < results.features.length; i++) {
+                  var coords = results.features[i].geometry.coordinates;
+                  var latLng = new google.maps.LatLng(coords[1], coords[0]);
+                  var magnitude = results.features[i].properties.mag;
+                  var weightedLoc = {
+                    location: latLng,
+                    weight: Math.pow(2, magnitude)
+                  };
+                  heatmapData.push(weightedLoc);
+                }
+                var heatmap = new google.maps.visualization.HeatmapLayer({
+                  data: heatmapData,
+                  dissipating: false,
+                  map: map7
+                });                
+            }
+        
+
+        </script>        
+        
+        <script src="https://maps.googleapis.com/maps/api/js?callback=initMaps&key=AIzaSyCvK5VBQk4wRZ0CNircRSBZZsFjLL3J0Lo&signed_in=true&libraries=geometry,visualization" async defer></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.2.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+
+    </body>
+</html>
