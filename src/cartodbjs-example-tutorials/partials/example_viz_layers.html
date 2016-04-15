@@ -1,0 +1,61 @@
+<style type="cartocss/text" id="ns1314_styles">
+    /** choropleth visualization */
+
+    #schoolsgrades_ns1314{
+      marker-fill-opacity: 0.8;
+      marker-line-color: #FFF;
+      marker-line-width: 1;
+      marker-line-opacity: 1;
+      marker-width: 10;
+      marker-fill: #FFFFB2;
+      marker-allow-overlap: true;
+    }
+    #schoolsgrades_ns1314 [ ns1314 <= 8.05] {
+       marker-fill: #B10026;
+    }
+    #schoolsgrades_ns1314 [ ns1314 <= 7.08] {
+       marker-fill: #E31A1C;
+    }
+    #schoolsgrades_ns1314 [ ns1314 <= 6.7] {
+       marker-fill: #FC4E2A;
+    }
+    #schoolsgrades_ns1314 [ ns1314 <= 6.36] {
+       marker-fill: #FD8D3C;
+    }
+    #schoolsgrades_ns1314 [ ns1314 <= 6.01] {
+       marker-fill: #FEB24C;
+    }
+    #schoolsgrades_ns1314 [ ns1314 <= 5.68] {
+       marker-fill: #FED976;
+    }
+    #schoolsgrades_ns1314 [ ns1314 <= 5.15] {
+       marker-fill: #FFFFB2;
+    }
+
+</style>
+
+<div class="row" ng-controller='LayersExample1Controller' ng-init='load()'>
+        <div class="col-lg-12">
+            <h1 class="pull-left">Two Layers</h1>   
+            <a ng-click="toggleMenu()" class="btn btn-default pull-right" id="menu-toggle">Toggle Menu</a>
+        </div>
+    
+        <div class="col-lg-12">
+            <h4 class="pull-left">Layer controls</h4>
+            <div id="buttons" class="pull-right">
+                <button id="sublayer0" ng-click="showOnlyOneLayer('ns1314')" class="Btn Btn--l Btn--blue"><span>Notas Selectividad</span></button>
+                <button id="sublayer1" ng-click="showOnlyOneLayer('aps1314')" class="Btn Btn--l Btn--blue"><span>Aptos Selectividad</span></button>
+                <button id="sublayer2" ng-click="toggleLayer('distritos')" class="Btn Btn--l Btn--blue"><span>Toggle Distritos Madrid</span></button>
+                <!--            <button id="sublayer1" class="Btn Btn--l Btn--blue"><span>Toggle Colegios por notas</span></button>-->
+            </div>        
+        </div>    
+        <br/>
+        <br/>
+    
+        <div class="col-lg-12">
+            <div id="map"></div>            
+        </div>
+        
+    
+
+</div>

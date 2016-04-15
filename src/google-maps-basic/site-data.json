@@ -1,6 +1,6 @@
 {
-  "title": "Google Maps: Basic iframe",
-  "description" : "Example integrating your google map using an Iframe",
+  "title": "Google Maps Javascript API examples",
+  "description" : "Example integrating your google map using iframe and Javascript API",
   "tags": "Google Maps",
   "links": ["maps.google.com"]
 }

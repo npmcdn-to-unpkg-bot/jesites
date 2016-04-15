@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>CartoDB.js tutorial examples</title>
+
+    <link rel="shortcut icon" href="http://cartodb.com/assets/favicon.ico" />    
+    
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    
+    <!-- cartodb -->
+    <link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v3/3.15/themes/css/cartodb.css" />
+<!--    <link rel="stylesheet" href="http://academy.cartodb.com/css/cdbui.css" type="text/css" />-->
+    
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    
+</head>
+
+<body ng-app="cartodbApp">
+
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="#">
+                        CartoDB.js examples
+                    </a>
+                </li>
+                <li>
+                    <a ui-sref="example1">Example 1: Create Viz</a>
+                </li>
+                <li>
+                    <a ui-sref="example2">Example 2: Create Layer</a>
+                </li>
+                <li>
+                    <a ui-sref="example_viz_layers">Layers</a>
+                </li>
+                <li>
+                    <a ui-sref="example_cartocss_sql">CartoCSS Selector</a>
+                </li>
+                <li>
+                    <a ui-sref="example_sql_selector">SQL Selector</a>
+                </li>
+                <li>
+                    <a ui-sref="example_sql_selector_schools">SQL Selector: Schools</a>
+                </li>
+                <li>
+                    <a ui-sref="example_query_by_distance">Query by distance</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <div ui-view></div>    
+<!--                <div id="map"></div>-->
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0-rc.2/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.18/angular-ui-router.min.js"></script>
+    <script src="http://libs.cartocdn.com/cartodb.js/v3/3.15/cartodb.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/controllers/example1.controller.js"></script>
+    <script src="js/controllers/example2.controller.js"></script>
+    <script src="js/controllers/layers-example1.controller.js"></script>
+    <script src="js/controllers/css-selector.controller.js"></script>
+    <script src="js/controllers/sql-selector.controller.js"></script>
+    <script src="js/controllers/sql-selector-schools.controller.js"></script>
+    <script src="js/controllers/query-by-distance.controller.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+        $("#menu-toggle").click(function(e) {
+            e.preventDefault();
+            $("#wrapper").toggleClass("toggled");
+        });
+    </script>
+
+</body>
+
+</html>

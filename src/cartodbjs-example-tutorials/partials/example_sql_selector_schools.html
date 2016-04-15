@@ -1,0 +1,175 @@
+
+ <style type="cartocss/html" id="simple">
+      /** simple visualization */
+
+      #all_week{
+        marker-fill-opacity: 0.9;
+        marker-line-color: #FFF;
+        marker-line-width: 1;
+        marker-line-opacity: 1;
+        marker-placement: point;
+        marker-type: ellipse;
+        marker-width: 10;
+        marker-fill: #FF6600;
+        marker-allow-overlap: true;
+      }
+  </style>   
+
+<style type="cartocss/html" id="bubble-choropleth">
+/** bubble visualization */
+
+#all_week{
+  marker-fill-opacity: 0.9;
+  marker-line-color: #FFF;
+  marker-line-width: 1;
+  marker-line-opacity: 1;
+  marker-placement: point;
+  marker-multi-policy: largest;
+  marker-type: ellipse;
+  marker-fill: #FF5C00;
+  marker-allow-overlap: true;
+  marker-clip: false;
+}
+#all_week [ mag <= 6.3] {
+   marker-width: 25.0;
+}
+#all_week [ mag <= 3.3] {
+   marker-width: 23.3;
+}
+#all_week [ mag <= 2.425] {
+   marker-width: 21.7;
+}
+#all_week [ mag <= 2] {
+   marker-width: 20.0;
+}
+#all_week [ mag <= 1.665] {
+   marker-width: 18.3;
+}
+#all_week [ mag <= 1.38] {
+   marker-width: 16.7;
+}
+#all_week [ mag <= 1.085] {
+   marker-width: 15.0;
+}
+#all_week [ mag <= 0.8] {
+   marker-width: 13.3;
+}
+#all_week [ mag <= 0.515] {
+   marker-width: 11.7;
+}
+#all_week [ mag <= 0.21] {
+   marker-width: 10.0;
+}
+
+/** choropleth visualization */
+
+#all_week{
+  marker-fill-opacity: 0.8;
+  marker-line-color: #FFF;
+  marker-line-width: 1;
+  marker-line-opacity: 1;
+  marker-width: 10;
+  marker-fill: #FFFFB2;
+  marker-allow-overlap: true;
+}
+#all_week [ depth <= 551.97] {
+   marker-fill: #B10026;
+}
+#all_week [ depth <= 54.05] {
+   marker-fill: #E31A1C;
+}
+#all_week [ depth <= 19.006] {
+   marker-fill: #FC4E2A;
+}
+#all_week [ depth <= 11.17] {
+   marker-fill: #FD8D3C;
+}
+#all_week [ depth <= 6.42] {
+   marker-fill: #FEB24C;
+}
+#all_week [ depth <= 4.015] {
+   marker-fill: #FED976;
+}
+#all_week [ depth <= 2.01] {
+   marker-fill: #FFFFB2;
+}
+    </style>
+
+
+<style type="cartocss/html" id="categ-report-sta">
+    /** category visualization */
+
+    #all_week {
+       marker-fill-opacity: 0.9;
+       marker-line-color: #FFF;
+       marker-line-width: 1;
+       marker-line-opacity: 1;
+       marker-placement: point;
+       marker-type: ellipse;
+       marker-width: 10;
+       marker-allow-overlap: true;
+    }
+
+    #all_week[net="ak"] {
+       marker-fill: #A6CEE3;
+    }
+    #all_week[net="ci"] {
+       marker-fill: #1F78B4;
+    }
+    #all_week[net="hv"] {
+       marker-fill: #B2DF8A;
+    }
+    #all_week[net="mb"] {
+       marker-fill: #33A02C;
+    }
+    #all_week[net="nc"] {
+       marker-fill: #FB9A99;
+    }
+    #all_week[net="nn"] {
+       marker-fill: #E31A1C;
+    }
+    #all_week[net="pr"] {
+       marker-fill: #FDBF6F;
+    }
+    #all_week[net="us"] {
+       marker-fill: #FF7F00;
+    }
+    #all_week[net="uu"] {
+       marker-fill: #CAB2D6;
+    }
+    #all_week[net="uw"] {
+       marker-fill: #6A3D9A;
+    }
+    #all_week {
+       marker-fill: #DDDDDD;
+    }
+</style>
+
+
+<div class="row" ng-controller='SchoolsSqlSelectorController' ng-init='load()'>
+        <div id="mapHeader" class="col-lg-12 map-header">
+            <h1 class="pull-left">Edumap Layer Selector</h1>   
+            <a ng-click="toggleMenu()" class="btn btn-default pull-right" id="menu-toggle">Toggle Menu</a>
+        </div>
+    
+        <br/>
+        <br/> 
+    
+          <div id="mapContainer" class="col-lg-12 schools_map">
+            <div id="map"></div>     
+            <div id="sql" class="layer_selector schools_selector">
+              <p>Selecciona índice</p>
+              <ul>
+                <li data="aps1314" data-type="sql">
+                  Alumnos Aprobados Selectividad 
+                  <div><small>(*Curso 2013-2014)</small></div>
+                </li>
+                <li data="ns1314" data-type="sql">
+                  Notas Selectividad 
+                  <div><small>(*Curso 2013-2014)</small></div>
+                </li>
+                <li data="reset" data-type="sql">Reset map</li>
+              </ul>
+            </div>
+          </div>    
+</div>
