@@ -36,19 +36,20 @@ cartodbApp.config(function($stateProvider, $urlRouterProvider) {
       .state('example_sql_selector_schools', {
       url: "/example_sql_selector_schools",
       templateUrl: "partials/example_sql_selector_schools.html"
+    })
+      .state('example_torque', {
+      url: "/example_torque",
+      templateUrl: "partials/example_torque.html"
     });
-  
-  
-    
+
+
+
 });
 
 cartodbApp.run(['$rootScope',function($rootScope) {
-    
+
     $rootScope.toggleMenu = function() {
             $("#wrapper").toggleClass("toggled");
     };
-    
+
 }]);
-
-
-

@@ -1,20 +1,20 @@
 cartodbApp.controller('CartoSqlSelectorController' , function($scope) {
-    
+
     var tableName = "earthquakes_week";
-    
+
     // Instantiate new map object, place it in 'map' element
     var map_object = new L.Map('map', {
         center: [37.7741154,-122.4437914], // San Francisco
         zoom: 4
     });
-    
+
     $scope.load = function () {
 
         // Put layer data into a JS object
         var layerSource = {
-            user_name: 'jescacena', 
+            user_name: 'jescacena',
             type: 'cartodb',
-            sublayers: [{ 
+            sublayers: [{
               sql: "SELECT * FROM " + tableName, // All recorded earthquakes past 30 days
               cartocss: $("#simple").text() // Simple visualization
             }]
@@ -38,10 +38,10 @@ cartodbApp.controller('CartoSqlSelectorController' , function($scope) {
             })
             .error(function(err) {
               console.log("error: " + err);
-            });     
+            });
 
     };
-    
+
     // Create layer selector
     function createSelector(layer) {
       var condition = ""; // SQL or CartoCSS string
@@ -66,12 +66,12 @@ cartodbApp.controller('CartoSqlSelectorController' , function($scope) {
           }
 
           layer.setSQL("SELECT * FROM " + tableName + selected);
-            
+
             if (selected.indexOf('guinea') !== -1) {
               map_object.setView([-9.5, 147.116667],6);
             }
         }
       });
-    }   
-    
+    }
+
 });

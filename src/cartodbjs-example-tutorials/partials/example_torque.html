@@ -1,0 +1,46 @@
+<style type="cartocss/text" id="cartocss">
+  /** torque visualization */
+
+  Map {
+  -torque-frame-count:256;
+  -torque-animation-duration:30;
+  -torque-time-attribute:"event_date";
+  -torque-aggregation-function:"count(cartodb_id)";
+  -torque-resolution:2;
+  -torque-data-aggregation:linear;
+  }
+
+  #armed_conflic_africa_1997_2014{
+    comp-op: lighter;
+    marker-fill-opacity: 0.9;
+    marker-line-color: #FFF;
+    marker-line-width: 0;
+    marker-line-opacity: 1;
+    marker-type: ellipse;
+    marker-width: 6;
+    marker-fill: #0F3B82;
+  }
+  #armed_conflic_africa_1997_2014[frame-offset=1] {
+   marker-width:8;
+   marker-fill-opacity:0.45;
+  }
+  #armed_conflic_africa_1997_2014[frame-offset=2] {
+   marker-width:10;
+   marker-fill-opacity:0.225;
+  }
+</style>
+
+<div class="row" ng-controller='TorqueController' ng-init='load()'>
+        <div class="col-lg-12">
+            <h1 class="pull-left">Animated Temporal map</h1>
+            <h4 style="clear:both;">Armed conflicts in Africa, 1997-2014</h4>
+            <a ng-click="toggleMenu()" class="btn btn-default pull-right" id="menu-toggle">Toggle Menu</a>
+        </div>
+
+        <br/>
+
+        <div class="col-lg-12">
+            <div id="map"></div>
+        </div>
+
+</div>
