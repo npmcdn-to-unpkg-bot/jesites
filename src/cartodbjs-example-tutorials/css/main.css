@@ -47,19 +47,15 @@ html, body, #map {
 }
 .layer_selector li.sql_selected,
 .layer_selector li.cartocss_selected {
-    background-color: #A6CEE3;
+    /*background-color: #A6CEE3;*/
+    background-color: #ffffff;
 }
 
-//Schools styles
+/*//Schools styles*/
 .schools_map , .map-header {
   display:inline-block;
 }
 
-/*
-#mapContainer {
-  display:inline-block;
-}
-*/
 
 #mapHeader{
   display:inline-block;
@@ -69,4 +65,52 @@ html, body, #map {
 .schools_selector {
   width:auto;
 }
-           
+
+/*Villages styles*/
+.villages_map { position:relative;}
+.villages_map .title{
+  position: absolute;
+  z-index: 10000;
+  top: 70px;
+  left: 100px;
+  background-color: rgba(0, 0, 0, 0.701961);
+  padding: 10px;
+  font-style: italic;
+  font-size: 20px;
+  color: #ffffff;
+}
+.villages_map .title p{
+  margin:0;
+  padding:0;
+}
+.layer_selector.villages_selector {
+  background-color: rgba(255, 224, 102, 0.87);
+}
+.layer_selector.villages_selector ul {
+  position:relative;
+}
+.layer_selector li[data^="larger100k"]:before {
+    content: '';
+    position: absolute;
+    background-color: #FF6600;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    top: 19px;
+    left: 11px;
+}
+.layer_selector li[data="larger100k_women"]:before {
+  background-color: #A53ED5;
+  top:68px;
+}
+.layer_selector li[data="larger100k_men"]:before {
+  background-color: #5CA2D1;
+  top:134px;
+}
+
+.layer_selector li[data="reset"] {
+  text-align: center;
+}
+.layer_selector p {
+  text-align: center;
+}

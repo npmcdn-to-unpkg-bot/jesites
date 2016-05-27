@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        
+
         <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.2.0/styles/default.min.css">
 
         <link rel="stylesheet" href="css/main.css">
@@ -9,11 +9,11 @@
     </head>
     <body>
         <h3>Principales Zonas verdes de Madrid capital</h3>
-        
-            
+
+
         <div id="map_canvas_2"></div>
-        
-        
+
+
         <script>
           function initMaps() {
               var latlng = new google.maps.LatLng(40.44059460782266, -3.7860989570617676);
@@ -25,13 +25,13 @@
                         };
                 var map2 = new google.maps.Map(mapDiv2, myOptions2);
                 // NOTE: This uses cross-domain XHR, and may not work on older browsers.
-                map2.data.loadGeoJson('json/parques.geo.json');        
-              
-              
+                map2.data.loadGeoJson('https://api.myjson.com/bins/4f44y');
+
+
           }
         </script>
-        
-        
+
+
         <script src="https://maps.googleapis.com/maps/api/js?callback=initMaps&key=AIzaSyCvK5VBQk4wRZ0CNircRSBZZsFjLL3J0Lo&signed_in=true" async defer></script>
         <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.2.0/highlight.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script>

@@ -1,0 +1,33 @@
+<div class="row" ng-controller='VillagesSqlSelectorController' ng-init='load()'>
+        <div id="mapHeader" class="col-lg-12 map-header">
+            <h1 class="pull-left">Edumap Layer Selector</h1>
+            <a ng-click="toggleMenu()" class="btn btn-default pull-right" id="menu-toggle">Toggle Menu</a>
+        </div>
+
+        <br/>
+        <br/>
+
+          <div id="mapContainer" class="col-lg-12 villages_map">
+            <div id="title" class="title">
+            <p>Municipios españoles <br> con más de 100 mil habitantes</p>
+            </div>
+            <div id="map"></div>
+            <div id="sql" class="layer_selector villages_selector">
+              <p>Selecciona índice</p>
+              <ul>
+                <li data="larger100k" data-type="sql" class="sql_selected">
+                  Municipios > 100k habitantes
+                </li>
+                <li data="larger100k_women" data-type="sql">
+                  Filtro municipios con mayoría de mujeres
+                </li>
+                <li data="larger100k_men" data-type="sql">
+                  Filtro municipios con mayoría de hombres
+                </li>
+                <li data="reset" data-type="sql">
+                  <button>Reset map</button>
+                </li>
+              </ul>
+            </div>
+          </div>
+</div>

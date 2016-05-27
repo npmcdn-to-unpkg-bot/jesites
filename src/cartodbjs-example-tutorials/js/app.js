@@ -37,7 +37,11 @@ cartodbApp.config(function($stateProvider, $urlRouterProvider) {
       url: "/example_sql_selector_schools",
       templateUrl: "partials/example_sql_selector_schools.html"
     })
-      .state('example_torque', {
+    .state('example_sql_selector_villages', {
+      url: "/example_sql_selector_villages",
+      templateUrl: "partials/example_sql_selector_villages.html"
+    })
+    .state('example_torque', {
       url: "/example_torque",
       templateUrl: "partials/example_torque.html"
     });
