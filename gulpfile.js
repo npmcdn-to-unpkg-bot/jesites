@@ -62,15 +62,36 @@ function buildHtmlTagList(tagList) {
     }
 
     return result;
-}    
+}
+
+/**
+Return json string
+*/
+function buildJSONList(list) {
+  var result = [];
+
+  for (var i = 0, len = list.length; i < len; i++) {
+
+      try {
+          var siteDataJSON = fs.readFileSync("./src/"+list[i]+'/site-data.json' , "utf8");
+          siteDataJSON = JSON.parse(siteDataJSON);
+          result.push(siteDataJSON);
+      } catch (e) {
+        // Here you get the error when the file was not found,
+        // but you also get any other error
+      }
+  }
+
+  return JSON.stringify(result);
+}
 
 function buildHtmlList(list) {
-    
+
     var result = "<ul class='accordion' data-accordion>\n";
     var siteDataJSON = '';
 
     for (var i = 0, len = list.length; i < len; i++) {
-        
+
         try {
             siteDataJSON = fs.readFileSync("./src/"+list[i]+'/site-data.json' , "utf8");
 
@@ -89,7 +110,7 @@ function buildHtmlList(list) {
           // Here you get the error when the file was not found,
           // but you also get any other error
         }
-            
+
     }
 
     result += "</ul>\n";
@@ -97,8 +118,17 @@ function buildHtmlList(list) {
     return result;
 }
 
+gulp.task('generate-json-catalog', function(cb) {
+  var folders = getFolders('src');
+  console.log("Generating catalog.json" , folders);
+  var jsonList = buildJSONList(folders);
+
+  return fs.writeFile('catalog.json', jsonList, cb);
+
+});
+
 // Read site projects and build index.html.tpl
-gulp.task('generate-catalog', function(cb) {
+gulp.task('generate-html-catalog', function(cb) {
     var folders = getFolders('src');
     console.log("Generating index.html.tpl for catalog" , folders);
 

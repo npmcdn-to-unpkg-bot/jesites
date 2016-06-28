@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JESAMPLES</title>
+  <link href='https://fonts.googleapis.com/css?family=Quicksand:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/main.css" />
+
+</head>
+<body>
+
+  <header>
+    <h1>JESamples</h1>
+  </header>
+
+  <div class="container">
+    <nav>
+      <ul>
+        <li>HTML5</li>
+        <li>JS</li>
+        <li>AngularJS</li>
+        <li>NodeJS</li>
+      </ul>
+    </nav>
+
+    <main>
+      <div class="sample-card">
+        <table border="1">
+          <tr>
+            <td colspan="2" class="title-item">
+              <h4>UDEMY : Projects in HTML5</h4>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2" class="description-item">
+              <h4>Example using Canvas in HTML5</h4>
+            </td>
+          </tr>
+          <tr>
+            <td><h4>Links</h4></td>
+            <td class="links-item">
+                <ul>
+                  <li>http://yoga.com</li>
+                </ul>
+            </td>
+          </tr>
+          <tr>
+            <td><h4>Tags</h4></td>
+            <td class="tags-item">
+              <ul>
+                <li>HTML5</li>
+              </ul>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </main>
+  </div>
+
+  <footer>
+    <ul>
+      <li>©JES</li>
+    </ul>
+  </footer>
+
+  <div class="overlay">
+    <img src="img/loader.gif">
+    <br>
+    loading samples...
+  </div>
+
+  <script src="js/vendor/jquery.js"></script>
+
+  <script>
+    //TODO read catalog.json
+    $.ajax({
+      method: "GET",
+      url: "catalog.json",
+      dataType: "json"
+    }).done(function(data) {
+      console.log("JES-->" , data);
+      $('.overlay').hide();
+    });
+
+  </script>
+</body>
+</html>

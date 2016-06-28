@@ -4,7 +4,8 @@
 * [Live catalog](http://jesidea.com/jesites)
 
 ## GULP tags
-* gulp generate-catalog
+* gulp generate-html-catalog
+* gulp generate-json-catalog
 * gulp deploy:site
 * gulp deploy:src
 
