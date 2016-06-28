@@ -44,6 +44,10 @@ cartodbApp.config(function($stateProvider, $urlRouterProvider) {
     .state('example_torque', {
       url: "/example_torque",
       templateUrl: "partials/example_torque.html"
+    })
+    .state('example_driving_directions', {
+      url: "/example_driving_directions",
+      templateUrl: "partials/example_driving_directions.html"
     });
 
 

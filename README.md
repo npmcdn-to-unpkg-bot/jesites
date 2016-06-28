@@ -11,3 +11,6 @@
 
 ### Gulp dependencies
 * https://github.com/morris/vinyl-ftp
+
+### TODOs
+* A new web interface , loading sites from catalog.json∫
