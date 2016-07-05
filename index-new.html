@@ -69,15 +69,47 @@
   </div>
 
   <script src="js/vendor/jquery.js"></script>
+  <script src="js/vendor/lodash.min.js"></script>
 
   <script>
-    //TODO read catalog.json
+
+    var getAllTagsFromSiteData= function(siteDataArray) {
+      var result = _.reduce(siteDataArray, function(result, siteData) {
+                                      if(siteData.tags) {
+                                        var tags = (typeof siteData.tags == "string" )?
+                                                  siteData.tags.split(",") :
+                                                  siteData.tags;
+                                        result = result.concat(tags);
+                                      }
+                                      return result;
+                                    }, []);
+
+        //Trim
+        result = _.map(result, function(value) {
+          return _.trim(value);
+        });
+
+        return _.uniq(result);;
+    };
+
+
+    //read catalog.json
     $.ajax({
       method: "GET",
       url: "catalog.json",
       dataType: "json"
     }).done(function(data) {
-      console.log("JES-->" , data);
+      console.log("data-->" , data);
+
+      //append all tags as left menu options
+      var getAllTags = getAllTagsFromSiteData(data);
+      console.log("getAllTags -->" , getAllTags);
+      var leftMenuDomObj = $('nav ul');
+      leftMenuDomObj.empty();
+      _.forEach(getAllTags , function(tag) {
+        leftMenuDomObj.append("<li>"+tag+"</li>");
+      });
+
       $('.overlay').hide();
     });
 
