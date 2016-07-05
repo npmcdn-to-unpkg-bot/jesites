@@ -13,4 +13,5 @@
 * https://github.com/morris/vinyl-ftp
 
 ### TODOs
-* A new web interface , loading sites from catalog.json∫
+* A new web interface , loading sites from catalog.json.
+Put some buttons for filter by tags, animated cool transitions

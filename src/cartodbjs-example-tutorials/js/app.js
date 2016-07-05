@@ -48,6 +48,10 @@ cartodbApp.config(function($stateProvider, $urlRouterProvider) {
     .state('example_driving_directions', {
       url: "/example_driving_directions",
       templateUrl: "partials/example_driving_directions.html"
+    })
+    .state('example_forward_geocoding', {
+      url: "/example_forward_geocoding",
+      templateUrl: "partials/forward_geocoding.html"
     });
 
 

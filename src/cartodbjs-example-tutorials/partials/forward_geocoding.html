@@ -1,0 +1,96 @@
+
+<style type="cartocss/text" id="geocode_css">
+  /** choropleth visualization */
+
+  #schoolsgrades_ns1314{
+    marker-fill-opacity: 0.8;
+    marker-line-color: #FFF;
+    marker-line-width: 1;
+    marker-line-opacity: 1;
+    marker-width: 10;
+    marker-fill: #FFFFB2;
+    marker-allow-overlap: true;
+  }
+  #schoolsgrades_ns1314 [ ns1314 <= 7.41] {
+     marker-fill: #B10026;
+  }
+  #schoolsgrades_ns1314 [ ns1314 <= 7.04] {
+     marker-fill: #E31A1C;
+  }
+  #schoolsgrades_ns1314 [ ns1314 <= 6.73] {
+     marker-fill: #FC4E2A;
+  }
+  #schoolsgrades_ns1314 [ ns1314 <= 6.51] {
+     marker-fill: #FD8D3C;
+  }
+  #schoolsgrades_ns1314 [ ns1314 <= 6.28] {
+     marker-fill: #FEB24C;
+  }
+  #schoolsgrades_ns1314 [ ns1314 <= 6.11] {
+     marker-fill: #FED976;
+  }
+  #schoolsgrades_ns1314 [ ns1314 <= 5.95] {
+     marker-fill: #FFFFB2;
+  }
+</style>
+
+</script>
+<div ng-controller='ForwardGeocodingController' ng-init='load()'>
+        <div class="row">
+          <div class="col-lg-12">
+              <h1 class="pull-left">Forward Geocoding</h1>
+              <a ng-click="toggleMenu()" class="btn btn-default pull-right" id="menu-toggle">Toggle Menu</a>
+          </div>
+        </div>
+
+        <div class="row">
+            <div class="panel text-center col-lg-6">
+            <form>
+              <div class="input-group">
+                <span class="input-group-addon" id="basic-addon1">Type any address</span>
+                <input type="text" ng-model="address" name="address" id="address" class="form-control" aria-describedby="basic-addon1">
+                <span class="input-group-btn">
+                  <button class="btn btn-default" type="button" ng-click="geocode()">Go!</button>
+                </span>
+              </div>
+            </form>
+          </div>
+
+          <div class="panel text-center col-lg-6">
+            <button
+              type="button"
+              class="btn btn-primary btn"
+              ng-show="lat&&lon"
+              ng-click="getNearest()">Buscas escuelas en 5km</button>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12">
+            <div id="map" style="border:1px solid #efefef;"></div>
+          </div>
+        </div>
+
+        <div id="popupAddress">
+          <p>{{address}}</p>
+          <div class="text-center">
+            <p><small>[{{lat}},{{lon}}]</small></p>
+            <button
+              type="button"
+              class="btn btn-primary btn"
+              ng-show="lat&&lon"
+              ng-click="getNearest()">Buscas escuelas en 5km</button>
+          </div>
+        </div>
+</div>
+
+
+<script type="infowindow/html" id="infowindow_hover_template">
+  <div class="cartodb-tooltip-content-wrapper">
+     <div class="content" style="padding:20px">
+       <h5><i class="fa fa-graduation-cap" aria-hidden="true"></i>{{nombre}}</h5>
+       <div class="note" style="display:none;">{{nota}}</div>
+       <div class="more-info"><small>*click for more info*</small></div>
+     </div>
+  </div>
+</script>
