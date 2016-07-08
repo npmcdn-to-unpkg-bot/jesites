@@ -75,6 +75,7 @@ function buildJSONList(list) {
       try {
           var siteDataJSON = fs.readFileSync("./src/"+list[i]+'/site-data.json' , "utf8");
           siteDataJSON = JSON.parse(siteDataJSON);
+          siteDataJSON.folder=list[i];
           result.push(siteDataJSON);
       } catch (e) {
         // Here you get the error when the file was not found,

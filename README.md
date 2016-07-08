@@ -14,4 +14,6 @@
 
 ### TODOs
 * A new web interface , loading sites from catalog.json.
-Put some buttons for filter by tags, animated cool transitions
+* Put some buttons for filter by tags, animated cool transitions
+* Make it responsive for tablets and mobiles
+* Transition to animate adding item list one by one

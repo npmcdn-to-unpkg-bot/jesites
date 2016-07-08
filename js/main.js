@@ -19,11 +19,19 @@ var getAllTagsFromSiteData= function() {
     return _.uniq(result);
 };
 
+var buildLinks = function(linksData, siteCardElement) {
+  for(var i=0; i<linksData.length;i++) {
+    $('#links', siteCardElement).empty();
+    $('#links', siteCardElement).append("<li><a href='"+linksData[i]+"'>"+linksData[i]+"</a></li>");
+  }
+};
+
 var buildSiteCardElement = function(siteData) {
     var sitecardHtml = $('#site-card').text();
     var siteCardElement = $(sitecardHtml);
-    $('#title', siteCardElement).html(siteData.title);
+    $('#title', siteCardElement).html("<a href='src/"+siteData.folder+"' target='_blank'>"+siteData.title+"</a>");
     $('#description', siteCardElement).html(siteData.description);
+    buildLinks(siteData.links , siteCardElement);
     return siteCardElement[0];
 };
 
