@@ -79,7 +79,7 @@ nav {
   height:100%;
   background-color: #ffffff;
   color:#fff;
-	/*border-right: 1px solid #cdcdcd;*/
+	border-right: 1px solid #cdcdcd;
 	padding:10px;
   /*width:30%;*/
 }
@@ -96,7 +96,6 @@ nav {
 		width:100%;
 		display:block;
 		padding:5px;
-		text-decoration: none;
 	}
 	nav a.selected {
 		background-color: #7993D4;
@@ -107,8 +106,6 @@ nav {
 main {
   width:70%;
   display: inline-block;
-	border-left: 1px solid #cdcdcd;
-	min-height: 1500px;
 }
 
 main .sitelist {
@@ -127,9 +124,6 @@ main .sample-card {
     border: 1px solid #cdcdcd;
     width: 100%;
   }
-  main .sample-card a {
-		text-decoration: none;
-	}
   main .sample-card td {
     padding:10px;
   }
@@ -185,7 +179,7 @@ footer {
   }
 
   main .sample-card {
-    width:90%;
+    width:91%;
   }
 
 	.kk { display: block;}

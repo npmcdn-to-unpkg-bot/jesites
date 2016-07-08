@@ -23,10 +23,15 @@
   ],
   "dependencies": {},
   "devDependencies": {
+    "browser-sync": "^2.13.0",
     "fs": "0.0.2",
+    "gulp-batch": "^1.0.5",
     "gulp-connect": "^3.1.0",
+    "gulp-connect-php": "0.0.7",
+    "gulp-livereload": "^3.8.1",
     "gulp-prompt": "^0.1.2",
     "gulp-util": "^3.0.7",
+    "gulp-watch": "^4.3.8",
     "path": "^0.12.7",
     "vinyl-ftp": "^0.4.5"
   }

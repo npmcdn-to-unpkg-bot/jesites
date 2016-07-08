@@ -1,16 +1,12 @@
 var gulp = require('gulp');
 var ftp = require('vinyl-ftp');
-// var connect = require('gulp-connect');
-var connect = require('gulp-connect-php');
+var connect = require('gulp-connect');
 var prompt = require('gulp-prompt');
 var gutil = require('gulp-util');
 var fs = require('fs');
 var path = require('path');
 var watch = require('gulp-watch');
 var livereload = require('gulp-livereload');
-var batch = require('gulp-batch');
-var browserSync = require('browser-sync');
-
 
 function getFolders(dir) {
     return fs.readdirSync(dir)
@@ -125,20 +121,6 @@ function buildHtmlList(list) {
     return result;
 }
 
-
-gulp.task('connect', function() {
-  connect.server({
-    root: './',
-    port:8888,
-    livereload: true
-  });
-});
-
-gulp.task('php', function () {
-  gulp.src('./*.php')
-    .pipe(connect.reload());
-});
-
 gulp.task('generate-json-catalog', function(cb) {
   var folders = getFolders('src');
   console.log("Generating catalog.json" , folders);
@@ -230,31 +212,10 @@ gulp.task('reload', function() {
 });
 
 gulp.task('watch', function () {
-  gulp.watch(['./*.php'], ['php']);
-});
-
-// gulp.task('watch', function () {
-// 	// Endless stream mode
-//     livereload({ start: true });
-//     livereload.listen();
-//
-//     watch([,'*.html','*.php','**/*.js', '**/*.css','./includes/*.inc'], batch(function (events, done) {
-//         gulp.start('reload', done);
-//     }));
-//     // return watch(['./*.html','./css/*.css','./js/*.js'], { ignoreInitial: false })
-//     //     .pipe(gulp.dest('reload'));
-// });
-gulp.task('connect-sync', function() {
-  connect.server({}, function (){
-    browserSync({
-      proxy: '127.0.01:8000',
-    });
-  });
-
-  gulp.watch(['**/*.php','**/*.css','**/*.js','**/*.inc']).on('change', function () {
-    browserSync.reload();
-  });
+	// Endless stream mode
+    return watch(['./*.html','./css/*.css','./js/*.js'], { ignoreInitial: false })
+        .pipe(gulp.dest('reload'));
 });
 
 // The default task (called when you run `gulp` from cli)
-gulp.task('default', ['connect','watch']);
+gulp.task('default', ['watch']);
