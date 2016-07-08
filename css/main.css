@@ -76,9 +76,11 @@ header {
 nav {
   float:left;
   height:100%;
-  background-color: #cdcdcd;
+  background-color: #ffffff;
   color:#fff;
-  width:30%;
+	border-right: 1px solid #cdcdcd;
+	padding:10px;
+  /*width:30%;*/
 }
 
   nav ul {
@@ -89,16 +91,32 @@ nav {
     padding: 10px;
   }
 
+	nav a {
+		width:100%;
+		display:block;
+		padding:5px;
+	}
+	nav a.selected {
+		background-color: #7993D4;
+		color:#ffffff;
+	}
+
 /* main */
 main {
   width:70%;
   display: inline-block;
 }
 
+main .sitelist {
+	perspective: 100px;
+}
+
 main .sample-card {
   margin:0 auto;
   width:70%;
   margin-top:10px;
+	opacity: 0;
+	transition: all 0.7s ease-out;
 }
 
   main .sample-card table {
@@ -111,6 +129,10 @@ main .sample-card {
   main .sample-card td.title-item {
     background-color: #ececec;
   }
+
+	main .sample-card.show {
+		opacity: 1;
+	}
 
 /* footer */
 footer {
