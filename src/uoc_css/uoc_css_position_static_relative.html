@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge, chrome=1">
+  <title>Posicionamiento estático y relativo con CSS</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <link rel="stylesheet" href="stylesheets/screen.css"> -->
+
+  <style>
+  @import 'https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,400i,700,700i|Kalam:300';
+  </style>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <header>
+    <h1>Posicionamiento estático y relativo con CSS</h1>
+    <div class="reference">
+      [
+      <!-- <i class="fa fa-info-circle" aria-hidden="true"></i> -->
+      <a href="http://mosaic.uoc.edu/ac/le/es/m6/ud10/index.html" target="_blank">Source: UOC HTML&CSS Course</a>
+      ]
+    </div>
+  </header>
+
+  <main>
+  <section>
+      <div class="content">
+          <p>
+            En este apartado explicaremos con exhaustividad el modo como se puede utilizar CSS para
+          posicionar elementos HTML en el lugar deseado de una página con la propiedad position (posicionar) de CSS y algunas propiedades relacionadas.
+          </p>
+
+          <p>La propiedad position de CSS tiene cuatro valores lícitos (aparte del omnipresente inherit):
+            <strong>static (estático), relative (relativo), absolute (absoluto)
+            y fixed (fijo)</strong>. Estos valores tienen un impacto muy importante sobre la manera en que se representa un elemento. Los valores static y relative están muy relacionados,
+            y en este apartado los estudiaremos con gran detalle. Los valores absolute y fixed también están muy relacionados, pero de momento los dejaremos para el próximo apartado.
+          </p>
+
+      </div>
+    <!-- <article>
+        <div class="ptitle">
+          <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+          Los elementos posicionados absolutamente se eliminan completamente del flujo del documento
+        </div>
+        <div class="pcontent">
+        <p>
+          Esto significa que <strong>no tienen ningún efecto sobre su elemento padre ni sobre los elementos que aparecen después de ellos </strong>en el código fuente.
+        Por lo tanto un elemento posicionado absolutamente se superpondrá sobre otros contenidos a no ser que se tome alguna medida para evitarlo. En ocasiones,
+        por supuesto , esta superposición es exactamente lo que queremos, pero deberemos ser conscientes de ello para asegurarnos que obtenemos la composicion que queremos
+        </p>
+       </div>
+    </article>
+
+    <article>
+        <div class="ptitle">
+          <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+          Los elementos con posicionamiento fijo están fijos en relación con la ventana o viewport del navegador en vez de estarlo en relación
+          con el elemento continente
+        </div>
+        <div class="pcontent">
+        <p>
+          incluso si se desplaza la página, se mantiene exactamente en la misma posición en la ventana del navegador
+        </p>
+       </div>
+    </article> -->
+  </section>
+
+  <section>
+    <h2> El maravilloso mundo de los rectángulos</h2>
+    <p>Para empezar, recapitularemos un poco todo lo que hemos dicho en el apartado anterior,
+      dedicado a los elementos flotantes y al clearing, sobre el CSS y las cajas HTML.
+      Un documento HTML consiste en un número de elementos salpicados con datos de caracteres (texto).
+       Cuando un documento de este tipo se reproduce en una pantalla de ordenador o en una copia
+       impresa, <strong>estos elementos generan cajas rectangulares</strong>. De la misma manera que un conjunto
+       de elementos HTML se divide en elementos de bloque y elementos en línea, <strong>las cajas CSS también
+       pueden ser básicamente cajas de bloque o cajas en línea</strong>. </p>
+
+    <p class="important">Por defecto, la hoja de estilos del
+    agente de usuario integrado de un navegador hace que los elementos HTML de bloque, como p y div,
+     generen cajas de bloque, mientras que los elementos en línea, como strong y span, generan
+     cajas en línea. Podemos utilizar la <strong>propiedad display</strong> para controlar el tipo de caja que se
+     generará.</p>
+
+     <p>Las cajas generadas por los elementos de un documento se disponen según una serie de
+        normas claramente definidas según la <strong>especificación CSS2.1</strong>. Estas reglas están escritas para
+         las relativamente escasas personas que escriben software para navegadores con el fin de
+          que puedan saber cómo funciona el CSS, pero no para aquéllos de nosotros que diseñamos
+           páginas web para ganarnos la vida o como afición. ¡Por ello existe todo este curso! Como
+            resultado, la especificación puede ser un tanto difícil de entender. En este apartado, intentaremos
+             explicar los conceptos básicos de una manera que resulte apropiada para los diseñadores y
+             desarrolladores de webs.
+</p>
+  </section>
+
+  <section>
+    <h2>  Posicionamiento estático</h2>
+    <p>De hecho, este nombre no es nada adecuado. En realidad, los cuadros con
+      position:static no se "posicionan" en el sentido del CSS. Simplemente <strong>se disponen
+      en el orden en el que aparecen en el etiquetado y ocupan todo el espacio que necesitan</strong>;
+      éste es el <strong>comportamiento por defecto </strong> que se da cuando no se aplica ningún CSS al HTML.
+    </p>
+
+    <p>Existen algunas diferencias fundamentales en la manera como se distribuyen las
+      cajas de bloque en comparación con la distribución de las cajas en línea; por tanto,
+      examinaremos los dos tipos uno a uno. Empezaremos con las cajas de bloque porque son
+      más sencillas.</p>
+
+    <h3>Disposición de cajas de bloque</h3>
+
+    <p class="important">Si no aplicamos ninguna declaración CSS concreta, las cajas de bloque se disponen verticalmente
+       de arriba abajo en el orden en el que aparecen en el etiquetado. </p>
+    <p><strong>Cada caja es normalmente
+       tan ancha como el documento (el elemento body)</strong>, pero incluso si las hacemos más estrechas,
+        éstas no se distribuirán una al lado de la otra aunque haya espacio, sino que se seguirán
+         situando la una bajo la otra. Podéis imaginároslo como si cada caja de bloque tuviera un
+          salto de línea implícito antes y después, ya que así se garantiza que tendrá una "línea"
+           propia.</p>
+     <p><strong>La distancia vertical entre dos cajas de bloque se controla con la propiedad
+       margin-bottom (margen-inferior) de la primera caja y la propiedad margin-top
+       (margen-superior) de la segunda caja</strong> (en este curso ya hemos visto cómo manipular
+       estas propiedades). Para las cajas del flujo normal, es decir, las cajas que no son
+       flotantes o que no tienen un posicionamiento absoluto, los márgenes verticales entre
+       dos cajas de bloque adyacentes se superpondrán, de manera que el resultado final no
+       será la suma de los dos márgenes, sino el <strong>mayor de los dos</strong>, tal como se puede ver en
+       la figura 1 que se muestra más adelante.
+
+     <p>Mirad el siguiente fragmento de HTML:</p>
+
+     <div class="sample">
+        <xmp class="code">
+          <p style="margin-bottom:40px">This paragraph has a 40px bottom margin.</p>
+
+          <p style="margin-top:20px">This paragraph has a 20px top margin.</p>
+         </xmp>
+       <div class="result">
+         <p style="margin-bottom:40px">This paragraph has a 40px bottom margin.</p>
+         <p style="margin-top:20px">This paragraph has a 20px top margin.</p>
+       </div>
+     </div>
+
+     <p>Se impone el margen de 40px sobre el de 20px</p>
+
+     <p>Una caja de bloque incluirá sólo otras cajas de bloque o sólo cajas en línea.
+        Si un elemento de bloque contiene una mezcla de hijos de bloque y en línea
+        (algo permitido pero semánticamente cuestionable), se generará lo que se conoce
+         como cajas de bloque anónimas para incluir las cajas hijas insertadas, de manera
+          que la madre contenga sólo cajas de bloque.
+    </p>
+    <p class="important">
+      Podéis especificar las dimensiones de una caja de bloque con las propiedades width
+      (anchura) y height (altura). También podéis especificar los márgenes vertical y horizontal.
+       El valor inicial (por defecto) para width y height es auto, y el valor inicial para
+       las propiedades de margen es 0. Estos factores combinados significan que una caja
+       de bloque será por defecto tan ancha como su madre, como muestra la figura 2.
+    </p>
+
+
+    <h3>Disposición de cajas en línea</h3>
+
+    <p>
+      Las cajas en línea se generan por defecto a partir de los elementos HTML en línea,
+      pero también hay cajas en línea anónimas generadas para incluir el contenido de texto
+      de los elementos.
+    </p>
+
+    <p class="important">
+      Las cajas en línea se distribuyen horizontalmente, una después de otra, en el orden
+      en el que aparecen en el etiquetado.
+    </p>
+    <p> Según la <strong>propiedad direction</strong>, los cuadros insertados
+       se distribuirán de izquierda a derecha (<code>direction:ltr</code>) o de derecha a izquierda
+       (direction:rtl). La dirección de izquierda a derecha se utiliza, por ejemplo, con los
+       idiomas europeos, mientras que la de derecha a izquierda se utiliza con idiomas como el
+       árabe y el hebreo
+    </p>
+
+    <p>
+      El grupo de cajas en línea que forman una línea en la pantalla (o en el papel) está
+      contenido en otro rectángulo más, que se conoce como <strong>caja de línea</strong>. Las cajas de línea
+       <strong>se distribuyen verticalmente en su bloque madre</strong>, sin ningún espacio entre ellas.
+       Podemos modificar la altura de las cajas de línea con la propiedad line-height.
+    </p>
+
+    <p class="important">
+      Para las cajas en línea no podemos especificar ninguna dimensión.
+       Podemos especificar los márgenes horizontales, pero no los verticales.
+    </p>
+
+    <p>
+      Si es necesario, <strong>una caja en línea se puede dividir en varias cajas en línea distribuidas
+       por dos o más cajas de línea</strong>. Cuando se produce una división de este tipo, todos los márgenes
+        horizontales y separaciones, y todos los bordes verticales, se aplicarán sólo antes de
+         la primera caja y después de la última caja. Imaginémonos un documento con la regla siguiente para los elementos em:
+    </p>
+
+    <div class="sample">
+       <xmp class="code">
+         <p style="width:200px; margin:0 auto;">
+
+           See how <em style="margin:0 1em;border: 1px dotted blue;">an inline box may be split
+             over two or more
+             line boxes</em> if necessary
+
+         </p>
+        </xmp>
+      <div class="result">
+        <p style="width:200px; margin:0 auto;">See how <em style="margin:0 1em;border: 1px dotted blue;"> an inline box may be split over two or more line boxes</em> if necessary</p>
+      </div>
+    </div>
+
+    <p>
+      <strong>La alineación vertical de las cajas en línea dentro de la caja de línea que
+      las contiene está determinada por la propiedad vertical-align (alineación-vertical).</strong>
+      El valor por defecto es baseline, lo que significa que las cajas en línea se alinean
+      de manera que sus líneas base de texto quedan alineadas. La línea base es la línea
+      imaginaria sobre la que se sitúan las letras sin astas descendentes. Esta línea
+      se sitúa un poco por encima de la parte inferior de la caja de línea para dejar espacio
+       para las astas ascendentes de las letras en minúsculas, tal como muestra la figura 4.
+    </p>
+
+    <div class="imagen">
+      <img src="images/76510_m6_94.gif" alt="Les letras se sitúan sobre la línea base imaginaria.">
+      <p>Figura 4. Las letras se sitúan sobre la línea base imaginaria. </p>
+   </div>
+
+   <p>
+     Observad que la propiedad vertical-align se aplica sólo a las cajas en línea y
+     a las celdas de tabla, y no se hereda. La figura 5 muestra algunas imágenes pequeñas
+     con diferentes alineaciones verticales.
+   </p>
+
+   <div class="imagen">
+    <img src="images/76510_m6_95.gif" alt="Imágenes situadas con los valores de la propiedad vertical-align de CSS">
+    <p>Figura 5. Las imágenes situadas con los valores de la propiedad <code>vertical-align</code> del CSS</p>
+  </div>
+
+  <p class="important">
+    Cuando la anchura total de las cajas en línea en una caja de línea es inferior
+    a la anchura de la caja de línea en sí, la alineación vertical se controla con
+    la propiedad <strong>text-align</strong>.
+  </p>
+
+  <p>
+  Con <strong>text-align:justify</strong> (alinear texto: justificar) se inserta un espacio adicional
+  entre las cajas en línea, si es necesario, para alinear el contenido a la izquierda y a
+  la derecha. Esta propiedad se aplica a las cajas de bloque, a las celdas de tablas y
+  a los bloques en línea, y se hereda. La figura 6 muestra el resultado de aplicar valores
+  diferentes de la propiedad text-align al texto que hay en el interior de las celdas de una tabla.
+  </p>
+
+  </section>
+
+  <section>
+    <h2>Posicionamiento relativo</h2>
+
+    <p>
+      El posicionamiento relativo es un sistema de posicionamiento de CSS, pero está más
+      relacionado con el "posicionamiento" estático que con sus primos-hermanos:
+      el posicionamiento absoluto y el fijo.
+    </p>
+    <p class="important">
+      Un elemento con <strong>position:relative</strong> se coloca en principio igual que cualquier elemento estático;
+      de bloque o insertado. Pero entonces sucede algo muy interesante: la caja generada se
+      desplaza según las propiedades top, bottom, left y right.
+    </p>
+    <p>
+    Lo que hay que recordar sobre el posicionamiento relativo es que <strong>sólo
+    se desplaza la caja generada. El elemento sigue estando allí donde estaba
+    en el flujo del documento estático. Aquí es donde "ocupa espacio" respecto
+    a los otros elementos.</strong> Eso significa que la caja desplazada puede acabar
+    encima de otras cajas de elementos, ya que éstas siguen actuando como si
+    el elemento con un posicionamiento relativo se hubiera quedado donde debía
+    estar antes de aplicar el posicionamiento. Respecto al flujo del documento,
+    el elemento no se ha movido; es sólo el resultado visual final lo que muestra
+    la caja desplazada. Veamos cómo funciona en la práctica.
+    </p>
+
+    <p>Ponemos un span con un color verde de fondo dentro de un párrafo:</p>
+    <p data-height="265" data-theme-id="0" data-slug-hash="YWBwjo" data-default-tab="html,result" data-user="jescacena" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/jescacena/pen/YWBwjo/">position relative example 1</a> by F.J. ESCACENA SÁNCHEZ (<a href="http://codepen.io/jescacena">@jescacena</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+
+    <p></p>
+    <p>Ahora aplicamos a ese span un position:relative:</p>
+    <p data-height="265" data-theme-id="0" data-slug-hash="akXdaa" data-default-tab="html,result" data-user="jescacena" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/jescacena/pen/akXdaa/">position relative example 2</a> by F.J. ESCACENA SÁNCHEZ (<a href="http://codepen.io/jescacena">@jescacena</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+
+  <p>
+    La caja se aleja del borde especificado; por lo tanto, top:1em desplaza el cuadro
+    1 em desde la posición superior, es decir, hacia abajo. Los números negativos desplazan
+    el cuadro en la dirección opuesta y, por lo tanto, <strong>bottom:-1em es lo mismo que top:1em</strong>.
+  </p>
+
+  <p>El ejemplo que hemos visto explica el posicionamiento relativo, pero no parece muy útil,
+    ¿verdad? Así pues, ¿para qué sirve el posicionamiento relativo? Echemos un vistazo a
+    un ejemplo más complicado.
+  </p>
+
+  <h3>Disposición de múltiples columnas con requisitos de orden en el código fuente</h3>
+  <p>Hay un tipo de composición que es muy habitual en las páginas web. Incluye un encabezamiento,
+    que normalmente contiene algún logotipo o insignia, bajo la que hay dos o más "columnas"
+    una al lado de la otra. Al final suele haber un pie de página que ocupa toda la anchura,
+    quizá con el aviso de copyright o la información de contacto. La figura 7 muestra un
+    ejemplo de este tipo de composición.
+  </p>
+
+  <div class="imagen">
+  <img src="images/76510_m6_97.gif" alt="Composición de múltiples columnas con encabezamiento y pie">
+  <p>Figura 7. Una composición típica con múltiples columnas entre un encabezamiento y un pie de página</p>
+  </div>
+
+  <p>En la Edad Oscura (la década de 1990), <strong>este tipo de distribución se solía crear con tablas.
+    Esto es un uso inadecuado del etiquetado del HTML para finalidades presentacionales</strong>,
+    nada aconsejable; por lo tanto, en este curso no lo enseñaremos. CSS ofrece maneras de
+    conseguir esto mismo con display:table-cell y similares, pero esta solución tiene
+    un inconveniente importante: no hay ninguna versión de Internet Explorer que lo acepte,
+    de modo que tampoco la veremos. Sólo nos quedan dos opciones: los elementos flotantes y
+    el posicionamiento absoluto. Estos dos métodos tienen ventajas e inconvenientes, pero si
+    queréis un pie de página que ocupe toda la anchura y no sabéis de entrada qué columna
+    será la más larga, entonces necesitaréis los elementos flotantes para garantizar
+    la integridad del diseño.
+  </p>
+
+  <p>
+  El problema de los elementos flotantes es que sólo se desplazan hacia la derecha o
+  la izquierda hasta que tocan el borde del bloque padre u otro elemento flotante.
+  Esto quiere decir que las columnas flotantes deben aparecer en el orden correcto en el etiquetado.
+   Pero algunas veces se quiere tener un orden presentacional diferente del orden del código
+   fuente. Quizá os interese que el contenido aparezca antes de la navegación, por ejemplo,
+    con el fin de mejorar la usabilidad de la navegación con el teclado y la optimización
+     en motores de búsqueda. Esto se puede conseguir, incluso con elementos flotantes,
+     haciendo un buen uso de los márgenes negativos y el posicionamiento relativo;
+     veamos cómo hacerlo. Empezaremos con un documento HTML que nos servirá de base
+     para ir trabajando.
+  </p>
+
+  <p data-height="265" data-theme-id="0" data-slug-hash="QEYyog" data-default-tab="html,result" data-user="jescacena" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/jescacena/pen/QEYyog/">position relative example 3</a> by F.J. ESCACENA SÁNCHEZ (<a href="http://codepen.io/jescacena">@jescacena</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+
+<p>
+  Imaginaos que el departamento de diseño ha especificado que la navegación debe ir a
+  la izquierda, la barra lateral a la derecha y el contenido principal en la columna de
+  en medio. El encabezamiento y el pie de página deben ocupar toda la anchura de la página,
+  pero no sabemos cuál de las tres columnas será la más larga. El orden del código fuente
+  viene determinado por los expertos en accesibilidad y usabilidad y no es negociable.
+  ¿Cómo se pueden combinar todos estos requisitos para conseguir una composición que funcione?
+</p>
+
+<p>Para que funcione, deberéis añadir un elemento adicional al etiquetado.
+  Es inevitable, pero un elemento adicional es algo que no os debería preocupar demasiado.
+  Necesitaréis un elemento que envuelva las tres "columnas".
+</p>
+
+<div class="sample">
+   <xmp class="code">
+     <div id="header">Header</div>
+       <div id="wrapper">
+          <div id="main">Main content</div>
+          <div id="sidebar">Sidebar</div>
+          <div id="nav">Navigation</div>
+       </div>
+    <div id="footer">Footer</div>
+   </xmp>
+</div>
+
+<p>Los diseñadores (que, por suerte, son conscientes de la accesibilidad y de la
+  independencia de dispositivo) han estipulado que la navegación debe tener una
+  anchura de 12 em y la barra lateral, de 14 em. La columna con el contenido principal
+  debe tener una anchura fluida, de manera que la composición se adapte a diferentes
+  tamaños de ventanas, ya que las composiciones con una anchura fija no son demasiado
+  fáciles de utilizar por el usuario. Para evitar que las líneas de texto sean demasiado
+  largas y dificulten la legibilidad, deberéis limitar la composición a una anchura máxima.
+  Para evitar el solapamiento en ventanas sumamente estrechas, también deberéis limitar
+  la composición a una anchura mínima. Dentro de estas limitaciones, la composición se debe
+  centrar horizontalmente en la ventana del navegador.
+</p>
+
+<p>A continuación, asignad las anchuras a la navegación y a la barra lateral y definid
+  las limitaciones de anchura y el centrado general añadiendo las reglas siguientes
+  al final del archivo CSS:</p>
+
+  <div class="sample">
+     <xmp class="code">
+       body{
+          margin: 0 auto;
+          min-width: 40em;
+          max-width: 56em;
+       }
+       #sidebar {
+          width: 13em;
+          padding: 0 0.5em;
+          background-color: #ff6;
+       }
+       #nav {
+          width: 11em;
+          padding: 0 0.5em;
+          background-color: #ddd;
+       }
+     </xmp>
+  </div>
+
+  <p>Si observáis el código con atención, veréis que las anchuras están fijadas en
+    13 em y 11 em en lugar de 14 em y 12 em. Esto es así porque necesitamos
+    un poco de separación horizontal; no queremos que el contenido de estas columnas
+    toque los bordes, ya que no queda demasiado bien. La separación se añade a la anchura,
+    con lo cual 13 em + 0,5 em + 0,5 em suman un total de 14 em, que es lo que queremos.
+  </p>
+
+  <p data-height="265" data-theme-id="0" data-slug-hash="AXNEkg" data-default-tab="css,result" data-user="jescacena" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/jescacena/pen/AXNEkg/">position relative example 4</a> by F.J. ESCACENA SÁNCHEZ (<a href="http://codepen.io/jescacena">@jescacena</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+
+  <p>Con este código se hacen flotar las columnas, sí, pero no se muestran en el
+    orden correcto. Además, la columna del contenido principal es demasiado estrecha.
+    ¿Y qué ha pasado con el pie de página?
+  </p>
+
+  <p>En primer lugar, nos encargaremos del pie de página. El problema es que hemos
+    hecho flotar las tres columnas, con lo que han quedado fuera del flujo del documento.
+    El pie de página queda justo debajo del encabezamiento y la caja de línea que contiene
+    el texto se ha acortado, de manera que la palabra "Footer" aparece a la derecha de
+    los elementos flotantes. Podemos solucionarlo haciendo que el pie de página esté a
+    una cierta distancia de todas las columnas flotantes. Añadid la regla siguiente a
+    vuestro archivo CSS:
+  </p>
+
+
+
+<div class="sample">
+   <xmp class="code">
+     #footer {
+      clear: left;
+      border-top: 1px solid #369;
+      }
+   </xmp>
+</div>
+
+<p data-height="265" data-theme-id="0" data-slug-hash="GqzkKo" data-default-tab="css,result" data-user="jescacena" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/jescacena/pen/GqzkKo/">position relative example 5</a> by F.J. ESCACENA SÁNCHEZ (<a href="http://codepen.io/jescacena">@jescacena</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+
+<p>Y ahora nos dedicaremos a las tres columnas.
+  Lo haremos paso a paso, y durante un momento todo tendrá un aspecto horrible; pero no os desesperéis
+   porque al final todo acabará bien.
+</p>
+
+<p>La clave es el elemento de envoltorio. Definiremos unos márgenes izquierdo y
+  derecho que se correspondan con las anchuras de las columnas laterales
+  (la navegación y la barra lateral). La columna del contenido principal ocupará
+  toda la anchura del envoltorio y las columnas laterales se desplazarán hacia el
+  espacio que dejan vacío los márgenes. ¿Suena complicado? No os preocupéis,
+  lo iremos haciendo poco a poco. En primer lugar definiremos los márgenes
+  del envoltorio añadiendo la regla siguiente al archivo CSS:</p>
+
+  <div class="sample">
+     <xmp class="code">
+       #wrapper {
+          margin: 0 14em 0 12em;
+          padding: 0 1em;
+       }
+     </xmp>
+  </div>
+
+  <p>Definimos los márgenes superior e inferior a 0, el margen derecho en 14 em (para la
+    barra lateral) y el margen izquierdo en 12 em (para la navegación). También hemos
+    añadido 1 em de separación horizontal porque no queremos que el contenido
+    toque las columnas laterales, ya que debe respirar.
+  </p>
+
+  <p>El siguiente paso es hacer que la columna del contenido principal ocupe
+    toda la anchura de su elemento envoltorio padre; el código también define
+    un color de fondo chillón para esta columna, temporalmente:</p>
+
+    <div class="sample">
+       <xmp class="code">
+         #main {
+          float: left;
+          width: 100%;
+          background-color: lime;
+        }
+       </xmp>
+    </div>
+
+    <p data-height="265" data-theme-id="0" data-slug-hash="PzVNoG" data-default-tab="css,result" data-user="jescacena" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/jescacena/pen/PzVNoG/">position relative example 5</a> by F.J. ESCACENA SÁNCHEZ (<a href="http://codepen.io/jescacena">@jescacena</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+    <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+
+    <p>Lo que debemos hacer ahora es conseguir que nuestras columnas laterales
+      se desplacen hacia este espacio en blanco.</p>
+
+    <p>De momento, nos dedicaremos a la barra lateral, que es flotante y ya tiene la
+      anchura correcta, pero como la columna #main tiene una anchura del 100% la barra
+       lateral se desplaza hacia abajo. ¿Cómo podemos hacer que suba y se coloque
+       al lado de #main teniendo en cuenta que #main ocupa toda la anchura? Lo haremos
+       en dos pasos: en primer lugar, la moveremos hacia arriba y, después,
+       la desplazaremos hacia el margen.
+    </p>
+
+    <p>Para conseguir que la barra lateral flotante, que se ha desplazado hacia abajo,
+      vuelva a ir hacia arriba, utilizaremos un truco muy ingenioso. Añadid lo siguiente
+      a la regla #sidebar:
+    </p>
+
+    <div class="sample">
+       <xmp class="code">
+         #sidebar {
+            float: left;
+            width: 13em;
+            padding: 0 0.5em;
+            background-color:  #ff6;
+            margin-left:  -14em;
+         }
+       </xmp>
+    </div>
+
+    <p data-height="265" data-theme-id="0" data-slug-hash="zBZqGy" data-default-tab="css,result" data-user="jescacena" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/jescacena/pen/zBZqGy/">position relative example 6</a> by F.J. ESCACENA SÁNCHEZ (<a href="http://codepen.io/jescacena">@jescacena</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+
+<p>Con un margen izquierdo negativo igual a la anchura de la barra lateral,
+  estamos moviendo el elemento hacia el interior del envoltorio y ya no se
+  desplaza hacia abajo. El problema es que queda sobre el contenido.</p>
+
+<p>Deberéis desplazarla hacia el margen sin que vuelva a ir hacia abajo,
+  y aquí es donde entra en juego finalmente el posicionamiento relativo.
+  Éste hace precisamente lo que queremos: desplaza la caja generada
+  sin mover el elemento en sí. Añadid las propiedades destacadas del código
+  siguiente a la regla para #sidebar:</p>
+
+  <div class="sample">
+     <xmp class="code">
+       #sidebar {
+          float: left;
+          width: 13em;
+          padding: 0 0.5em;
+          background-color: #ff6;
+          /*margin-left: -14em;*/
+          position: relative;
+          left: 15em;
+       }
+     </xmp>
+  </div>
+
+  <p data-height="265" data-theme-id="0" data-slug-hash="BzrKjW" data-default-tab="css,result" data-user="jescacena" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/jescacena/pen/BzrKjW/">position relative example 7</a> by F.J. ESCACENA SÁNCHEZ (<a href="http://codepen.io/jescacena">@jescacena</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+
+<p>Hacemos lo mismo para la columna de navigation:</p>
+
+<div class="sample">
+   <xmp class="code">
+     #nav {
+        float: left;
+        width: 11em;
+        padding: 0 0.5em;
+        background-color: #ddd;
+        margin-left: -100%;
+        position: relative;
+        right: 13em;
+     }
+   </xmp>
+</div>
+
+
+<p data-height="265" data-theme-id="0" data-slug-hash="GqzNoq" data-default-tab="result" data-user="jescacena" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/jescacena/pen/GqzNoq/">position relative example 8</a> by F.J. ESCACENA SÁNCHEZ (<a href="http://codepen.io/jescacena">@jescacena</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+
+<h3>Otros usos del posicionamiento relativo</h3>
+
+<p>El uso más habitual del posicionamiento relativo no implica desplazar la caja generada.
+  Esto puede sonar extraño: ¿por qué deberíais utilizar el posicionamiento relativo sin desplazar la caja?
+  Explicaremos esta razón en el apartado siguiente porque también tiene que ver con el posicionamiento absoluto.
+  Así pues, deberéis esperar un poco.
+</p>
+<p>Definir position:relative (sin desplazar la caja) también puede ser útil con algunos problemas de
+  representación extraños de Internet Explorer. Activa la famosa propiedad interna hasLayout, que tiene un
+  impacto muy importante en la representación que hace Internet Explorer de los elementos.
+</p>
+
+</section>
+
+<section>
+  <h2>Resumen</h2>
+<p>El posicionamiento estático es la manera por defecto de hacer las cosas. Las cajas de bloque se
+  distribuyen verticalmente según el orden en el que aparecen en el código fuente, mientras que las
+  cajas en línea se distribuyen horizontalmente en cajas en línea dentro de estas cajas de bloque.
+</p>
+
+<p><strong>El posicionamiento relativo permite desplazar la caja generada en una o dos dimensiones. El elemento sigue
+  ocupando espacio como si fuera estático, pero la caja generada se puede desplazar a otra posición.</strong>
+</p>
+<p class="important">El posicionamiento relativo se utiliza principalmente en combinación con elementos flotantes para crear
+  composiciones en las que el orden de la presentación es diferente del orden del código fuente.
+</p>
+</section>
+
+<section>
+  <h2>Preguntas de repaso</h2>
+
+  <p>1.¿Qué sucede cuando dos márgenes adyacentes de un contexto de formato estático se superponen y uno o ambos márgenes son negativos?</p>
+
+  <p>2.Añadid un borde vertical entre cada una de las columnas laterales y la columna del contenido principal.
+    Recordad que las tres columnas son flotantes, con lo cual la altura del elemento de envoltorio ha pasado a ser cero.</p>
+
+  <p>3.¿Cómo podéis hacer que todas las columnas tengan la misma altura (o que como mínimo lo parezca), de manera
+    que los colores de fondo lleguen hasta el pie de página sea cual sea la columna más larga? (Consejo: buscad 
+    "faux columns" en vuestro motor de búsqueda preferido.)</p>
+</section>
+
+</main>
+
+</body>
+</html>

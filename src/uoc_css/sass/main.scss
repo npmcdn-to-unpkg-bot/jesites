@@ -1,0 +1,150 @@
+/* variables */
+$yellow: #F0C808;
+$grey: #ABA194;
+$bone: #E2D4B7;
+$green: #35605A;
+$scarlet: #550C18;
+
+/* main styles*/
+body {
+  font-family: 'Quattrocento Sans', sans-serif;
+  background-color: $bone;
+  background-image: url("../images/leather.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+
+}
+
+header {
+  display:block;
+  text-align: center;
+  margin:2em auto;
+  h1 {
+    font-size: 2em;
+  	margin:1em 0.5em 0.3em 0.5em;
+    font-family: 'Kalam', cursive;
+    font-weight:900;
+    color:$green;
+  }
+  .reference {
+    a{
+      text-decoration: none;
+    }
+    border:1px solid $grey;
+    color:$scarlet;
+    padding:0.3em;
+    margin-left:1em;;
+  	background-color: $bone;
+  	transition: all 0.2s linear;
+    display:inline-block;
+    font-size:0.8em;
+    &:hover {
+      background-color: $yellow;
+      border-radius:2px;
+
+    }
+  }
+}
+
+strong {
+	font-weight: 700;
+}
+
+main {
+  background-color: #ffffff;
+  width:70%;
+  margin:0 auto;
+  box-shadow:7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+  border: 1px solid $grey;
+  border-radius:5px;
+  padding:1em;
+
+}
+
+section {
+  margin-top: 1.5em;
+
+  h2 {
+    font-size:1.5em;
+    margin-bottom:0.3em;
+    border-bottom:1px solid $grey;
+    margin-top:2em;
+
+
+  }
+  h3 {
+    font-size:1.2em;
+    margin-bottom:0.2em;
+    margin-top:2em;
+
+  }
+
+  p {
+    margin-bottom:1em;
+    line-height:1.3em;
+    &.important {
+      background-color: $yellow;
+      font-size: 1em;
+      color:$scarlet;
+      padding:0.3em;
+      border: 1px solid $grey;
+
+    }
+
+  }
+
+  div {
+    iframe {
+      margin: 1em 0;
+    }
+  }
+
+  .imagen {
+    text-align: center;
+    p {
+      font-size: 0.7em;
+    }
+  }
+
+  .sample {
+    border:1px solid $bone;
+    margin-bottom:1em;
+
+    .code {
+      border-left:3px solid $scarlet;
+      border-bottom:1px solid $bone;
+      background-color: $bone;
+      margin: 0;
+    }
+
+    .result {
+      padding:0.5em;
+    }
+  }
+
+  article {
+    border: 1px solid $bone;
+    padding:0 0 0;
+
+    .ptitle {
+      background-color: $bone;
+      font-size:1.2em;
+      border-bottom:1px solid $bone;
+      font-family: 'Kalam', cursive;
+      font-weight: 300;
+      padding: 0.5em 0 0.2em 0.5em;
+
+      .fa {
+        // margin-left:0.3em;
+      }
+    }
+
+    .pcontent {
+      font-size:0.9em;
+      margin-top:0.3em;
+      padding: 0.5em;
+      font-family: 'Quattrocento Sans', sans-serif;
+      line-height: 1.5em;
+    }
+  }
+
+}
