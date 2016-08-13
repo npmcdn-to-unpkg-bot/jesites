@@ -43,6 +43,8 @@ main {
   border: 1px solid #ABA194;
   border-radius: 5px;
   padding: 1em; }
+  main li {
+    margin: 1em auto; }
 
 section {
   margin-top: 1.5em; }

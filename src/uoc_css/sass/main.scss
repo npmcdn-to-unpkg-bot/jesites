@@ -57,7 +57,9 @@ main {
   border: 1px solid $grey;
   border-radius:5px;
   padding:1em;
-
+  li {
+    margin:1em auto;
+  }
 }
 
 section {
