@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge, chrome=1">
+  <title>Leaflet quick start guide</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <link rel="stylesheet" href="stylesheets/screen.css"> -->
+
+  <style>
+  @import 'https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,400i,700,700i|Kalam:300';
+  #mapid, #mapid2, #mapid3, #mapid4 { height: 280px; }
+
+  </style>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://npmcdn.com/leaflet@1.0.0-rc.3/dist/leaflet.css" />
+</head>
+
+<body>
+  <header>
+    <h1>Leaflet quick start guide</h1>
+    <div class="reference">
+      [
+      <a href="http://leafletjs.com/examples.html" target="_blank">Source: Leaflet tutorial </a>
+      ]
+    </div>
+  </header>
+
+  <main>
+  <section>
+    <h2>Setup</h2>
+    <p>CSS
+      <div class="sample">
+        <xmp class="code">
+          <link rel="stylesheet" href="https://npmcdn.com/leaflet@1.0.0-rc.3/dist/leaflet.css" />
+        </xmp>
+      </div>
+    </p>
+    <p>JS Leafleft library
+      <div class="sample">
+        <xmp class="code">
+          <script src="https://npmcdn.com/leaflet@1.0.0-rc.3/dist/leaflet.js"></script>
+        </xmp>
+      </div>
+    </p>
+    <p>JS script
+      <div class="sample">
+        <xmp class="code">
+          var mymap = L.map('mapid').setView([51.505, -0.09], 13);
+          L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiamVzY2FjZW5hIiwiYSI6ImNpcnc0aGY0aDAwaG1ocW0xNzgwYWZrOXcifQ.dowcr7bOEgJfRtWF4GCU2Q', {
+              attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+              maxZoom: 18,
+              id: 'jescacena.14i0d24m',
+              accessToken: 'pk.eyJ1IjoiamVzY2FjZW5hIiwiYSI6ImNpcnc0aGY0aDAwaG1ocW0xNzgwYWZrOXcifQ.dowcr7bOEgJfRtWF4GCU2Q'
+          }).addTo(mymap);
+        </xmp>
+      </div>
+    </p>
+  </section>
+
+  <section>
+    <h2>Simple map</h2>
+    <div id="mapid"></div>
+  </section>
+
+  <section>
+    <h2>Markers, circles and polygons</h2>
+    <div id="mapid2"></div>
+  </section>
+
+  <section>
+    <h2>Working with popups</h2>
+    <div id="mapid3"></div>
+  </section>
+
+  <section>
+    <h2>Dealing with events</h2>
+    <p>Click anywhere in the map</p>
+    <div id="mapid4"></div>
+  </section>
+
+
+</main>
+
+
+  <script src="https://npmcdn.com/leaflet@1.0.0-rc.3/dist/leaflet.js"></script>
+
+  <script>
+    var mymap = L.map('mapid').setView([51.505, -0.09], 13);
+    L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiamVzY2FjZW5hIiwiYSI6ImNpcnc0aGY0aDAwaG1ocW0xNzgwYWZrOXcifQ.dowcr7bOEgJfRtWF4GCU2Q', {
+        attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+        maxZoom: 18,
+        id: 'jescacena.14i0d24m',
+        accessToken: 'pk.eyJ1IjoiamVzY2FjZW5hIiwiYSI6ImNpcnc0aGY0aDAwaG1ocW0xNzgwYWZrOXcifQ.dowcr7bOEgJfRtWF4GCU2Q'
+    }).addTo(mymap);
+  </script>
+
+  <script>
+    var mymap2 = L.map('mapid2').setView([51.505, -0.09], 13);
+    L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiamVzY2FjZW5hIiwiYSI6ImNpcnc0aGY0aDAwaG1ocW0xNzgwYWZrOXcifQ.dowcr7bOEgJfRtWF4GCU2Q', {
+        attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+        maxZoom: 18,
+        id: 'jescacena.14i0d24m',
+        accessToken: 'pk.eyJ1IjoiamVzY2FjZW5hIiwiYSI6ImNpcnc0aGY0aDAwaG1ocW0xNzgwYWZrOXcifQ.dowcr7bOEgJfRtWF4GCU2Q'
+    }).addTo(mymap2);
+    var marker = L.marker([51.5, -0.09]).addTo(mymap2);
+    var circle = L.circle([51.508, -0.11], 500, {
+        color: 'red',
+        fillColor: '#f03',
+        fillOpacity: 0.5
+    }).addTo(mymap2);
+
+    var polygon = L.polygon([
+        [51.509, -0.08],
+        [51.503, -0.06],
+        [51.51, -0.047]
+    ]).addTo(mymap2);
+
+  </script>
+
+  <script>
+    var mymap3 = L.map('mapid3').setView([51.505, -0.09], 13);
+    L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiamVzY2FjZW5hIiwiYSI6ImNpcnc0aGY0aDAwaG1ocW0xNzgwYWZrOXcifQ.dowcr7bOEgJfRtWF4GCU2Q', {
+        attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+        maxZoom: 18,
+        id: 'jescacena.14i0d24m',
+        accessToken: 'pk.eyJ1IjoiamVzY2FjZW5hIiwiYSI6ImNpcnc0aGY0aDAwaG1ocW0xNzgwYWZrOXcifQ.dowcr7bOEgJfRtWF4GCU2Q'
+    }).addTo(mymap3);
+    var marker = L.marker([51.5, -0.09]).addTo(mymap3);
+    var circle = L.circle([51.508, -0.11], 500, {
+        color: 'red',
+        fillColor: '#f03',
+        fillOpacity: 0.5
+    }).addTo(mymap3);
+
+    var polygon = L.polygon([
+        [51.509, -0.08],
+        [51.503, -0.06],
+        [51.51, -0.047]
+    ]).addTo(mymap3)
+
+    marker.bindPopup("<b>Hello world!</b><br>I am a popup.").openPopup();
+    circle.bindPopup("I am a circle.");
+    polygon.bindPopup("I am a polygon.");
+
+    var popup = L.popup()
+    .setLatLng([51.5, -0.09])
+    .setContent("I am a standalone popup.")
+    .openOn(mymap3)
+
+  </script>
+
+  <script>
+    var mymap4 = L.map('mapid4').setView([51.505, -0.09], 13);
+    L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiamVzY2FjZW5hIiwiYSI6ImNpcnc0aGY0aDAwaG1ocW0xNzgwYWZrOXcifQ.dowcr7bOEgJfRtWF4GCU2Q', {
+        attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+        maxZoom: 18,
+        id: 'jescacena.14i0d24m',
+        accessToken: 'pk.eyJ1IjoiamVzY2FjZW5hIiwiYSI6ImNpcnc0aGY0aDAwaG1ocW0xNzgwYWZrOXcifQ.dowcr7bOEgJfRtWF4GCU2Q'
+    }).addTo(mymap4);
+
+    function onMapClick(e) {
+      popup
+              .setLatLng(e.latlng)
+              .setContent("You clicked the map at " + e.latlng.toString())
+              .openOn(mymap4);    }
+
+    var popup = L.popup();
+
+
+    mymap4.on('click', onMapClick);
+  </script>
+
+
+</body>
+</html>

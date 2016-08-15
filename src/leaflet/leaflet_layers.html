@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge, chrome=1">
+  <title>Leaflet: Layer groups and Layer control</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <link rel="stylesheet" href="stylesheets/screen.css"> -->
+
+  <style>
+  @import 'https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,400i,700,700i|Kalam:300';
+
+  #mapid { height: 280px; }
+
+  </style>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://npmcdn.com/leaflet@1.0.0-rc.3/dist/leaflet.css" />
+</head>
+
+<body>
+  <header>
+    <h1>Leaflet: Layer groups and Layer control</h1>
+    <div class="reference">
+      [
+      <a href="http://leafletjs.com/examples.html" target="_blank">Source: Leaflet tutorial </a>
+      ]
+    </div>
+  </header>
+
+  <main>
+  <section>
+    <p>This tutorial will show you how to group several layers into one, and how to use the layers control to allow users to easily switch different layers on your map.
+    </p>
+  </section>
+  <section>
+    <h2>Layer Groups</h2>
+    <p>Group a bunch of layers to dd it or remove it from the map at once
+      <div class="sample">
+        <xmp class="code">
+          var littleton = L.marker([39.61, -105.02]).bindPopup('This is Littleton, CO.'),
+              denver    = L.marker([39.74, -104.99]).bindPopup('This is Denver, CO.'),
+              aurora    = L.marker([39.73, -104.8]).bindPopup('This is Aurora, CO.'),
+              golden    = L.marker([39.77, -105.23]).bindPopup('This is Golden, CO.');
+
+          var cities = L.layerGroup([littleton, denver, aurora, golden]);
+        </xmp>
+      </div>
+    </p>
+  </section>
+  <section>
+    <h2>Layer Control</h2>
+    <p>Leaflet has a nice little control that allows your users control what
+      layers they want to see on your map. In addition to showing you how to use it,
+       we’ll show another handy use for layer groups.
+
+There are two types of layers — <strong>base layers</strong> that are mutually exclusive
+(only one can be visible on your map), e.g. tile layers, and <strong>overlays</strong> —
+all the other stuff you put over the base layers.
+</p>
+<p>In this example, we want
+to have two base layers (grayscale and night-style base map) to switch between,
+ and an overlay to switch on and off — city markers (those we created earlier).
+ Let’s create those layers and add the default ones to the map:
+      <div class="sample">
+        <xmp class="code">
+          var grayscale = L.tileLayer('http://korona.geog.uni-heidelberg.de/tiles/roadsg/x={x}&y={y}&z={z}', {
+          	maxZoom: 19,
+          	attribution: 'Imagery from <a href="http://giscience.uni-hd.de/">GIScience Research Group @ University of Heidelberg</a> &mdash; Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+          });
+          var streets = L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+              attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+              maxZoom:19,
+              subdomains: ['a','b','c']
+          });
+          var littleton = L.marker([39.61, -105.02]).bindPopup('This is Littleton, CO.'),
+              denver    = L.marker([39.74, -104.99]).bindPopup('This is Denver, CO.'),
+              aurora    = L.marker([39.73, -104.8]).bindPopup('This is Aurora, CO.'),
+              golden    = L.marker([39.77, -105.23]).bindPopup('This is Golden, CO.');
+
+          var cities = L.layerGroup([littleton, denver, aurora, golden]);
+
+          var geojsonFeature = [{
+              "type": "LineString",
+              "coordinates": [[-100, 40], [-105, 45], [-110, 55]]
+          }, {
+              "type": "LineString",
+              "coordinates": [[-105, 40], [-110, 45], [-115, 55]]
+          }];
+
+          var geoJsonLayer = L.geoJson(geojsonFeature);
+
+          var map = L.map('mapid', {
+              center: [39.73, -104.99],
+              zoom: 4,
+              layers: [grayscale, cities]
+          });
+
+          var baseMaps = {
+              "Grayscale": grayscale,
+              "Streets": streets
+          };
+
+          var overlayMaps = {
+              "Cities": cities,
+              "Geo Json Lines": geoJsonLayer
+          };
+
+          L.control.layers(baseMaps, overlayMaps).addTo(map);
+        </xmp>
+      </div>
+    </p>
+    <div id="mapid"></div>
+  </section>
+
+
+
+</main>
+
+
+  <script src="https://npmcdn.com/leaflet@1.0.0-rc.3/dist/leaflet.js"></script>
+
+  <script>
+    var grayscale = L.tileLayer('http://korona.geog.uni-heidelberg.de/tiles/roadsg/x={x}&y={y}&z={z}', {
+    	maxZoom: 19,
+    	attribution: 'Imagery from <a href="http://giscience.uni-hd.de/">GIScience Research Group @ University of Heidelberg</a> &mdash; Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+    });
+    var streets = L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+        maxZoom:19,
+        subdomains: ['a','b','c']
+    });
+    var littleton = L.marker([39.61, -105.02]).bindPopup('This is Littleton, CO.'),
+        denver    = L.marker([39.74, -104.99]).bindPopup('This is Denver, CO.'),
+        aurora    = L.marker([39.73, -104.8]).bindPopup('This is Aurora, CO.'),
+        golden    = L.marker([39.77, -105.23]).bindPopup('This is Golden, CO.');
+
+    var cities = L.layerGroup([littleton, denver, aurora, golden]);
+
+    var geojsonFeature = [{
+        "type": "LineString",
+        "coordinates": [[-100, 40], [-105, 45], [-110, 55]]
+    }, {
+        "type": "LineString",
+        "coordinates": [[-105, 40], [-110, 45], [-115, 55]]
+    }];
+
+    var geoJsonLayer = L.geoJson(geojsonFeature);
+
+    var map = L.map('mapid', {
+        center: [39.73, -104.99],
+        zoom: 4,
+        layers: [grayscale, cities]
+    });
+
+    var baseMaps = {
+        "Grayscale": grayscale,
+        "Streets": streets
+    };
+
+    var overlayMaps = {
+        "Cities": cities,
+        "Geo Json Lines": geoJsonLayer
+    };
+
+    L.control.layers(baseMaps, overlayMaps).addTo(map);
+
+  </script>
+
+</body>
+</html>

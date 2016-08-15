@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge, chrome=1">
+  <title>Leaflet working with Openstreetmap as a map provider</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <link rel="stylesheet" href="stylesheets/screen.css"> -->
+
+  <style>
+  @import 'https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,400i,700,700i|Kalam:300';
+
+  #mapid, #mapid2, #mapid3, #mapid4, #mapid5, #mapid6, #mapid7 { height: 280px; }
+
+  </style>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://npmcdn.com/leaflet@1.0.0-rc.3/dist/leaflet.css" />
+</head>
+
+<body>
+  <header>
+    <h1>Leaflet working with Openstreetmap as a map provider</h1>
+    <div class="reference">
+      [
+      <a href="http://leafletjs.com/examples.html" target="_blank">Source: Leaflet tutorial </a>
+      ]
+    </div>
+  </header>
+
+  <main>
+  <section>
+    <h2>openstreetmap tiles</h2>
+    <p>Choose your leaflet provider in <a href="">http://leaflet-extras.github.io/leaflet-providers/preview/</a>
+      <div class="sample">
+        <xmp class="code">
+          L.tileLayer( 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+              attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+              subdomains: ['a','b','c']
+          }).addTo( map );
+        </xmp>
+      </div>
+    </p>
+    <div id="mapid"></div>
+  </section>
+
+
+
+</main>
+
+
+  <script src="https://npmcdn.com/leaflet@1.0.0-rc.3/dist/leaflet.js"></script>
+  <script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
+
+  <script>
+    var mymap = L.map('mapid').setView([40.7415,-4.0570], 16);
+    L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+        maxZoom:19,
+        subdomains: ['a','b','c']
+    }).addTo(mymap);
+
+
+    var geojsonFeature = [{
+        "type": "LineString",
+        "coordinates": [[-100, 40], [-105, 45], [-110, 55]]
+    }, {
+        "type": "LineString",
+        "coordinates": [[-105, 40], [-110, 45], [-115, 55]]
+    }];
+
+    L.geoJson(geojsonFeature).addTo(mymap);
+
+
+  </script>
+
+  <script>
+    var mymap2 = L.map('mapid2').setView([51.505, -0.09], 2);
+    L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiamVzY2FjZW5hIiwiYSI6ImNpcnc0aGY0aDAwaG1ocW0xNzgwYWZrOXcifQ.dowcr7bOEgJfRtWF4GCU2Q', {
+        attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+        maxZoom: 18,
+        id: 'jescacena.14i0d24m',
+        accessToken: 'pk.eyJ1IjoiamVzY2FjZW5hIiwiYSI6ImNpcnc0aGY0aDAwaG1ocW0xNzgwYWZrOXcifQ.dowcr7bOEgJfRtWF4GCU2Q'
+    }).addTo(mymap2);
+
+
+    var geojsonFeatureRemote;
+    $.ajax({
+      url: "https://raw.githubusercontent.com/jescacena/cerceloc/master/public_services.json",
+      cache: false
+    })
+      .done(function( data ) {
+        geojsonFeatureRemote = JSON.parse(data).features;
+        console.log("Remote geojson" , geojsonFeatureRemote);
+        L.geoJson(geojsonFeatureRemote).addTo(mymap2);
+
+      });
+  </script>
+
+  <script>
+    var mymap3 = L.map('mapid3').setView([51.505, -0.09], 2);
+    L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiamVzY2FjZW5hIiwiYSI6ImNpcnc0aGY0aDAwaG1ocW0xNzgwYWZrOXcifQ.dowcr7bOEgJfRtWF4GCU2Q', {
+        attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+        maxZoom: 18,
+        id: 'jescacena.14i0d24m',
+        accessToken: 'pk.eyJ1IjoiamVzY2FjZW5hIiwiYSI6ImNpcnc0aGY0aDAwaG1ocW0xNzgwYWZrOXcifQ.dowcr7bOEgJfRtWF4GCU2Q'
+    }).addTo(mymap3);
+
+
+    var myLines = [{
+        "type": "LineString",
+        "coordinates": [[-100, 40], [-105, 45], [-110, 55]]
+    }, {
+        "type": "LineString",
+        "coordinates": [[-105, 40], [-110, 45], [-115, 55]]
+    }];
+
+    var myStyle = {
+        "color": "#ff7800",
+        "weight": 5,
+        "opacity": 0.65
+    };
+
+    L.geoJson(myLines, {
+        style: myStyle
+    }).addTo(mymap3);
+  </script>
+
+  <script>
+    var mymap4 = L.map('mapid4').setView([51.505, -0.09], 2);
+    L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiamVzY2FjZW5hIiwiYSI6ImNpcnc0aGY0aDAwaG1ocW0xNzgwYWZrOXcifQ.dowcr7bOEgJfRtWF4GCU2Q', {
+        attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+        maxZoom: 18,
+        id: 'jescacena.14i0d24m',
+        accessToken: 'pk.eyJ1IjoiamVzY2FjZW5hIiwiYSI6ImNpcnc0aGY0aDAwaG1ocW0xNzgwYWZrOXcifQ.dowcr7bOEgJfRtWF4GCU2Q'
+    }).addTo(mymap4);
+
+
+    var states = [{
+        "type": "Feature",
+        "properties": {"party": "Republican"},
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[
+                [-104.05, 48.99],
+                [-97.22,  48.98],
+                [-96.58,  45.94],
+                [-104.03, 45.94],
+                [-104.05, 48.99]
+            ]]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {"party": "Democrat"},
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [[
+                [-109.05, 41.00],
+                [-102.06, 40.99],
+                [-102.03, 36.99],
+                [-109.04, 36.99],
+                [-109.05, 41.00]
+            ]]
+        }
+    }];
+
+    L.geoJson(states, {
+        style: function(feature) {
+            switch (feature.properties.party) {
+                case 'Republican': return {color: "#ff0000"};
+                case 'Democrat':   return {color: "#0000ff"};
+            }
+        }
+    }).addTo(mymap4);
+  </script>
+
+  <script>
+    var mymap5 = L.map('mapid5').setView([51.505, -0.09], 2);
+    L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiamVzY2FjZW5hIiwiYSI6ImNpcnc0aGY0aDAwaG1ocW0xNzgwYWZrOXcifQ.dowcr7bOEgJfRtWF4GCU2Q', {
+        attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+        maxZoom: 18,
+        id: 'jescacena.14i0d24m',
+        accessToken: 'pk.eyJ1IjoiamVzY2FjZW5hIiwiYSI6ImNpcnc0aGY0aDAwaG1ocW0xNzgwYWZrOXcifQ.dowcr7bOEgJfRtWF4GCU2Q'
+    }).addTo(mymap5);
+
+
+    var geojsonMarkerOptions = {
+      radius: 8,
+      fillColor: "#ff7800",
+      color: "#000",
+      weight: 1,
+      opacity: 1,
+      fillOpacity: 0.8
+  };
+
+  var someGeoJsonFeature = {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Escuela Infantil  Y Aula de Casa de niños “RINCÓN FLORIDO”",
+        "direccion": "Carretera de los Molinos ,23",
+        "tipo": "school",
+        "website": "http://www.eirinconflorido.es",
+        "tfno": "91 852 39 40"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.066840410232544,
+          40.7342263007788
+        ]
+      }
+    };
+
+  L.geoJson(someGeoJsonFeature, {
+      pointToLayer: function (feature, latlng) {
+          return L.circleMarker(latlng, geojsonMarkerOptions);
+      }
+  }).addTo(mymap5);
+  </script>
+
+  <script>
+    var mymap6 = L.map('mapid6').setView([51.505, -0.09], 2);
+    L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiamVzY2FjZW5hIiwiYSI6ImNpcnc0aGY0aDAwaG1ocW0xNzgwYWZrOXcifQ.dowcr7bOEgJfRtWF4GCU2Q', {
+        attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+        maxZoom: 18,
+        id: 'jescacena.14i0d24m',
+        accessToken: 'pk.eyJ1IjoiamVzY2FjZW5hIiwiYSI6ImNpcnc0aGY0aDAwaG1ocW0xNzgwYWZrOXcifQ.dowcr7bOEgJfRtWF4GCU2Q'
+    }).addTo(mymap6);
+
+
+    function onEachFeature(feature, layer) {
+        // does this feature have a property named popupContent?
+        if (feature.properties && feature.properties.popupContent) {
+            layer.bindPopup(feature.properties.popupContent);
+        }
+    }
+
+    var geojsonFeature = {
+        "type": "Feature",
+        "properties": {
+            "name": "Coors Field",
+            "amenity": "Baseball Stadium",
+            "popupContent": "This is where the Rockies play!"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-104.99404, 39.75621]
+        }
+    };
+
+    L.geoJson(geojsonFeature, {
+        onEachFeature: onEachFeature
+    }).addTo(mymap6);  </script>
+
+  <script>
+    var mymap7 = L.map('mapid7').setView([51.505, -0.09], 2);
+    L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiamVzY2FjZW5hIiwiYSI6ImNpcnc0aGY0aDAwaG1ocW0xNzgwYWZrOXcifQ.dowcr7bOEgJfRtWF4GCU2Q', {
+        attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+        maxZoom: 18,
+        id: 'jescacena.14i0d24m',
+        accessToken: 'pk.eyJ1IjoiamVzY2FjZW5hIiwiYSI6ImNpcnc0aGY0aDAwaG1ocW0xNzgwYWZrOXcifQ.dowcr7bOEgJfRtWF4GCU2Q'
+    }).addTo(mymap7);
+
+
+    var someFeatures = [
+        {
+          "type": "Feature",
+          "properties": {
+              "name": "Coors Field",
+              "show_on_map": true
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [-104.99404, 39.75621]
+          }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Busch Field",
+                "show_on_map": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-104.98404, 39.74621]
+            }
+        }];
+
+      L.geoJson(someFeatures, {
+          filter: function(feature, layer) {
+              return feature.properties.show_on_map;
+          }
+      }).addTo(mymap7);
+    </script>
+
+
+
+
+
+</body>
+</html>

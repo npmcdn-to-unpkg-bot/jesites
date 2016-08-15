@@ -1,6 +1,6 @@
 {
   "title": "CartoDB.js tutorial examples",
   "description" : "Example integrating Cartodb maps in your website with CartoDB.js",
-  "tags": "CartoDB, angularjs-ui-router",
+  "tags": "CartoDB, angularjs-ui-router, web mapping",
   "links": ["cartodb.com"]
 }

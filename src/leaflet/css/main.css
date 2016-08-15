@@ -1,0 +1,104 @@
+/* variables */
+/* main styles*/
+body {
+  font-family: 'Quattrocento Sans', sans-serif;
+  background-color: #E2D4B7;
+  background-image: url("../images/cartographer.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */ }
+
+a {
+  text-decoration: none; }
+
+header {
+  display: block;
+  text-align: center;
+  margin: 2em auto; }
+  header h1 {
+    font-size: 2em;
+    margin: 1em 0.5em 0.3em 0.5em;
+    font-family: 'Kalam', cursive;
+    font-weight: 900;
+    color: #35605A; }
+  header .reference {
+    border: 1px solid #ABA194;
+    color: #550C18;
+    padding: 0.3em;
+    margin-left: 1em;
+    background-color: #ABA194;
+    -webkit-transition: all 0.2s linear;
+            transition: all 0.2s linear;
+    display: inline-block;
+    font-size: 0.8em; }
+    header .reference:hover {
+      background-color: #F0C808;
+      border-radius: 2px; }
+
+strong {
+  font-weight: 700; }
+
+main {
+  background-color: #ABA194;
+  width: 70%;
+  margin: 0 auto;
+  box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+  border: 1px solid #ABA194;
+  border-radius: 5px;
+  padding: 1em; }
+  main li {
+    margin: 1em auto; }
+    main li a {
+      color: #35605A; }
+
+section {
+  margin-top: 1.5em;
+  background-color: #ABA194; }
+  section h2 {
+    font-size: 1.5em;
+    margin-bottom: 0.3em;
+    border-bottom: 1px solid #ABA194;
+    margin-top: 2em; }
+  section h3 {
+    font-size: 1.2em;
+    margin-bottom: 0.2em;
+    margin-top: 2em; }
+  section p {
+    margin-bottom: 1em;
+    line-height: 1.3em; }
+    section p.important {
+      background-color: #F0C808;
+      font-size: 1em;
+      color: #550C18;
+      padding: 0.3em;
+      border: 1px solid #ABA194; }
+  section div iframe {
+    margin: 1em 0; }
+  section .imagen {
+    text-align: center; }
+    section .imagen p {
+      font-size: 0.7em; }
+  section .sample {
+    border: 1px solid #E2D4B7;
+    margin-bottom: 1em; }
+    section .sample .code {
+      border-left: 3px solid #550C18;
+      border-bottom: 1px solid #E2D4B7;
+      background-color: #E2D4B7;
+      margin: 0; }
+    section .sample .result {
+      padding: 0.5em; }
+  section article {
+    border: 1px solid #E2D4B7;
+    padding: 0 0 0; }
+    section article .ptitle {
+      background-color: #E2D4B7;
+      font-size: 1.2em;
+      border-bottom: 1px solid #E2D4B7;
+      font-family: 'Kalam', cursive;
+      font-weight: 300;
+      padding: 0.5em 0 0.2em 0.5em; }
+    section article .pcontent {
+      font-size: 0.9em;
+      margin-top: 0.3em;
+      padding: 0.5em;
+      font-family: 'Quattrocento Sans', sans-serif;
+      line-height: 1.5em; }
